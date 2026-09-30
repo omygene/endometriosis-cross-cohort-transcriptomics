@@ -1,0 +1,15 @@
+# S3_group_map.tsv -- FROZEN per-dataset test/reference label mapping (stage S3)
+# One row per scRNA dataset; labels EXACTLY as printed by S3_00 section 3 for
+# the atlas metadata column named in CFG$group_col (currently: condition).
+# Internal tags: label_test -> TEST, label_ref -> REF (harmonized downstream).
+# Registered comparisons (master plan, unchanged):
+#   GSE214411 : EMS vs N ; N1 = GSM6605437_N1 arms (Amendment S2-B/B3)
+#   GSE183837 : RIF vs Ctrl at WOI
+#   GSE179640 : fill label_test = the EMS-arm group per master plan, after
+#               checking the census values (eutopic-from-EMS vs control).
+# Any (dataset, condition) pair in the atlas not covered here stops the
+# scripts FATAL, printing the uncovered pairs (no silent absorption).
+dataset	label_test	label_ref
+GSE214411	EMS	N
+GSE183837	RIF	Ctrl
+GSE179640	TO_FILL	TO_FILL
