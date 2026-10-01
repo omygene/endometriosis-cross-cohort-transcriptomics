@@ -1,0 +1,11 @@
+{
+  "title": "Cross-cohort integration identifies a heterogeneous endometriosis-associated transcriptome: locked analysis code and result tables",
+  "description": "Time-stamped analysis charter, dated amendments, versioned analysis scripts, dataset manifest, frozen contrast definitions, software lockfile, locked result tables and figure-generation code accompanying the manuscript submitted to Genome Medicine.",
+  "creators": [
+    {"name": "Badr, Omnia A.", "affiliation": "Benha University"},
+    {"name": "Ebrahim, Nesrine", "affiliation": "Benha University"},
+    {"name": "Moustafa, Mahmoud M. A.", "affiliation": "Benha University"}
+  ],
+  "license": "MIT",
+  "keywords": ["endometriosis", "transcriptomics", "meta-analysis", "reproducibility", "single-cell RNA sequencing"]
+}
