@@ -1,0 +1,90 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[13:17:34] == 0/4: frozen GSE7307 subset loaded: 41 GSMs ( 18 disease / 23 normal) == 
+[13:17:34] == 1/4: download 7 series matrices (GEO official) == 
+[13:17:34]    GSE7305 -> GSE7305_series_matrix.txt.gz | bytes: 5152594 | md5: f5766a8e0c64faac52daafcbe4cd4b7d 
+[13:17:34]    GSE6364 -> GSE6364_series_matrix.txt.gz | bytes: 4665610 | md5: 4b5559cabd37205179a1fea1f5c95ddf 
+[13:17:34]    GSE25628 -> GSE25628_series_matrix.txt.gz | bytes: 2795955 | md5: a0e7d3a9424a9a79b02124b9b2e8ad85 
+[13:17:34]    GSE7307 -> GSE7307_series_matrix.txt.gz | bytes: 167542929 | md5: 6270966967a0e7e7c1e2ed0258fd0816 
+[13:17:34]    GSE51981 -> GSE51981_series_matrix.txt.gz | bytes: 27099296 | md5: 2a844c08ca0e54b86cc55ed56e266638 
+[13:17:35]    GSE11691 -> GSE11691_series_matrix.txt.gz | bytes: 940763 | md5: 193fae16af69ca54ec5485f89c027be7 
+[13:17:35]    GSE120103 -> GSE120103_series_matrix.txt.gz | bytes: 6689626 | md5: 82f7801eeefb276a83bc0f09cd29b60f 
+[13:17:35] == 2/4: parse sample metadata rows == 
+[13:17:48]    GSE7305 : 20 samples parsed 
+[13:17:48]    GSE6364 : 37 samples parsed 
+[13:17:48]    GSE25628 : 22 samples parsed 
+[13:17:48]    GSE7307 : 677 samples parsed 
+[13:17:48]    GSE51981 : 148 samples parsed 
+[13:17:48]    GSE11691 : 18 samples parsed 
+[13:17:48]    GSE120103 : 36 samples parsed 
+[13:17:48] == 2b/4: restrict GSE7307 to the frozen 41-GSM subset (scope by design) == 
+[13:17:48]   GSE7307 scoped to 41 frozen GSMs; series members outside study scope excluded 
+[13:17:48] == 3/4: apply frozen mapping rules == 
+[13:17:48]   mapped rows: 322 
+[13:17:48] == 4/4: cross-checks + comparison with shipped S1_bulk_conditions.tsv == 
+[13:17:48]   GSE7307 frozen-list cross-check: 41/41 agree [OK] 
+[13:17:48]   GSE25628 E3 cross-check: Ectopic 8 / Eutopic 8 / Normal 6; patient 16 / healthy 6 [OK] 
+[13:17:48]   GSE120103: 5 documented exclusions confirmed inside Group 2B [OK] 
+[13:17:48]   cell-by-cell comparison: all 322 rows x 4 columns identical [OK] 
+           
+            Ectopic lesion Endometriosis Endometriosis (severity NA)
+  GSE11691               9             0                           0
+  GSE120103              0             0                           0
+  GSE25628               8             0                           0
+  GSE51981               0             0                           2
+  GSE6364                0             0                           0
+  GSE7305                0            10                           0
+  GSE7307                0            18                           0
+           
+            Endometriosis eutopic Endometriosis minimal/mild
+  GSE11691                      0                          0
+  GSE120103                     0                          0
+  GSE25628                      0                          0
+  GSE51981                      0                         27
+  GSE6364                      21                          0
+  GSE7305                       0                          0
+  GSE7307                       0                          0
+           
+            Endometriosis moderate/severe Eutopic (patient) Fertile control
+  GSE11691                              0                 9               0
+  GSE120103                             0                 0               9
+  GSE25628                              0                 8               0
+  GSE51981                             48                 0               0
+  GSE6364                               0                 0               0
+  GSE7305                               0                 0               0
+  GSE7307                               0                 0               0
+           
+            Infertile control Non-EMS no pelvic pathology
+  GSE11691                  0                           0
+  GSE120103                 9                           0
+  GSE25628                  0                           0
+  GSE51981                  0                          34
+  GSE6364                   0                           0
+  GSE7305                   0                           0
+  GSE7307                   0                           0
+           
+            Non-EMS pelvic pathology Normal endometrium Normal eutopic
+  GSE11691                         0                  0              0
+  GSE120103                        0                  0              0
+  GSE25628                         0                  6              0
+  GSE51981                        37                  0              0
+  GSE6364                          0                  0             16
+  GSE7305                          0                 10              0
+  GSE7307                          0                 23              0
+           
+            Stage IV ovarian EMS (2A) Stage IV ovarian EMS (2B)
+  GSE11691                          0                         0
+  GSE120103                         9                         9
+  GSE25628                          0                         0
+  GSE51981                          0                         0
+  GSE6364                           0                         0
+  GSE7305                           0                         0
+  GSE7307                           0                         0
+[13:17:48] META BUILD OK -- S1_bulk_conditions.tsv independently verified on this machine 

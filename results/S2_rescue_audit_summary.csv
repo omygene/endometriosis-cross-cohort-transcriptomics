@@ -1,0 +1,4 @@
+"dataset","n_samples","n_cells_before","n_cells_excluded","pct_excluded","n_determinism_fail","immune_markers_median_l2fc_ge1","immune_pathways_median_l2fc_ge1","ptprc_rule_fired","ALERT","alert_reason"
+"GSE179640",33,159834,50436,31.6,0,0,0,FALSE,FALSE,""
+"GSE214411",13,155361,72101,46.4,0,0,0,FALSE,FALSE,""
+"GSE183837",9,67949,27148,40,0,0,0,FALSE,FALSE,""

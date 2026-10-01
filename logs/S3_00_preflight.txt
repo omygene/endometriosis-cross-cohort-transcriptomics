@@ -1,0 +1,56 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[08:47:06] == S3_00 preflight -- read-only census == 
+[08:47:06] metadata rows: 322 | frozen contrasts: 19 
+[08:47:07]    GSE7305  object: PRESENT data/processed/bulk_GSE7305_rma.rds 
+[08:47:07]     colnames: 20 | conditions: Endometriosis 10 / Normal endometrium 10 
+[08:47:07]    GSE6364  object: PRESENT data/processed/bulk_GSE6364_rma.rds 
+[08:47:07]     colnames: 37 | conditions: Endometriosis eutopic 21 / Normal eutopic 16 
+[08:47:07]    GSE25628  object: PRESENT data/processed/bulk_GSE25628_rma.rds 
+[08:47:07]     colnames: 22 | conditions: Ectopic lesion 8 / Eutopic (patient) 8 / Normal endometrium 6 
+[08:47:07]    GSE7307  object: PRESENT data/processed/bulk_GSE7307_rma.rds 
+[08:47:07]     colnames: 41 | conditions: Endometriosis 18 / Normal endometrium 23 
+[08:47:07]    GSE51981  object: PRESENT data/processed/bulk_GSE51981_rma.rds 
+[08:47:08]     colnames: 148 | conditions: Endometriosis (severity NA) 2 / Endometriosis minimal/mild 27 / Endometriosis moderate/severe 48 / Non-EMS no pelvic pathology 34 / Non-EMS pelvic pathology 37 
+[08:47:08]     _103/_134 stems present: 0 / 1 
+[08:47:08]    GSE11691  object: PRESENT data/processed/bulk_GSE11691_rma.rds 
+[08:47:08]     colnames: 18 | conditions: Ectopic lesion 9 / Eutopic (patient) 9 
+[08:47:08]    GSE120103  object: PRESENT data/processed/bulk_GSE120103_neqc.rds 
+Loading required namespace: limma
+[08:47:09]     colnames: 31 | conditions: Fertile control 9 / Infertile control 9 / Stage IV ovarian EMS (2A) 9 / Stage IV ovarian EMS (2B) 4 
+[08:47:09] == 2. ssGSEA dependencies == 
+[08:47:18]   GSVA installed: TRUE version 2.6.6 
+
+[08:47:18]    hgu133plus2.db : TRUE 
+
+[08:47:19]    hgu133a.db : TRUE 
+
+[08:47:19]    hgu133a2.db : TRUE 
+[08:47:19]   SenMayo GMT: data/raw/gene_sets/SAUL_SEN_MAYO_M45803.gmt 
+[08:47:19] == 3. atlas census == 
+[08:47:26]   atlas cells: 233459 | metadata columns: 
+[08:47:26]     orig.ident | nCount_RNA | nFeature_RNA | percent.mt | percent.hb | dataset | sample | condition | RNA_snn_res.0.5 | seurat_clusters | cLISI_sample | cLISI_dataset | lineage | iLISI_lineage 
+[08:47:26]   --- GSE179640 samples: 33 cells: 109398 
+[08:47:26]      dataset = GSE179640 
+[08:47:26]      condition = Ctrl | EcO | EcP | EcPA | EOR | EuE 
+[08:47:26]   --- GSE183837 samples: 9 cells: 40801 
+[08:47:26]      orig.ident = GSM5572238_Ctrl-1 | GSM5572239_Ctrl-2 | GSM5572240_Ctrl-3 | GSM5572241_RIF-1 | GSM5572242_RIF-2 | GSM5572243_RIF-3 | GSM5572244_RIF-4 | GSM5572245_RIF-5 | GSM5572246_RIF-6 
+[08:47:26]      dataset = GSE183837 
+[08:47:26]      sample = GSM5572238_Ctrl-1 | GSM5572239_Ctrl-2 | GSM5572240_Ctrl-3 | GSM5572241_RIF-1 | GSM5572242_RIF-2 | GSM5572243_RIF-3 | GSM5572244_RIF-4 | GSM5572245_RIF-5 | GSM5572246_RIF-6 
+[08:47:26]      condition = Control | RIF 
+[08:47:26]   --- GSE214411 samples: 13 cells: 83260 
+[08:47:26]      orig.ident = GSM6605431_EMS1 | GSM6605432_EMS2 | GSM6605433_EMS3 | GSM6605434_EMS4 | GSM6605435_EMS5 | GSM6605436_EMS6 | GSM6605437_N1 | GSM6605438_N2 | GSM6605439_N3 | GSM6605440_N4 | GSM7277296_N-5 | GSM7277297_N-6 | GSM7277298_N-7 
+[08:47:26]      dataset = GSE214411 
+[08:47:26]      sample = GSM6605431_EMS1 | GSM6605432_EMS2 | GSM6605433_EMS3 | GSM6605434_EMS4 | GSM6605435_EMS5 | GSM6605436_EMS6 | GSM6605437_N1 | GSM6605438_N2 | GSM6605439_N3 | GSM6605440_N4 | GSM7277296_N-5 | GSM7277297_N-6 | GSM7277298_N-7 
+[08:47:26]      condition = EMS | N 
+[08:47:26]   cells matching 'N1' anywhere in metadata: 
+[08:47:30]     orig.ident:2994  sample:2994 
+[08:47:30] == 4. GSE11691 pairs: 9 women | distinct GSMs: 18 | audit: OK 
+[08:47:30] PREFLIGHT DONE -- fill scripts/S3_common.R from sections 2-3, then run S3 scripts (R3) 

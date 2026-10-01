@@ -1,0 +1,68 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[13:05:58] LISI engine: lisi package
+[13:09:16] PASS A GSE179640: cells 109398 | HVGs 2000
+[13:10:36] PASS A GSE214411: cells 83260 | HVGs 2000
+[13:11:17] PASS A GSE183837: cells 40801 | HVGs 2000
+[13:11:17] union HVGs: 3193
+          used  (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells 3768418 201.3    6375128  340.5    6375128   340.5
+Vcells 6858501  52.4  675968269 5157.3 1638023239 12497.2
+[13:12:32] PASS B GSE179640: 33 data layers | extracted 3195 features x 109398 cells (sparse)
+[13:13:38] PASS B GSE214411: 13 data layers | extracted 3195 features x 83260 cells (sparse)
+[13:14:17] PASS B GSE183837: 9 data layers | extracted 3195 features x 40801 cells (sparse)
+            used   (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells   4242104  226.6    6375128  340.5    6375128   340.5
+Vcells 188872565 1441.0  692131520 5280.6 1680288349 12819.6
+            used   (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells   4251711  227.1    6375128  340.5    6375128   340.5
+Vcells 365141879 2785.9  858774820 6552.0 1680288349 12819.6
+[13:14:57] assembled: 233459 cells x 3195 features
+[13:16:50] ScaleData done (global)
+             used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells    4255781  227.3    6375128   340.5    6375128   340.5
+Vcells 1111176727 8477.7 2534344606 19335.6 2244112266 17121.3
+Warning messages:
+1: The `counts` argument of `DietSeurat()` is deprecated as of Seurat 5.0.0.
+ℹ Please use the `layers` argument instead. 
+2: The `data` argument of `DietSeurat()` is deprecated as of Seurat 5.0.0.
+ℹ Please use the `layers` argument instead. 
+3: The `scale.data` argument of `DietSeurat()` is deprecated as of Seurat 5.0.0.
+ℹ Please use the `layers` argument instead. 
+            used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells   4288065  229.1    6375128   340.5    6375128   340.5
+Vcells 764976338 5836.4 2534344606 19335.6 2244112266 17121.3
+[13:31:32] PCA done
+Warning message:
+Different cells and/or features from existing assay RNA 
+            used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells   4296550  229.5    6375128   340.5    6375128   340.5
+Vcells 777765398 5933.9 3460100034 26398.5 3804312563 29024.7
+[13:31:56] checkpoint saved: pre_harmony (107 MB)
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+^C

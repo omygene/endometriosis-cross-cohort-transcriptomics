@@ -1,0 +1,18 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[13:16:01] S8b: locked Tier-1 file verified (md5 match) 
+[13:16:02] S8b: downloading GSE75423 + GSE75425 + GPL13497 (cached after first run) 
+[13:16:15] S8b: parsing GPL13497 annotation 
+[13:16:16]   probes with symbol:  11787 
+[13:16:16] S8b: computing paired dienogest logFC (ECSC + NESC) 
+[13:16:25]   ECSC genes:  11439  | NESC genes:  11439 
+[13:16:26] S8b_01 DONE 
+[13:16:26]   ECSC r =  0.199  | NESC r =  0.224  -- NO reversal (exploratory) 
+[13:16:26]    STOP RULE (locked): this was the LAST in-silico attempt regardless of outcome. Next stage = experimental in-vitro perturbation (independent study). 

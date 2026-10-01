@@ -1,0 +1,151 @@
+---
+title: "Advanced topics: Customizing arrayQualityMetrics reports and programmatic processing of the output"
+author: "Audrey Kauffmann, Wolfgang Huber"
+output: 
+  BiocStyle::html_document:
+    toc: true
+vignette: >
+  %\VignetteIndexEntry{Advanced topics: Customizing arrayQualityMetrics reports and programmatic processing of the output}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding[utf8]{inputenc}
+---
+
+```{r style, eval=TRUE, echo=FALSE, results="asis"}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, error=FALSE, tidy=FALSE) # turn off verbosity
+```
+
+```{r dummy1, include=FALSE}
+options(bitmapType = "cairo")
+``` 
+
+
+## Introduction
+
+If you are new to this package, then please consult the vignette
+*Introduction: microarray quality assessment with arrayQualityMetrics*.
+
+This vignette addresses advanced topics. It explains how to customize
+the report by selecting specific modules and sections, or by adding
+your own ones. Furthermore, we will see how to (programmatically)
+postprocess the results of the outlier detection, or how to adapt the
+detection criteria to your needs.
+
+*Terminology:* In the documentation of this package, we
+refer to a *module* as a self-contained element of a report that
+investigates one particular quality metric. A module consists of a
+figure and an explanatory text. It may also contain a data structure
+(an object of class `outlierDetection`) that
+marks a subset of the arrays in the dataset as outliers
+according to the particular metric investigated in the module.  We
+refer to a *section* as a collection of one or more modules that
+are thematically related.
+
+For the following examples, let us load the needed packages and some data.
+
+```{r loading, results="hide"}
+library("arrayQualityMetrics")
+library("ALLMLL")
+data("MLL.A")
+```
+
+
+## Data preparation
+
+Some of the computations that are needed for the modules are common
+between several modules, and thus we perform them once,
+beforehand. These functions are called `prepdata()` and
+`prepaffy()`, and we refer to their manual page for 
+details. For example,
+
+```{r DataPreparation}
+preparedData = prepdata(expressionset = MLL.A, 
+                        intgroup = c(), 
+                        do.logtransform = TRUE)
+``` 
+
+The arguments `intgroup` and `do.logtransform` are the
+same as for `arrayQualityMetrics()`, but in
+`prepdata()` they have no defaults, so we need to set them
+explicitely.
+
+## Module generating functions
+
+The package contains a variety of functions that compute modules, and they are
+listed on a manual page which you can access by typing:
+
+```{r boxplot, eval=FALSE}
+?aqm.boxplot
+``` 
+
+Here, let us create a report with only two quality metrics modules: 
+boxplots and density plots.
+
+```{r metrics}
+bo = aqm.boxplot(preparedData)
+de = aqm.density(preparedData)
+qm = list("Boxplot" = bo, "Density" = de)
+``` 
+
+The objects `bo` and `de` are of class
+`aqmReportModule`; please consult the class' manual page for
+more information.
+
+If you want to create your own modules, please have a look at the code
+for the various existing functions for this purpose, and adapt it.
+The function `aqm.pca()` is a good place to start.
+
+## Outlier detection
+
+Some of the modules perform outlier detection. For instance, in the
+default report produced by `arrayQualityMetrics()`, the
+module headed *Boxplots* is followed by one headed *Outlier
+  detection for Boxplots*. In the corresponding
+`aqmReportModule` object, this is reflected by a non-trivial
+value for the slot named `outliers`:
+
+```{r booutliers}
+bo@outliers
+``` 
+
+The slot named `statistic` contains, for each array, a
+single number based on which outlier detection is performed.  For
+instance, in the case of `bo`, the slot
+`bo@outliers@statistic` is the Kolmogorov-Smirnov statistic
+for the comparison between each array's intensity distribution and the
+distribution of the pooled data. The slot `threshold` contains
+the threshold against which the valuess of `statistic` were
+compared. Arrays with a value of `statistic` greater than
+`threshold` are called outliers. Their indices are listed in
+the vector `which`.  Finally, the slot `description`
+contains a textual description of the definition of
+`statistic` and indicates how the `threshold` was chosen.
+The actual details of outlier detection are different for each report
+module, and are documented in the figure caption of the report
+module. For more information, please look at the code of
+the report module generating function of interest -- for instance, at the first few
+lines of the `boxplot` function. The code there uses the helper
+functions `outliers` and `boxplotOutliers`, which
+are documented in their manual pages.
+
+
+## Rendering the report
+
+A report is rendered by calling the function
+`aqm.writereport()` with a list of `aqmReportModule`
+objects.
+
+```{r shortReport}
+outdir = tempdir()
+aqm.writereport(modules = qm, reporttitle = "My example", outdir = outdir, 
+                arrayTable = pData(MLL.A))
+outdir
+``` 
+
+Point your browser to the `index.html` file in that directory.
+
+## Session Info
+
+```{r pkgs, echo=FALSE}
+sessionInfo()
+```
+

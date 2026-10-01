@@ -1,0 +1,44 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[00:29:32] LISI engine: lisi package
+[00:29:38] loaded post_umap: 233459 cells
+[00:57:08] cLISI done
+[00:57:08] exclusive clusters (>95% one sample): 1 of 29
+As of Seurat v5, we recommend using AggregateExpression to perform pseudo-bulk analysis.
+This message is displayed once per session.
+First group.by variable `seurat_clusters` starts with a number, appending `g` to ensure valid variable names
+This message is displayed once every 8 hours.
+[00:57:10] annotation support: 28/29 clusters (97%) — >=90% rule: PASS
+          metric        label   median          IQR
+1   cLISI_sample      overall 4.636238 3.583496e+00
+2  cLISI_dataset      overall 1.392882 8.968110e-01
+3  iLISI_lineage      overall 1.000000 0.000000e+00
+4  iLISI_lineage      Stromal 1.000000 0.000000e+00
+5  iLISI_lineage   Epithelial 1.000000 0.000000e+00
+6  iLISI_lineage  Endothelial 1.000000 0.000000e+00
+7  iLISI_lineage Perivascular 1.000000 0.000000e+00
+8  iLISI_lineage          NKT 1.000000 0.000000e+00
+9  iLISI_lineage      Myeloid 1.000000 0.000000e+00
+10 iLISI_lineage     B_plasma 1.000000 1.192093e-07
+11 iLISI_lineage         Mast 1.000000 8.542794e-03
+[01:25:26] figure: clusters
+[01:25:28] figure: dataset
+[01:25:30] figure: condition
+[01:25:32] figure: lineage
+[01:26:08] tmp slim files + checkpoints removed: TRUE
+[01:26:08] 
+[01:26:08] ===== S2_02 GATE SUMMARY (design §5) =====
+[01:26:08] cells: 233459 (registered: 233,459)
+[01:26:08] clusters: 29 | exclusive: 1
+[01:26:08] cLISI sample median: 4.636 | cLISI dataset median: 1.393
+[01:26:08] iLISI lineage median: 1
+[01:26:08] annotation >=90% rule: PASS
+[01:26:08] S2_02 done.
+[01:26:08] STEP 2d DONE — S2_02 COMPLETE

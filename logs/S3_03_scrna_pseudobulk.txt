@@ -1,0 +1,68 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[08:51:21] == S3_03 pseudobulk primary (per-dataset sources, v3.1) == 
+[08:51:28] atlas cells: 233459 | TEST: 165095 | REF: 68364 
+[08:51:28] dataset: GSE179640 
+[08:53:40]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[08:54:45]   join GSE179640 : 109398 cells matched to atlas annotations (100%) 
+[08:55:02] lineages: B_plasma | Endothelial | Epithelial | Mast | Myeloid | NKT | Perivascular | Stromal 
+[08:55:02]   hormonal_col empty -- A-HCOV / A-NOTX legs skipped (fill after S3_00c census) 
+[08:55:20]   wrote S3_pb_GSE179640_B_plasma_A.csv | genes: 10846 | FDR< 0.05 : 0 
+[08:55:38]   wrote S3_pb_GSE179640_Endothelial_A.csv | genes: 13083 | FDR< 0.05 : 30 
+[08:55:57]   wrote S3_pb_GSE179640_Epithelial_A.csv | genes: 13805 | FDR< 0.05 : 0 
+[08:56:15]   wrote S3_pb_GSE179640_Mast_A.csv | genes: 8295 | FDR< 0.05 : 0 
+[08:56:37]   wrote S3_pb_GSE179640_Myeloid_A.csv | genes: 12537 | FDR< 0.05 : 0 
+[08:56:59]   wrote S3_pb_GSE179640_NKT_A.csv | genes: 12771 | FDR< 0.05 : 0 
+[08:57:20]   wrote S3_pb_GSE179640_Perivascular_A.csv | genes: 12873 | FDR< 0.05 : 1310 
+[08:57:45]   wrote S3_pb_GSE179640_Stromal_A.csv | genes: 13792 | FDR< 0.05 : 0 
+[08:58:17]   wrote S3_pb_GSE179640_ALL_A.csv | genes: 14979 | FDR< 0.05 : 137 
+[08:58:18] dataset: GSE183837 
+[08:59:02]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[08:59:15]   join GSE183837 : 40801 cells matched to atlas annotations (100%) 
+[08:59:17] lineages: B_plasma | Endothelial | Epithelial | Mast | Myeloid | NKT | Perivascular | Stromal 
+[08:59:20]   wrote S3_pb_GSE183837_B_plasma_A.csv | genes: 5511 | FDR< 0.05 : 0 
+[08:59:24]   wrote S3_pb_GSE183837_Endothelial_A.csv | genes: 12062 | FDR< 0.05 : 1 
+[08:59:28]   wrote S3_pb_GSE183837_Epithelial_A.csv | genes: 10899 | FDR< 0.05 : 0 
+[08:59:32]   wrote S3_pb_GSE183837_Mast_A.csv | genes: 6740 | FDR< 0.05 : 0 
+[08:59:36]   wrote S3_pb_GSE183837_Myeloid_A.csv | genes: 11681 | FDR< 0.05 : 0 
+[08:59:40]   wrote S3_pb_GSE183837_NKT_A.csv | genes: 11930 | FDR< 0.05 : 0 
+[08:59:44]   wrote S3_pb_GSE183837_Perivascular_A.csv | genes: 12627 | FDR< 0.05 : 0 
+[08:59:50]   wrote S3_pb_GSE183837_Stromal_A.csv | genes: 12904 | FDR< 0.05 : 0 
+[08:59:56]   wrote S3_pb_GSE183837_ALL_A.csv | genes: 13545 | FDR< 0.05 : 0 
+[08:59:57] dataset: GSE214411 
+[09:01:15]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[09:01:43]   join GSE214411 : 83260 cells matched to atlas annotations (100%) 
+[09:01:48] lineages: B_plasma | Endothelial | Epithelial | Mast | Myeloid | NKT | Perivascular | Stromal 
+[09:01:54]   wrote S3_pb_GSE214411_B_plasma_A.csv | genes: 7270 | FDR< 0.05 : 0 
+[09:01:58]   wrote S3_pb_GSE214411_B_plasma_B.csv | genes: 8031 | FDR< 0.05 : 0 
+[09:02:05]   wrote S3_pb_GSE214411_Endothelial_A.csv | genes: 13219 | FDR< 0.05 : 18 
+[09:02:12]   wrote S3_pb_GSE214411_Endothelial_B.csv | genes: 13403 | FDR< 0.05 : 253 
+[09:02:18]   wrote S3_pb_GSE214411_Epithelial_A.csv | genes: 13559 | FDR< 0.05 : 0 
+[09:02:24]   wrote S3_pb_GSE214411_Epithelial_B.csv | genes: 13804 | FDR< 0.05 : 0 
+[09:02:29]   wrote S3_pb_GSE214411_Mast_A.csv | genes: 8926 | FDR< 0.05 : 1706 
+[09:02:34]   wrote S3_pb_GSE214411_Mast_B.csv | genes: 9835 | FDR< 0.05 : 1351 
+[09:02:40]   wrote S3_pb_GSE214411_Myeloid_A.csv | genes: 12127 | FDR< 0.05 : 19 
+[09:02:46]   wrote S3_pb_GSE214411_Myeloid_B.csv | genes: 12431 | FDR< 0.05 : 26 
+[09:02:52]   wrote S3_pb_GSE214411_NKT_A.csv | genes: 12494 | FDR< 0.05 : 0 
+[09:02:58]   wrote S3_pb_GSE214411_NKT_B.csv | genes: 12727 | FDR< 0.05 : 13 
+[09:03:04]   wrote S3_pb_GSE214411_Perivascular_A.csv | genes: 13365 | FDR< 0.05 : 2 
+[09:03:10]   wrote S3_pb_GSE214411_Perivascular_B.csv | genes: 13623 | FDR< 0.05 : 3 
+[09:03:18]   wrote S3_pb_GSE214411_Stromal_A.csv | genes: 13746 | FDR< 0.05 : 0 
+[09:03:25]   wrote S3_pb_GSE214411_Stromal_B.csv | genes: 13934 | FDR< 0.05 : 0 
+[09:03:37]   wrote S3_pb_GSE214411_ALL_A.csv | genes: 14683 | FDR< 0.05 : 1 
+[09:03:46]   wrote S3_pb_GSE214411_ALL_B.csv | genes: 14862 | FDR< 0.05 : 1 
+Warning messages:
+1: Layer 'data' is empty 
+2: Layer 'data' is empty 
+3: Layer 'data' is empty 
+           used  (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells  4078127 217.8    7159392  382.4    7159392   382.4
+Vcells 13356153 101.9  919613869 7016.1 2487025955 18974.6
+[09:03:48] S3_03 DONE 

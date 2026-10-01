@@ -1,0 +1,32 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[08:35:26] == S3_06 collect == 
+[08:35:42] wrote results/S3_knock_summary.md 
+      contrast_id       level n_test n_ref n_FDR n_FDR_tier
+1         B-G7305     primary     10    10  8863       4817
+2         B-G6364     primary     21    16   608         71
+3        B-G25628     primary     16     6  4995       4213
+4   B-G25628-EXPL exploratory      8     8     0          0
+5    B-G25628-ECT exploratory      8     6  5051       4526
+6    B-G25628-EUT exploratory      8     6  3925       3401
+7         B-G7307     primary     18    23  5101       2895
+8        B-G51981     primary     77    34 17353       8624
+9   B-G51981-MILD   secondary     27    34 16668      10189
+10   B-G51981-SEV   secondary     48    34 16019       6902
+11    B-G51981-S1 sensitivity     77    34 17353       8624
+12    B-G51981-S2 sensitivity     77    34 17353       8624
+13    B-G51981-S3 sensitivity     77    71 13850       2256
+14       B-G11691     primary      9     9   615        392
+15      B-G120103     primary     13     9  1053       1052
+16   B-G120103-2A   secondary      9     9  2269       2269
+17   B-G120103-2B   secondary      4     9  6702       6702
+18   B-G120103-IC sensitivity     13     9  7802       7327
+19 B-G120103-FCIC exploratory      9     9  5489       5482
+[08:35:42] S3_06 COLLECT DONE 

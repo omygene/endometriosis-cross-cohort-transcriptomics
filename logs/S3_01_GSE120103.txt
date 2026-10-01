@@ -1,0 +1,24 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[08:49:47]    GSE120103  normalized matrix: 43376 x 31 (from data/processed/bulk_GSE120103_neqc.rds ) 
+[08:49:47] contrast: B-G120103 ( primary ) 
+[08:49:49]   wrote results/S3_bulk_contrasts/B-G120103.csv | n genes: 43376 | FDR< 0.05 : 2507 | +tier: 2506 
+[08:49:49] contrast: B-G120103-2A ( secondary ) 
+[08:49:50]   wrote results/S3_bulk_contrasts/B-G120103-2A.csv | n genes: 43376 | FDR< 0.05 : 5552 | +tier: 5550 
+[08:49:50] contrast: B-G120103-2B ( secondary ) 
+[08:49:52]   wrote results/S3_bulk_contrasts/B-G120103-2B.csv | n genes: 43376 | FDR< 0.05 : 15466 | +tier: 15466 
+[08:49:52] contrast: B-G120103-IC ( sensitivity ) 
+[08:49:53]   wrote results/S3_bulk_contrasts/B-G120103-IC.csv | n genes: 43376 | FDR< 0.05 : 17016 | +tier: 16376 
+[08:49:53] contrast: B-G120103-FCIC ( exploratory ) 
+[08:49:55]   wrote results/S3_bulk_contrasts/B-G120103-FCIC.csv | n genes: 43376 | FDR< 0.05 : 13038 | +tier: 13030 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1014867 54.2    1906420 101.9  1263112  67.5
+Vcells 3708317 28.3   15669739 119.6 15669739 119.6
+[08:49:55] COHORT GSE120103 DONE 

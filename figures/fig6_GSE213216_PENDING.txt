@@ -1,0 +1,5 @@
+FIG 6 SLOT -- RESERVED (no figure drawn).
+GSE213216 external validation has NOT been approved (R3) or run.
+When approved and results/S6_validation/*.csv exists, extend
+make_figures.R with a validation panel drawing ONLY from those
+locked outputs (same discipline: presentation only, R5).

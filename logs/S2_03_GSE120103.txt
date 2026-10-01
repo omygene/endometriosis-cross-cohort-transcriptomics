@@ -1,0 +1,50 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[21:33:16] == S2_03 cohort: GSE120103 ( Agilent ) == 
+[21:33:16]   untar data/raw/GSE120103_RAW.tar -> data/raw/GSE120103 
+[21:33:20]   data files: 36 (expected 36 ) OK 
+[21:33:20]   read.maimages (source=agilent, green.only=TRUE) ... 
+Read data/raw/GSE120103/GSM3393491_US10200365_251485082207_S01_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393492_US10200365_251485082207_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393493_US10200365_251485082207_S01_GE1_107_Sep09_1_3.txt.gz 
+Read data/raw/GSE120103/GSM3393494_US10200365_251485082207_S01_GE1_107_Sep09_1_4.txt.gz 
+Read data/raw/GSE120103/GSM3393495_US10200365_251485059772_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393496_US10200365_251485059961_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393497_US10200365_251485059962_S01_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393498_US10200365_251485059962_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393499_US10200365_251485059962_S01_GE1_107_Sep09_1_4.txt.gz 
+Read data/raw/GSE120103/GSM3393500_US10200365_251485081299_S01_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393501_US10200365_251485081299_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393502_US10200365_251485081299_S01_GE1_107_Sep09_1_3.txt.gz 
+Read data/raw/GSE120103/GSM3393503_US10200365_251485081299_S01_GE1_107_Sep09_1_4.txt.gz 
+Read data/raw/GSE120103/GSM3393504_US10200365_251485082208_S01_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393505_US10200365_251485082208_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393506_US10200365_251485082208_S01_GE1_107_Sep09_1_3.txt.gz 
+Read data/raw/GSE120103/GSM3393507_US10200365_251485082208_S01_GE1_107_Sep09_1_4.txt.gz 
+Read data/raw/GSE120103/GSM3393508_US10200365_251485079910_S01_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393509_NA_251485079826_S001_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393510_NA_251485079826_S001_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393511_NA_251485079826_S001_GE1_107_Sep09_1_3.txt.gz 
+Read data/raw/GSE120103/GSM3393512_NA_251485079827_S001_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393513_NA_251485079827_S001_GE1_107_Sep09_1_3.txt.gz 
+Read data/raw/GSE120103/GSM3393514_NA_251485079827_S001_GE1_107_Sep09_1_4.txt.gz 
+Read data/raw/GSE120103/GSM3393515_NA_251485079827_S001_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393516_US10200365_251485081301_S01_GE1_107_Sep09_1_4.txt.gz 
+Read data/raw/GSE120103/GSM3393517_US10200365_251485081302_S01_GE1_107_Sep09_1_4.txt.gz 
+Read data/raw/GSE120103/GSM3393518_US10200365_251485079909_S01_GE1_107_Sep09_1_1.txt.gz 
+Read data/raw/GSE120103/GSM3393519_US10200365_251485079909_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/raw/GSE120103/GSM3393520_US10200365_251485079909_S01_GE1_107_Sep09_1_3.txt.gz 
+Read data/raw/GSE120103/GSM3393521_US10200365_251485079909_S01_GE1_107_Sep09_1_4.txt.gz 
+Error in limma::read.maimages(data_files, source = "agilent", green.only = TRUE) : 
+  File data/raw/GSE120103/GSM3393522_US80303135_251485027603_S01_GE1-v5_95_Feb07_1_1.txt.gz has fewer rows than files previously read
+In addition: Warning message:
+In scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  :
+  embedded nul(s) found in input
+Execution halted

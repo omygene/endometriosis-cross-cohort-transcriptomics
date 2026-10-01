@@ -1,0 +1,26 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[23:22:50] == S6_01: external validation in GSE213216 (locked design v1.0) == 
+[23:23:32] registry verified: input unchanged since audit | md5  2218a6817475f69dfdeefa7451ada0ed 
+[23:23:32] locked references: 24 axis genes | Tier-1 core 121 up / 364 down verified 
+[23:23:32] SenMayo GMT reused verbatim (never recomputed):  SAUL_SEN_MAYO_M45803.gmt  | 124 genes 
+[23:23:32] loading  C:/endometriosis_immunoediting/data/raw/GSE213216_processed/auxiliary.seurat.shared.rds  (takes minutes -- 373,851 cells) ... 
+Loading required namespace: Seurat
+[23:27:37] gene coverage self-audit: axis 24/24 | Tier-1 463/485 | SenMayo 124/124  OK 
+[23:27:37] cells kept (singlets, complete mapping):  345791  of  373851  | doublets dropped:  28060 
+[23:28:14] pseudobulk groups (patient x lineage x tissue):  315  | dropped (< 20  cells):  44 
+[23:28:21] pseudobulk matrix:  38224  genes x  271  groups | patients:  21 
+[23:28:26] tests:  195  total | tested  109  | NOT_TESTABLE  86  (documented, never hidden -- R6) 
+[23:28:27] wrote  C:/endometriosis_immunoediting/results/S6_meta/S6_01_scores_long.csv 
+[23:28:27] wrote  C:/endometriosis_immunoediting/results/S6_meta/S6_01_tests.csv 
+[23:28:27] wrote  C:/endometriosis_immunoediting/results/S6_meta/S6_01_summary.md 
+[23:28:27] wrote  C:/endometriosis_immunoediting/results/S6_meta/S6_01_manifest.tsv 
+[23:28:27] verdicts -> P1:  NOT_CONFIRMED  | P2:  NOT_CONFIRMED  | E3:  NOT_CONFIRMED 
+[23:28:27] S6_01 DONE -- send S6_01_summary.md + S6_01_tests.csv back to the session 

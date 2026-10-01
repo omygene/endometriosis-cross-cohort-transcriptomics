@@ -1,0 +1,15 @@
+bibentry(
+    bibtype = "Article",
+    title = "arrayQualityMetrics--a bioconductor package for quality assessment of microarray data",
+    author = "Audrey Kauffmann and Robert Gentleman and Wolfgang Huber",
+    journal = "Bioinformatics",
+    year = "2009",
+    volume  = "25",
+    number =  "3",
+    pages = "415--6"
+)
+
+citFooter("This free open-source software implements academic
+research by the authors and co-workers. If you use it,
+please support the project by citing the appropriate
+journal articles.")

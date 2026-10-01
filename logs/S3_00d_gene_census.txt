@@ -1,0 +1,51 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[23:45:32] == S3_00d gene census (read-only diagnostic, v1.1) == 
+[23:45:38] atlas: data/processed/S2_02_integrated.rds 
+[23:45:38] assays: RNA 
+[23:45:38] default assay: RNA 
+[23:45:38] SenMayo symbols in GMT: 124 
+[23:45:38] ---- assay: RNA ---- 
+[23:45:38]   dim: 28 x 233459 
+[23:45:38]   rownames[1:10]: PDGFRB | DCN | COL1A1 | EPCAM | KRT8 | KRT19 | PECAM1 | VWF | RGS5 | MCAM 
+[23:45:38]   n rownames: 28 | unique: 28 
+[23:45:38]   Ensembl-like (^ENSG): 0 | GSM-like (^GSM): 0 | MT- prefix: 0 | with version suffix (\.\d+$): 0 
+[23:45:38]   counts: nonzero features: 28 of 28 
+[23:45:38]   ALL nonzero feature names: 
+[23:45:38]      PDGFRB 
+[23:45:38]      DCN 
+[23:45:38]      COL1A1 
+[23:45:38]      EPCAM 
+[23:45:38]      KRT8 
+[23:45:38]      KRT19 
+[23:45:38]      PECAM1 
+[23:45:38]      VWF 
+[23:45:38]      RGS5 
+[23:45:38]      MCAM 
+[23:45:38]      PTPRC 
+[23:45:38]      CD3D 
+[23:45:38]      NCAM1 
+[23:45:38]      KLRD1 
+[23:45:38]      NKG7 
+[23:45:38]      GZMB 
+[23:45:38]      CD68 
+[23:45:38]      CD14 
+[23:45:38]      LYZ 
+[23:45:38]      ITGAX 
+[23:45:38]      MS4A1 
+[23:45:38]      IGHG1 
+[23:45:38]      TPSB2 
+[23:45:38]      KIT 
+[23:45:38]      FOXJ1 
+[23:45:38]      PIFO 
+[23:45:38]      PAEP 
+[23:45:38]      CXCL14 
+[23:45:38]   SenMayo overlap with rownames: 1 of 124 
+[23:45:38] S3_00d DONE -- nothing was written or modified (read-only) 

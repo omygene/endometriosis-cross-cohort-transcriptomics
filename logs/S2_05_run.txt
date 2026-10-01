@@ -1,0 +1,631 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+pathway source: core panels (GMT lacked the 5 Hallmark sets)
+Warning message:
+In readLines(gmt[1]) :
+  incomplete final line found on 'data/raw/gene_sets/SAUL_SEN_MAYO_M45803.gmt'
+
+##### rescue audit: GSE179640 #####
+Creating ~3307 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 637 cells excluded from training.
+iter=1, 692 cells excluded from training.
+iter=2, 669 cells excluded from training.
+Threshold found:0.651
+278 (6.7%) doublets called
+  audited GSM6102532_C01_Ctrl_filtered_feature_bc_matrix - excluded 2216 of 4133 (53.6%) | OK 
+Creating ~6241 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1798 cells excluded from training.
+iter=1, 1827 cells excluded from training.
+iter=2, 1787 cells excluded from training.
+Threshold found:0.37
+618 (7.9%) doublets called
+  audited GSM6102533_C02_Ctrl_filtered_feature_bc_matrix - excluded 2013 of 7801 (25.8%) | OK 
+Creating ~4425 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1016 cells excluded from training.
+iter=1, 1037 cells excluded from training.
+iter=2, 1019 cells excluded from training.
+Threshold found:0.377
+351 (6.3%) doublets called
+  audited GSM6102534_C03_Ctrl_filtered_feature_bc_matrix - excluded 1275 of 5531 (23.1%) | OK 
+Creating ~6132 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1194 cells excluded from training.
+iter=1, 1209 cells excluded from training.
+iter=2, 1185 cells excluded from training.
+Threshold found:0.497
+665 (8.7%) doublets called
+  audited GSM6102537_E01_EuE_filtered_feature_bc_matrix - excluded 3515 of 7665 (45.9%) | OK 
+Creating ~4222 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 841 cells excluded from training.
+iter=1, 974 cells excluded from training.
+iter=2, 933 cells excluded from training.
+Threshold found:0.449
+345 (6.5%) doublets called
+  audited GSM6102540_E02_EuE_filtered_feature_bc_matrix - excluded 2078 of 5277 (39.4%) | OK 
+Creating ~4242 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 707 cells excluded from training.
+iter=1, 781 cells excluded from training.
+iter=2, 749 cells excluded from training.
+Threshold found:0.434
+361 (6.8%) doublets called
+  audited GSM6102543_E03_EuE_filtered_feature_bc_matrix - excluded 1910 of 5302 (36.0%) | OK 
+Creating ~3056 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 543 cells excluded from training.
+iter=1, 568 cells excluded from training.
+iter=2, 568 cells excluded from training.
+Threshold found:0.448
+219 (5.7%) doublets called
+  audited GSM6102546_E04_EuE_filtered_feature_bc_matrix - excluded 1123 of 3819 (29.4%) | OK 
+Creating ~2424 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 480 cells excluded from training.
+iter=1, 479 cells excluded from training.
+iter=2, 475 cells excluded from training.
+Threshold found:0.439
+129 (4.3%) doublets called
+  audited GSM6102549_E05_EuE_filtered_feature_bc_matrix - excluded 737 of 3030 (24.3%) | OK 
+Creating ~1996 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 449 cells excluded from training.
+iter=1, 446 cells excluded from training.
+iter=2, 443 cells excluded from training.
+Threshold found:0.552
+119 (4.8%) doublets called
+  audited GSM6102550_E06_EcP_filtered_feature_bc_matrix - excluded 623 of 2494 (25.0%) | OK 
+Creating ~4181 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 989 cells excluded from training.
+iter=1, 966 cells excluded from training.
+iter=2, 936 cells excluded from training.
+Threshold found:0.411
+317 (6.1%) doublets called
+  audited GSM6102551_E06_EuE_filtered_feature_bc_matrix - excluded 1871 of 5226 (35.8%) | OK 
+Creating ~2151 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 362 cells excluded from training.
+iter=1, 357 cells excluded from training.
+iter=2, 346 cells excluded from training.
+Threshold found:0.502
+114 (4.2%) doublets called
+  audited GSM6102552_E07_EcO_filtered_feature_bc_matrix - excluded 663 of 2688 (24.7%) | OK 
+Creating ~3498 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 782 cells excluded from training.
+iter=1, 830 cells excluded from training.
+iter=2, 796 cells excluded from training.
+Threshold found:0.492
+301 (6.9%) doublets called
+  audited GSM6102553_E07_EcP_filtered_feature_bc_matrix - excluded 1064 of 4372 (24.3%) | OK 
+Creating ~2463 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 447 cells excluded from training.
+iter=1, 447 cells excluded from training.
+iter=2, 392 cells excluded from training.
+Threshold found:0.43
+130 (4.2%) doublets called
+  audited GSM6102554_E07_EuE_filtered_feature_bc_matrix - excluded 695 of 3078 (22.6%) | OK 
+Creating ~2224 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 413 cells excluded from training.
+iter=1, 389 cells excluded from training.
+iter=2, 370 cells excluded from training.
+Threshold found:0.427
+131 (4.7%) doublets called
+  audited GSM6102555_E08_EuE_filtered_feature_bc_matrix - excluded 1044 of 2780 (37.6%) | OK 
+Creating ~4922 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1162 cells excluded from training.
+iter=1, 1147 cells excluded from training.
+iter=2, 1134 cells excluded from training.
+Threshold found:0.47
+462 (7.5%) doublets called
+  audited GSM6102556_E09_EcO_filtered_feature_bc_matrix - excluded 2009 of 6152 (32.7%) | OK 
+Creating ~4204 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 964 cells excluded from training.
+iter=1, 1036 cells excluded from training.
+iter=2, 1029 cells excluded from training.
+Threshold found:0.565
+414 (7.9%) doublets called
+  audited GSM6102560_E09_EuE_filtered_feature_bc_matrix - excluded 2178 of 5255 (41.4%) | OK 
+Creating ~5897 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1188 cells excluded from training.
+iter=1, 1186 cells excluded from training.
+iter=2, 1184 cells excluded from training.
+Threshold found:0.403
+513 (7%) doublets called
+  audited GSM6102562_E11_EcO_filtered_feature_bc_matrix - excluded 1519 of 7371 (20.6%) | OK 
+Creating ~4872 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 828 cells excluded from training.
+iter=1, 968 cells excluded from training.
+iter=2, 994 cells excluded from training.
+Threshold found:0.531
+535 (8.8%) doublets called
+  audited GSM6102563_EOR01_filtered_feature_bc_matrix - excluded 2802 of 6089 (46.0%) | OK 
+Creating ~10650 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2098 cells excluded from training.
+iter=1, 2180 cells excluded from training.
+iter=2, 2228 cells excluded from training.
+Threshold found:0.471
+1702 (12.8%) doublets called
+  audited GSM6102565_EOR03_filtered_feature_bc_matrix - excluded 4925 of 13312 (37.0%) | OK 
+Creating ~2369 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 355 cells excluded from training.
+iter=1, 377 cells excluded from training.
+iter=2, 381 cells excluded from training.
+Threshold found:0.593
+168 (5.7%) doublets called
+  audited GSM6595248_E01_EcP_filtered_feature_bc_matrix - excluded 572 of 2961 (19.3%) | OK 
+Creating ~3144 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 506 cells excluded from training.
+iter=1, 559 cells excluded from training.
+iter=2, 541 cells excluded from training.
+Threshold found:0.437
+248 (6.3%) doublets called
+  audited GSM6595249_E01_EcPA_filtered_feature_bc_matrix - excluded 1513 of 3929 (38.5%) | OK 
+Creating ~4040 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 786 cells excluded from training.
+iter=1, 772 cells excluded from training.
+iter=2, 735 cells excluded from training.
+Threshold found:0.472
+296 (5.9%) doublets called
+  audited GSM6595250_E02_EcP_filtered_feature_bc_matrix - excluded 1135 of 5049 (22.5%) | OK 
+Creating ~2324 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 404 cells excluded from training.
+iter=1, 391 cells excluded from training.
+iter=2, 378 cells excluded from training.
+Threshold found:0.526
+152 (5.2%) doublets called
+  audited GSM6595251_E02_EcPA_filtered_feature_bc_matrix - excluded 715 of 2904 (24.6%) | OK 
+Creating ~5353 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1121 cells excluded from training.
+iter=1, 1071 cells excluded from training.
+iter=2, 1056 cells excluded from training.
+Threshold found:0.412
+432 (6.5%) doublets called
+  audited GSM6595252_E03_EcP_filtered_feature_bc_matrix - excluded 1815 of 6691 (27.1%) | OK 
+Creating ~2957 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 545 cells excluded from training.
+iter=1, 512 cells excluded from training.
+iter=2, 502 cells excluded from training.
+Threshold found:0.467
+170 (4.6%) doublets called
+  audited GSM6595253_E03_EcPA_filtered_feature_bc_matrix - excluded 962 of 3696 (26.0%) | OK 
+Creating ~2829 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 542 cells excluded from training.
+iter=1, 539 cells excluded from training.
+iter=2, 514 cells excluded from training.
+Threshold found:0.478
+200 (5.7%) doublets called
+  audited GSM6595254_E04_EcP_filtered_feature_bc_matrix - excluded 967 of 3536 (27.3%) | OK 
+Creating ~2496 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 464 cells excluded from training.
+iter=1, 502 cells excluded from training.
+iter=2, 492 cells excluded from training.
+Threshold found:0.706
+179 (5.7%) doublets called
+  audited GSM6595255_E04_EcPA_filtered_feature_bc_matrix - excluded 1186 of 3119 (38.0%) | OK 
+Creating ~3235 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 689 cells excluded from training.
+iter=1, 677 cells excluded from training.
+iter=2, 662 cells excluded from training.
+Threshold found:0.469
+247 (6.1%) doublets called
+  audited GSM6595256_E05_EcP_filtered_feature_bc_matrix - excluded 1342 of 4043 (33.2%) | OK 
+Creating ~4120 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 888 cells excluded from training.
+iter=1, 900 cells excluded from training.
+iter=2, 853 cells excluded from training.
+Threshold found:0.472
+379 (7.4%) doublets called
+  audited GSM6595257_E05_EcPA_filtered_feature_bc_matrix - excluded 1952 of 5150 (37.9%) | OK 
+Creating ~2015 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 451 cells excluded from training.
+iter=1, 438 cells excluded from training.
+iter=2, 428 cells excluded from training.
+Threshold found:0.554
+130 (5.2%) doublets called
+  audited GSM6595258_E09_EcP_filtered_feature_bc_matrix - excluded 1018 of 2518 (40.4%) | OK 
+Creating ~1500 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 39 cells excluded from training.
+iter=1, 37 cells excluded from training.
+iter=2, 38 cells excluded from training.
+Threshold found:0.851
+18 (3.8%) doublets called
+  audited GSM6595259_E09_EcPA_filtered_feature_bc_matrix - excluded 90 of 468 (19.2%) | OK 
+Creating ~1500 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 219 cells excluded from training.
+iter=1, 206 cells excluded from training.
+iter=2, 196 cells excluded from training.
+Threshold found:0.704
+74 (4.6%) doublets called
+  audited GSM6595260_E09_EcPA2_filtered_feature_bc_matrix - excluded 870 of 1607 (54.1%) | OK 
+Creating ~10231 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2120 cells excluded from training.
+iter=1, 1886 cells excluded from training.
+iter=2, 1521 cells excluded from training.
+Threshold found:0.393
+1322 (10.3%) doublets called
+  audited GSM6595261_E10_EcO_filtered_feature_bc_matrix - excluded 2039 of 12788 (15.9%) | OK 
+note: EOR02/EOR04 are load-excluded (Amendment S2-A) - non-auditable, recorded only.
+
+##### rescue audit: GSE214411 #####
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~9730 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2783 cells excluded from training.
+iter=1, 2819 cells excluded from training.
+iter=2, 2823 cells excluded from training.
+Threshold found:0.443
+1414 (11.6%) doublets called
+  audited GSM6605431_EMS1 - excluded 5666 of 12162 (46.6%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~9228 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2232 cells excluded from training.
+iter=1, 2259 cells excluded from training.
+iter=2, 2166 cells excluded from training.
+Threshold found:0.467
+992 (8.6%) doublets called
+  audited GSM6605432_EMS2 - excluded 3649 of 11534 (31.6%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~7012 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1660 cells excluded from training.
+iter=1, 1715 cells excluded from training.
+iter=2, 1652 cells excluded from training.
+Threshold found:0.421
+716 (8.2%) doublets called
+  audited GSM6605433_EMS3 - excluded 3811 of 8765 (43.5%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~9068 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2470 cells excluded from training.
+iter=1, 2529 cells excluded from training.
+iter=2, 2453 cells excluded from training.
+Threshold found:0.48
+1279 (11.3%) doublets called
+  audited GSM6605434_EMS4 - excluded 5364 of 11335 (47.3%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~15400 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 3703 cells excluded from training.
+iter=1, 3768 cells excluded from training.
+iter=2, 3788 cells excluded from training.
+Threshold found:0.46
+2896 (15%) doublets called
+  audited GSM6605435_EMS5 - excluded 10709 of 19250 (55.6%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~8634 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2152 cells excluded from training.
+iter=1, 2298 cells excluded from training.
+iter=2, 2270 cells excluded from training.
+Threshold found:0.425
+1072 (9.9%) doublets called
+  audited GSM6605436_EMS6 - excluded 5184 of 10792 (48.0%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~11756 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2052 cells excluded from training.
+iter=1, 2166 cells excluded from training.
+iter=2, 2173 cells excluded from training.
+Threshold found:0.448
+1447 (9.8%) doublets called
+  audited GSM6605437_N1 - excluded 11701 of 14695 (79.6%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~10321 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1948 cells excluded from training.
+iter=1, 2046 cells excluded from training.
+iter=2, 1938 cells excluded from training.
+Threshold found:0.486
+1531 (11.9%) doublets called
+  audited GSM6605438_N2 - excluded 5175 of 12901 (40.1%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~14245 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 3069 cells excluded from training.
+iter=1, 3084 cells excluded from training.
+iter=2, 2984 cells excluded from training.
+Threshold found:0.448
+1918 (10.8%) doublets called
+  audited GSM6605439_N3 - excluded 6024 of 17806 (33.8%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~7268 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1800 cells excluded from training.
+iter=1, 1830 cells excluded from training.
+iter=2, 1789 cells excluded from training.
+Threshold found:0.487
+808 (8.9%) doublets called
+  audited GSM6605440_N4 - excluded 3685 of 9085 (40.6%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~7497 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2022 cells excluded from training.
+iter=1, 2024 cells excluded from training.
+iter=2, 1978 cells excluded from training.
+Threshold found:0.449
+1030 (11%) doublets called
+  audited GSM7277296_N-5 - excluded 4286 of 9371 (45.7%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~7207 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1171 cells excluded from training.
+iter=1, 1567 cells excluded from training.
+iter=2, 1653 cells excluded from training.
+Threshold found:0.617
+986 (10.9%) doublets called
+  audited GSM7277297_N-6 - excluded 4249 of 9008 (47.2%) | OK 
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+Creating ~6926 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1443 cells excluded from training.
+iter=1, 1562 cells excluded from training.
+iter=2, 1508 cells excluded from training.
+Threshold found:0.488
+891 (10.3%) doublets called
+  audited GSM7277298_N-7 - excluded 2598 of 8657 (30.0%) | OK 
+
+##### rescue audit: GSE183837 #####
+Creating ~5848 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 709 cells excluded from training.
+iter=1, 687 cells excluded from training.
+iter=2, 604 cells excluded from training.
+Threshold found:0.473
+504 (6.9%) doublets called
+  audited GSM5572238_Ctrl-1 - excluded 2978 of 7310 (40.7%) | OK 
+Creating ~4915 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 468 cells excluded from training.
+iter=1, 609 cells excluded from training.
+iter=2, 617 cells excluded from training.
+Threshold found:0.486
+461 (7.5%) doublets called
+  audited GSM5572239_Ctrl-2 - excluded 2025 of 6143 (33.0%) | OK 
+Creating ~5630 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 938 cells excluded from training.
+iter=1, 999 cells excluded from training.
+iter=2, 921 cells excluded from training.
+Threshold found:0.426
+613 (8.7%) doublets called
+  audited GSM5572240_Ctrl-3 - excluded 2889 of 7037 (41.1%) | OK 
+Creating ~6320 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 734 cells excluded from training.
+iter=1, 719 cells excluded from training.
+iter=2, 708 cells excluded from training.
+Threshold found:0.47
+517 (6.5%) doublets called
+  audited GSM5572241_RIF-1 - excluded 2292 of 7900 (29.0%) | OK 
+Creating ~5972 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 770 cells excluded from training.
+iter=1, 1102 cells excluded from training.
+iter=2, 1092 cells excluded from training.
+Threshold found:0.496
+682 (9.1%) doublets called
+  audited GSM5572242_RIF-2 - excluded 2089 of 7465 (28.0%) | OK 
+Creating ~5892 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 740 cells excluded from training.
+iter=1, 872 cells excluded from training.
+iter=2, 822 cells excluded from training.
+Threshold found:0.417
+528 (7.2%) doublets called
+  audited GSM5572243_RIF-3 - excluded 1733 of 7365 (23.5%) | OK 
+Creating ~8099 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1176 cells excluded from training.
+iter=1, 1244 cells excluded from training.
+iter=2, 1087 cells excluded from training.
+Threshold found:0.45
+806 (8%) doublets called
+  audited GSM5572244_RIF-4 - excluded 5924 of 10123 (58.5%) | OK 
+Creating ~5776 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 686 cells excluded from training.
+iter=1, 788 cells excluded from training.
+iter=2, 797 cells excluded from training.
+Threshold found:0.456
+519 (7.2%) doublets called
+  audited GSM5572245_RIF-5 - excluded 4399 of 7219 (60.9%) | OK 
+Creating ~5910 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 859 cells excluded from training.
+iter=1, 926 cells excluded from training.
+iter=2, 883 cells excluded from training.
+Threshold found:0.455
+670 (9.1%) doublets called
+  audited GSM5572246_RIF-6 - excluded 2819 of 7387 (38.2%) | OK 
+There were 50 or more warnings (use warnings() to see the first 50)
+            dataset n_samples n_cells_before n_cells_excluded pct_excluded
+GSE179640 GSE179640        33         159834            50436         31.6
+GSE214411 GSE214411        13         155361            72101         46.4
+GSE183837 GSE183837         9          67949            27148         40.0
+          n_determinism_fail immune_markers_median_l2fc_ge1
+GSE179640                  0                              0
+GSE214411                  0                              0
+GSE183837                  0                              0
+          immune_pathways_median_l2fc_ge1 ptprc_rule_fired ALERT alert_reason
+GSE179640                               0            FALSE FALSE             
+GSE214411                               0            FALSE FALSE             
+GSE183837                               0            FALSE FALSE             
+                    dataset condition n_samples retention_median retention_min
+GSE179640 Ctrl    GSE179640      Ctrl         3            74.20          46.4
+GSE179640 EuE     GSE179640       EuE         9            64.00          54.1
+GSE179640 EcP     GSE179640       EcP         8            73.95          59.6
+GSE179640 EcO     GSE179640       EcO         4            77.35          67.3
+GSE179640 EOR     GSE179640       EOR         2            58.50          54.0
+GSE179640 EcPA    GSE179640      EcPA         7            62.10          45.9
+GSE214411 EMS     GSE214411       EMS         6            53.05          44.4
+GSE214411 N       GSE214411         N         7            59.40          20.4
+GSE183837 Control GSE183837   Control         3            59.30          58.9
+GSE183837 RIF     GSE183837       RIF         6            66.40          39.1
+                  retention_max median_mt_median median_mt_max
+GSE179640 Ctrl             76.9           11.360         12.36
+GSE179640 EuE              77.4           10.190         11.74
+GSE179640 EcP              80.7            8.115          9.57
+GSE179640 EcO              84.1            8.490         10.48
+GSE179640 EOR              63.0            9.150         10.18
+GSE179640 EcPA             80.8            9.840         11.28
+GSE214411 EMS              68.4            6.125          6.95
+GSE214411 N                70.0            6.170          8.53
+GSE183837 Control          67.0           10.860         11.72
+GSE183837 RIF              76.5           10.605         12.70
+                  median_genes_median dbl_pct_median
+GSE179640 Ctrl                2970.00          6.730
+GSE179640 EuE                 3300.00          6.070
+GSE179640 EcP                 2568.50          5.765
+GSE179640 EcO                 2387.00          7.235
+GSE179640 EOR                 4345.00         10.790
+GSE179640 EcPA                2520.00          5.230
+GSE214411 EMS                 2208.75         10.605
+GSE214411 N                   3052.00         10.770
+GSE183837 Control             3252.50          7.500
+GSE183837 RIF                 3025.75          7.575
+
+S2_05 done. Rescue audit + stratified QC in results/.

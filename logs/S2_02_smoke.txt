@@ -1,0 +1,84 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[12:52:40] smoke base: GSE183837 | cells 40801 | feat_set 2005
+[12:52:44] PASS B mechanism OK: 9 layers -> 2005 x 40801
+[12:52:51] ScaleData (global) OK
+Warning messages:
+1: The `counts` argument of `DietSeurat()` is deprecated as of Seurat 5.0.0.
+ℹ Please use the `layers` argument instead. 
+2: The `data` argument of `DietSeurat()` is deprecated as of Seurat 5.0.0.
+ℹ Please use the `layers` argument instead. 
+3: The `scale.data` argument of `DietSeurat()` is deprecated as of Seurat 5.0.0.
+ℹ Please use the `layers` argument instead. 
+[12:53:32] DietSeurat + PCA OK
+Warning message:
+Different cells and/or features from existing assay RNA 
+[12:53:33] Assay5 panel replacement OK
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   3926539  209.7    6375012  340.5   6375012  340.5
+Vcells 459914738 3508.9  887896480 6774.2 887865423 6773.9
+[12:53:36] checkpoint write/read OK
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 5 iterations
+[12:54:08] RunHarmony OK in 0.5 min
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+[12:55:58] neighbors/clusters/UMAP OK: 18 clusters
+[12:57:58] lisi package OK
+As of Seurat v5, we recommend using AggregateExpression to perform pseudo-bulk analysis.
+This message is displayed once per session.
+First group.by variable `seurat_clusters` starts with a number, appending `g` to ensure valid variable names
+This message is displayed once every 8 hours.
+[12:57:58] AverageExpression(layer = 'counts') OK: 28 genes x 18 clusters
+[12:58:03] figures OK
+[12:58:03] SMOKE OK — every fragile v2.3 path executed on real data. The overnight run now carries SCALE risk only, not API risk.

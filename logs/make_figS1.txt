@@ -1,0 +1,25 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[14:12:20] == make_figS1: EXPLORATORY supplementary figure, certified re-derivation == 
+[14:12:20] figS1: locked inputs verified (md5 match); GEO cache present 
+[14:12:29] figS1: per-gene pairs re-derived | ECSC n =  290  | NESC n =  290  Tier-1 genes 
+[14:12:29]    GSE75423_ECSC_dienogest  | recomputed r =  0.199393  | locked r =  0.199393  | recomputed CI [ 0.0712 ,  0.3280 ] 
+[14:12:29]    GSE75425_NESC_dienogest  | recomputed r =  0.223822  | locked r =  0.223822  | recomputed CI [ 0.1198 ,  0.3163 ] 
+[14:12:29] figS1: CERTIFIED -- re-derivation matches locked S8b summary (R9) 
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+[14:12:31] wrote figures/ figS1a_drugs_ecsc .png/.pdf 
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+[14:12:32] wrote figures/ figS1b_drugs_nesc .png/.pdf 
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+[14:12:33] wrote figures/ figS1_drugs_exploratory .png/.pdf 
+[14:12:33] figS1 DONE -- exploratory supplementary figure, certified (R9) 

@@ -1,0 +1,75 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[23:51:05] == S3_00e object census (read-only) == 
+[23:51:05] SenMayo symbols in GMT: 124 
+[23:51:05] rds files in data/processed : 11 
+[23:51:05]    bulk_GSE11691_rma.rds -- 3.1 MB 
+[23:51:05]    bulk_GSE120103_neqc.rds -- 6.3 MB 
+[23:51:05]    bulk_GSE25628_rma.rds -- 3.7 MB 
+[23:51:05]    bulk_GSE51981_rma.rds -- 59.3 MB 
+[23:51:05]    bulk_GSE6364_rma.rds -- 15 MB 
+[23:51:05]    bulk_GSE7305_rma.rds -- 8.2 MB 
+[23:51:05]    bulk_GSE7307_rma.rds -- 16.4 MB 
+[23:51:05]    GSE179640_filtered.rds -- 771.1 MB 
+[23:51:05]    GSE183837_filtered.rds -- 269.5 MB 
+[23:51:05]    GSE214411_filtered.rds -- 493.6 MB 
+[23:51:05]    S2_02_integrated.rds -- 235 MB 
+[23:51:05] ---- bulk_GSE11691_rma.rds ---- 
+Loading required namespace: Biobase
+[23:51:06]   non-Seurat object (class: ExpressionSet ) -- bulk/normalized matrix, skipping assay audit 
+[23:51:06] ---- bulk_GSE120103_neqc.rds ---- 
+Loading required namespace: limma
+[23:51:06]   non-Seurat object (class: EList ) -- bulk/normalized matrix, skipping assay audit 
+[23:51:06] ---- bulk_GSE25628_rma.rds ---- 
+[23:51:07]   non-Seurat object (class: ExpressionSet ) -- bulk/normalized matrix, skipping assay audit 
+[23:51:07] ---- bulk_GSE51981_rma.rds ---- 
+[23:51:08]   non-Seurat object (class: ExpressionSet ) -- bulk/normalized matrix, skipping assay audit 
+[23:51:08] ---- bulk_GSE6364_rma.rds ---- 
+[23:51:08]   non-Seurat object (class: ExpressionSet ) -- bulk/normalized matrix, skipping assay audit 
+[23:51:08] ---- bulk_GSE7305_rma.rds ---- 
+[23:51:08]   non-Seurat object (class: ExpressionSet ) -- bulk/normalized matrix, skipping assay audit 
+[23:51:09] ---- bulk_GSE7307_rma.rds ---- 
+[23:51:09]   non-Seurat object (class: ExpressionSet ) -- bulk/normalized matrix, skipping assay audit 
+[23:51:09] ---- GSE179640_filtered.rds ---- 
+[23:51:31]   assays: RNA 
+[23:51:31]   default assay: RNA | dim: 29448 x 109398 
+[23:51:31]   rownames[1:8]: AL627309.1 | AL627309.3 | AL669831.2 | AL669831.5 | LINC00115 | FAM41C | AL645608.7 | AL645608.3 
+[23:51:31]   SenMayo overlap: 124 of 124 
+[23:51:31]   metadata cols: orig.ident | nCount_RNA | nFeature_RNA | percent.mt | percent.hb 
+[23:51:31]   S3-needed cols present: orig.ident  | MISSING: dataset, condition, lineage, sample 
+[23:51:31]   reductions: none 
+[23:51:32] ---- GSE183837_filtered.rds ---- 
+[23:51:39]   assays: RNA 
+[23:51:39]   default assay: RNA | dim: 20674 x 40801 
+[23:51:39]   rownames[1:8]: AL627309.1 | AL627309.3 | AL669831.5 | FAM87B | LINC00115 | FAM41C | AL645608.7 | AL645608.3 
+[23:51:39]   SenMayo overlap: 120 of 124 
+[23:51:39]   metadata cols: orig.ident | nCount_RNA | nFeature_RNA | percent.mt | percent.hb 
+[23:51:39]   S3-needed cols present: orig.ident  | MISSING: dataset, condition, lineage, sample 
+[23:51:39]   reductions: none 
+[23:51:39] ---- GSE214411_filtered.rds ---- 
+[23:51:51]   assays: RNA 
+[23:51:51]   default assay: RNA | dim: 26388 x 83260 
+[23:51:51]   rownames[1:8]: RP11-34P13.7 | FO538757.2 | AP006222.2 | RP4-669L17.10 | RP5-857K21.4 | RP11-206L10.9 | FAM87B | LINC00115 
+[23:51:51]   SenMayo overlap: 123 of 124 
+[23:51:51]   metadata cols: orig.ident | nCount_RNA | nFeature_RNA | percent.mt | percent.hb 
+[23:51:51]   S3-needed cols present: orig.ident  | MISSING: dataset, condition, lineage, sample 
+[23:51:51]   reductions: none 
+[23:51:51] ---- S2_02_integrated.rds ---- 
+[23:51:56]   assays: RNA 
+[23:51:56]   default assay: RNA | dim: 28 x 233459 
+[23:51:56]   rownames[1:8]: PDGFRB | DCN | COL1A1 | EPCAM | KRT8 | KRT19 | PECAM1 | VWF 
+[23:51:56]   SenMayo overlap: 1 of 124 
+[23:51:56]   metadata cols: orig.ident | nCount_RNA | nFeature_RNA | percent.mt | percent.hb | dataset | sample | condition | RNA_snn_res.0.5 | seurat_clusters | cLISI_sample | cLISI_dataset | lineage | iLISI_lineage 
+[23:51:56]   S3-needed cols present: dataset, condition, lineage, sample, orig.ident  
+[23:51:56]   md$dataset: GSE179640 | GSE183837 | GSE214411 
+[23:51:56]   condition values: Control | Ctrl | EcO | EcP | EcPA | EMS | EOR | EuE | N | RIF 
+[23:51:56]   lineage values: B_plasma | Endothelial | Epithelial | Mast | Myeloid | NKT | Perivascular | Stromal 
+[23:51:56]   reductions: pca | harmony | umap 
+[23:51:56] S3_00e DONE -- nothing was written or modified (read-only) 

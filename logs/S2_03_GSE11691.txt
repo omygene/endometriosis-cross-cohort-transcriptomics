@@ -1,0 +1,55 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[21:31:24] == S2_03 cohort: GSE11691 ( GPL96 ) == 
+[21:31:24]   untar data/raw/GSE11691_RAW.tar -> data/raw/GSE11691 
+[21:31:26]   data files: 18 (expected 18 ) OK 
+[21:31:26]   oligo::read.celfiles ... 
+Loading required package: pd.hg.u133a
+Loading required package: RSQLite
+Loading required package: DBI
+Platform design info loaded.
+Reading in : data/raw/GSE11691/GSM296875.CEL.gz
+Reading in : data/raw/GSE11691/GSM296876.CEL.gz
+Reading in : data/raw/GSE11691/GSM296877.CEL.gz
+Reading in : data/raw/GSE11691/GSM296878.CEL.gz
+Reading in : data/raw/GSE11691/GSM296879.CEL.gz
+Reading in : data/raw/GSE11691/GSM296880.CEL.gz
+Reading in : data/raw/GSE11691/GSM296881.CEL.gz
+Reading in : data/raw/GSE11691/GSM296882.CEL.gz
+Reading in : data/raw/GSE11691/GSM296883.CEL.gz
+Reading in : data/raw/GSE11691/GSM296884.CEL.gz
+Reading in : data/raw/GSE11691/GSM296885.CEL.gz
+Reading in : data/raw/GSE11691/GSM296886.CEL.gz
+Reading in : data/raw/GSE11691/GSM296887.CEL.gz
+Reading in : data/raw/GSE11691/GSM296888.CEL.gz
+Reading in : data/raw/GSE11691/GSM296889.CEL.gz
+Reading in : data/raw/GSE11691/GSM296890.CEL.gz
+Reading in : data/raw/GSE11691/GSM296891.CEL.gz
+Reading in : data/raw/GSE11691/GSM296892.CEL.gz
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9636022 514.7   17450832 932.0 11974764 639.6
+Vcells 26429279 201.7   43304246 330.4 37408616 285.5
+[21:31:35]   oligo::rma ... 
+Background correcting
+Normalizing
+Calculating Expression
+           used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9154825  489   17450832 932.0 11974764 639.6
+Vcells 17026811  130   43304246 330.4 41064605 313.3
+[21:31:47]   normalized matrix: 22283 x 18 
+[21:31:47]   arrayQualityMetrics -> results/S2_aqm_GSE11691 
+The directory 'results/S2_aqm_GSE11691' has been created.
+(loaded the KernSmooth namespace)
+[21:32:54]   wrote results/S2_bulk_outliers_GSE11691.csv -- 18 arrays | per-method outliers: 2 boxplot / 0 maplot / 1 heatmap | FLAGGED >=2of3: 1 
+There were 18 warnings (use warnings() to see them)
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9545199 509.8   17450832 932.0 13290465 709.8
+Vcells 22312643 170.3   43323066 330.6 43323066 330.6
+[21:32:55] COHORT GSE11691 DONE 

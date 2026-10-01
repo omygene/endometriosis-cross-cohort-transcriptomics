@@ -1,0 +1,17 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[08:49:09]    GSE11691  normalized matrix: 22283 x 18 (from data/processed/bulk_GSE11691_rma.rds ) 
+[08:49:09] contrast: B-G11691 ( primary ) 
+[08:49:34]    B-G11691  paired consensus cor = -0.027 
+[08:49:35]   wrote results/S3_bulk_contrasts/B-G11691.csv | n genes: 22283 | FDR< 0.05 : 953 | +tier: 586 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  999765 53.4    1970834 105.3  1970834 105.3
+Vcells 2745499 21.0    8388608  64.0  8377695  64.0
+[08:49:35] COHORT GSE11691 DONE 

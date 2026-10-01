@@ -1,0 +1,54 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[08:59:50] == S4 smoke: 9 legs == 
+[PASS] 1 REML homogeneous: M = 1
+[PASS] 1 REML homogeneous: tau2 ~ 0 and I2 ~ 0
+[PASS] 1 REML homogeneous: SE(M) = 0.1/sqrt(3)
+[PASS] 2 REML heterogeneous: M = 2
+[PASS] 2 REML heterogeneous: tau2 = 3.99 (+/-0.01)
+[PASS] 2 REML heterogeneous: I2 > 95
+[PASS] 2 REML heterogeneous: Q ~ 800
+[08:59:50]    X : rows dropped (t==0/NA or logFC NA): 1 of 3 
+[PASS] 3 SE = |logFC/t|: g1 SE 0.5, g2 SE 0.5
+[PASS] 3 t == 0 row dropped loudly (R9)
+[08:59:50]   genes entering REML meta (k >= 4 ): 2 of 3 | excluded low-presence: 1 
+[PASS] 4 k_min = 4: hiK + edgeK enter, loK excluded
+[PASS] 5 tiers: FDR+size+concord -> Tier1; FDR only -> Tier2; rest Tier3
+[PASS] 6 registry: MD5 mismatch detected
+[PASS] 7 concordance: both same sign -> sign-match rate 1
+[PASS] 8 FE collapses tau2 to 0 (contrast with leg 2)
+[08:59:50]   cohort contribution audit: 
+[08:59:50]      C1 : rows = 5 | unique genes = 5 
+[08:59:50]      C2 : rows = 5 | unique genes = 5 
+[08:59:50]      C3 : rows = 5 | unique genes = 5 
+[08:59:50]      C4 : rows = 5 | unique genes = 5 
+[08:59:50]      C5 : rows = 5 | unique genes = 5 
+[08:59:50]      C1 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C2 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C3 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C4 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C5 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[PASS] 9 audit: 5 concordant namespaces pass
+[08:59:50]   cohort contribution audit: 
+[08:59:50]      C1 : rows = 5 | unique genes = 5 
+[08:59:50]      C2 : rows = 5 | unique genes = 5 
+[08:59:50]      C3 : rows = 5 | unique genes = 5 
+[08:59:50]      C4 : rows = 5 | unique genes = 5 
+[08:59:50]      C5 : rows = 5 | unique genes = 5 
+[08:59:50]      C6 : rows = 2 | unique genes = 2 
+[08:59:50]      C1 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C2 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C3 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C4 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C5 : gene overlap with other cohorts = 5 of 5 (100.0%) 
+[08:59:50]      C6 : gene overlap with other cohorts = 0 of 2 (0.0%) 
+[PASS] 9 audit: disjoint-namespace cohort stops the run (R9)
+== S4 smoke: ALL PASS (fails = 0) ==
+[08:59:50] S4 SMOKE DONE 

@@ -1,0 +1,23 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[00:29:43] == S6_02 (S6b): EXPLORATORY endothelial-subcluster dilution test == 
+[00:29:43] SCOPE: hypothesis-generating only -- cannot upgrade S6_01 P1 verdict 
+[00:29:46] registry verified: endothelial object unchanged | md5  b686e27b2ca968e1f8c66becbcd7c8f1 
+[00:29:46] locked Tier-1 core verified: 121 up / 364 down 
+[00:29:46] loading  C:/endometriosis_immunoediting/data/raw/GSE213216_processed/endothelial_clusters.shared.rds  (23,226 cells) ... 
+Loading required namespace: Seurat
+[00:30:03] cells kept (singlets):  21593 
+[00:30:04] pseudobulks (>= 20  cells):  129  | subclusters present:  17 
+[00:30:09] tests:  34  | tested  4  | NOT_TESTABLE  30 
+[00:30:09] wrote  C:/endometriosis_immunoediting/results/S6_meta/S6_02_exploratory_endothelial_subclusters.csv 
+[00:30:09] wrote  C:/endometriosis_immunoediting/results/S6_meta/S6_02_exploratory_summary.md 
+[00:30:09] wrote  C:/endometriosis_immunoediting/results/S6_meta/S6_02_manifest.tsv 
+[00:30:09] verdict:  NO exploratory subcluster signal for SERPINE1 at FDR<0.05 -- the dilution hypothesis is NOT supported; P1 NOT CONFIRMED stands 
+[00:30:09] S6_02 DONE -- send S6_02_exploratory_summary.md + the csv back to the session 

@@ -1,0 +1,45 @@
+Package: oligo
+Version: 1.76.0
+Title: Preprocessing tools for oligonucleotide arrays
+Author: Benilton Carvalho and Rafael Irizarry
+Contributors: Ben Bolstad, Vincent Carey, Wolfgang Huber, Harris Jaffee, Jim
+    MacDonald, Matt Settles, Guido Hooiveld
+Maintainer: Benilton Carvalho <benilton@unicamp.br>
+Depends: R (>= 3.2.0), BiocGenerics (>= 0.13.11), oligoClasses (>= 1.29.6),
+    Biobase (>= 2.27.3), Biostrings (>= 2.35.12)
+Imports: affyio (>= 1.35.0), affxparser (>= 1.39.4), DBI (>= 0.3.1), ff,
+    graphics, methods, preprocessCore (>= 1.29.0), RSQLite (>= 1.0.0), splines,
+    stats, stats4, utils, bit
+Enhances: doMC, doMPI
+LinkingTo: preprocessCore
+Suggests: BSgenome.Hsapiens.UCSC.hg18, hapmap100kxba, pd.hg.u95av2,
+    pd.mapping50k.xba240, pd.huex.1.0.st.v2, pd.hg18.60mer.expr,
+    pd.hugene.1.0.st.v1, maqcExpression4plex, genefilter, limma, RColorBrewer,
+    oligoData, BiocStyle, knitr, RUnit, biomaRt, AnnotationDbi, ACME, RCurl
+VignetteBuilder: knitr
+Description: A package to analyze oligonucleotide arrays (expression/SNP/tiling/exon) at probe-level. It currently supports Affymetrix (CEL files) and NimbleGen arrays (XYS files).
+License: LGPL (>= 2)
+Collate: AllGenerics.R methods-GenericArrays.R methods-GeneFeatureSet.R
+    methods-ExonFeatureSet.R methods-ExpressionFeatureSet.R
+    methods-ExpressionSet.R methods-LDS.R methods-FeatureSet.R
+    methods-SnpFeatureSet.R methods-SnpCnvFeatureSet.R
+    methods-TilingFeatureSet.R methods-HtaFeatureSet.R methods-DBPDInfo.R
+    methods-background.R methods-normalization.R methods-summarization.R
+    read.celfiles.R read.xysfiles.R utils-general.R utils-selectors.R
+    todo-snp.R functions-crlmm.R functions-snprma.R justSNPRMA.R justCRLMM.R
+    methods-snp6.R methods-genotype.R methods-PLMset.R zzz.R
+LazyLoad: Yes
+URL: https://github.com/benilton/oligo
+biocViews: Microarray, OneChannel, TwoChannel, Preprocessing, SNP,
+    DifferentialExpression, ExonArray, GeneExpression, DataImport
+Config/pak/sysreqs: zlib1g-dev
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-04-28 12:31:14 UTC
+NeedsCompilation: yes
+Packaged: 2026-05-01 09:51:44 UTC; root
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-05-01 10:00:26 UTC; windows
+Archs: x64
+RemoteType: repository
+RemoteUrl: https://github.com/bioc/oligo
+RemoteRef: RELEASE_3_23
+RemoteSha: a5986f1f29a727d78c41274505dd9e11f8bacccd

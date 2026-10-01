@@ -1,0 +1,3 @@
+"dataset","n_tier1_measured","r","ci_lo","ci_hi","direction"
+"GSE75423_ECSC_dienogest",290,0.199392875885544,0.0711737313566539,0.327982811164573,"same direction as lesion (NO reversal observed)"
+"GSE75425_NESC_dienogest",290,0.223822078701681,0.119817392583994,0.316272580448901,"same direction as lesion (NO reversal observed)"

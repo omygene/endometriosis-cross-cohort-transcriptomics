@@ -1,0 +1,8 @@
+data/
+*.rar
+*.tar.gz
+*.gz
+.Rhistory
+.RData
+.Rplots.pdf
+logs/tmp/

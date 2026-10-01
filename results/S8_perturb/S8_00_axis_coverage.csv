@@ -1,0 +1,6 @@
+"axis","genes","in_lincs","in_landmark"
+"cytotoxicity",6,6,0
+"antigen_presentation",6,6,0
+"senescence_dormancy",4,4,4
+"proliferation",3,3,2
+"stromal_ecm",5,5,1

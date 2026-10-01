@@ -1,0 +1,13 @@
+addXYfromGAL            Computing the coordinates of the spots on a
+                        slide
+aqm.boxplot             Functions for computing quality report modules.
+aqm.writereport         Write a quality report
+aqmReportModule         Class to contain all the information to render
+                        a quality report module.
+arrayQualityMetrics     Quality metrics for microarray experiments
+outlierDetection        Represents the results from applying an outlier
+                        detection criterion to the arrays.
+outliers                Helper functions for outlier detection and
+                        reporting in arrayQualityMetrics
+prepdata                Compute useful summary statistics from a data
+                        object.

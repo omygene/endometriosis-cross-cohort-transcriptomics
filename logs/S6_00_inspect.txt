@@ -1,0 +1,37 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[22:24:43] == S6_00: GSE213216 structural audit (pure measurement) == 
+[22:24:44] objects located: 
+[22:24:44]    auxiliary.seurat.shared.rds  ->  data/raw/GSE213216_processed/auxiliary.seurat.shared.rds 
+[22:24:44]    endothelial_clusters.shared.rds  ->  data/raw/GSE213216_processed/endothelial_clusters.shared.rds 
+[22:24:44]    EnEpi_cells.shared.rds  ->  data/raw/GSE213216_processed/EnEpi_cells.shared.rds 
+[22:24:44]    EnS_cells.shared.rds  ->  data/raw/GSE213216_processed/EnS_cells.shared.rds 
+[22:24:44]    epithelial.annotated.shared.rds  ->  data/raw/GSE213216_processed/epithelial.annotated.shared.rds 
+[22:24:44]    mesenchymal.annotated.shared.rds  ->  data/raw/GSE213216_processed/mesenchymal.annotated.shared.rds 
+[22:25:38] input registry created loud:  scripts/S6_input_registry.tsv  ( 6  files) 
+[22:25:38] locked references: 24 axis genes | Tier-1 core =  485  genes 
+[22:25:38] SenMayo GMT reused (never recomputed):  data/raw/gene_sets/SAUL_SEN_MAYO_M45803.gmt  |  124  genes in  1  set(s) 
+[22:25:41] SeuratObject available:  TRUE 
+[22:25:41] auditing  auxiliary.seurat.shared.rds  ... 
+Loading required namespace: Seurat
+[22:29:16]   class= Seurat  | genes= 30354  | cells= 373851  | assays= SCT,RNA 
+[22:29:19] auditing  endothelial_clusters.shared.rds  ... 
+[22:29:30]   class= Seurat  | genes= 30354  | cells= 23226  | assays= SCT,RNA 
+[22:29:31] auditing  EnEpi_cells.shared.rds  ... 
+[22:29:33]   class= Seurat  | genes= 30354  | cells= 4885  | assays= RNA,SCT 
+[22:29:33] auditing  EnS_cells.shared.rds  ... 
+[22:29:36]   class= Seurat  | genes= 30354  | cells= 4290  | assays= RNA,SCT 
+[22:29:36] auditing  epithelial.annotated.shared.rds  ... 
+[22:29:43]   class= Seurat  | genes= 30354  | cells= 13771  | assays= RNA,SCT 
+[22:29:43] auditing  mesenchymal.annotated.shared.rds  ... 
+[22:30:21]   class= Seurat  | genes= 30354  | cells= 82735  | assays= RNA,SCT 
+[22:30:22] wrote  results/S6_meta/S6_00_structure_audit.md 
+[22:30:22] wrote  results/S6_meta/S6_00_meta_values.csv  ( 27  rows) 
+[22:30:22] S6_00 DONE -- send both outputs to the session before S6_01 

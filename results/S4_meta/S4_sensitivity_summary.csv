@@ -1,0 +1,11 @@
+"test","detail","metric","value","criterion","pass"
+"sans-GSE7307","5-cohort meta w/o B-G7307","Tier-1 retention vs base","0.2",">= 0.70",FALSE
+"LOCO:B-G7305","leave-one-cohort-out","Tier-1 retention vs base","0.305154639175258",">= 0.50",FALSE
+"LOCO:B-G6364","leave-one-cohort-out","Tier-1 retention vs base","0.942268041237113",">= 0.50",TRUE
+"LOCO:B-G25628","leave-one-cohort-out","Tier-1 retention vs base","0.494845360824742",">= 0.50",FALSE
+"LOCO:B-G7307","leave-one-cohort-out","Tier-1 retention vs base","0.2",">= 0.50",FALSE
+"LOCO:B-G51981","leave-one-cohort-out","Tier-1 retention vs base","0.274226804123711",">= 0.50",FALSE
+"LOCO:B-G120103","leave-one-cohort-out","Tier-1 retention vs base","0.82680412371134",">= 0.50",TRUE
+"FE-vs-RE","fixed-effects on same 6-cohort set","spearman(M_RE, M_FE) | Tier-1 Jaccard","0.912 | 0.305","rho > 0.95",FALSE
+"QC-swap:B-G51981-S1","B-G51981 replaced by QC leg","Tier-1 retention vs base","1",">= 0.50 (reported)",TRUE
+"QC-swap:B-G51981-S2","B-G51981 replaced by QC leg","Tier-1 retention vs base","1",">= 0.50 (reported)",TRUE

@@ -1,0 +1,104 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[21:11:23] == S2_03 cohort: GSE25628 ( GPL570 ) == 
+[21:11:23]   untar data/raw/GSE25628_RAW.tar -> data/raw/GSE25628 
+[21:11:25]   data files: 22 (expected 22 ) OK 
+[21:11:25]   oligo::read.celfiles ... 
+Loading required package: pd.hg.u133a.2
+Attempting to obtain 'pd.hg.u133a.2' from BioConductor website.
+Checking to see if your internet connection works...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cran.rstudio.com
+    BioCsoft: https://bioconductor.org/packages/3.23/bioc
+    BioCann: https://bioconductor.org/packages/3.23/data/annotation
+    BioCexp: https://bioconductor.org/packages/3.23/data/experiment
+    BioCworkflows: https://bioconductor.org/packages/3.23/workflows
+    BioCbooks: https://bioconductor.org/packages/3.23/books
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cran.rstudio.com
+    BioCsoft: https://bioconductor.org/packages/3.23/bioc
+    BioCann: https://bioconductor.org/packages/3.23/data/annotation
+    BioCexp: https://bioconductor.org/packages/3.23/data/experiment
+    BioCworkflows: https://bioconductor.org/packages/3.23/workflows
+    BioCbooks: https://bioconductor.org/packages/3.23/books
+installing the source package 'pd.hg.u133a.2'
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/pd.hg.u133a.2_3.12.0.tar.gz'
+Content type 'application/x-gzip' length 9843108 bytes (9.4 MB)
+==================================================
+downloaded 9.4 MB
+
+* installing *source* package 'pd.hg.u133a.2' ...
+** this is package 'pd.hg.u133a.2' version '3.12.0'
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pd.hg.u133a.2)
+
+The downloaded source packages are in
+	'C:\Users\hp zbook g3\AppData\Local\Temp\Rtmp0ycem5\downloaded_packages'
+Loading required package: pd.hg.u133a.2
+Loading required package: RSQLite
+Loading required package: DBI
+Platform design info loaded.
+Reading in : data/raw/GSE25628/GSM629719.CEL.gz
+Reading in : data/raw/GSE25628/GSM629720.CEL.gz
+Reading in : data/raw/GSE25628/GSM629721.CEL.gz
+Reading in : data/raw/GSE25628/GSM629722.CEL.gz
+Reading in : data/raw/GSE25628/GSM629723.CEL.gz
+Reading in : data/raw/GSE25628/GSM629724.CEL.gz
+Reading in : data/raw/GSE25628/GSM629725.CEL.gz
+Reading in : data/raw/GSE25628/GSM629726.CEL.gz
+Reading in : data/raw/GSE25628/GSM629727.CEL.gz
+Reading in : data/raw/GSE25628/GSM629728.CEL.gz
+Reading in : data/raw/GSE25628/GSM629729.CEL.gz
+Reading in : data/raw/GSE25628/GSM629730.CEL.gz
+Reading in : data/raw/GSE25628/GSM629731.CEL.gz
+Reading in : data/raw/GSE25628/GSM629732.CEL.gz
+Reading in : data/raw/GSE25628/GSM629733.CEL.gz
+Reading in : data/raw/GSE25628/GSM629734.CEL.gz
+Reading in : data/raw/GSE25628/GSM629735.CEL.gz
+Reading in : data/raw/GSE25628/GSM629736.CEL.gz
+Reading in : data/raw/GSE25628/GSM629737.CEL.gz
+Reading in : data/raw/GSE25628/GSM629738.CEL.gz
+Reading in : data/raw/GSE25628/GSM629739.CEL.gz
+Reading in : data/raw/GSE25628/GSM629740.CEL.gz
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9680960 517.1   17243168 920.9 13309932 710.9
+Vcells 29448655 224.7   49976012 381.3 44234226 337.5
+[21:12:04]   oligo::rma ... 
+Background correcting
+Normalizing
+Calculating Expression
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9170878 489.8   17243168 920.9 13309932 710.9
+Vcells 17152118 130.9   49976012 381.3 45628727 348.2
+[21:12:14]   normalized matrix: 22277 x 22 
+[21:12:15]   arrayQualityMetrics -> results/S2_aqm_GSE25628 
+The directory 'results/S2_aqm_GSE25628' has been created.
+(loaded the KernSmooth namespace)
+[21:13:35]   wrote results/S2_bulk_outliers_GSE25628.csv -- 22 arrays | per-method outliers: 1 boxplot / 0 maplot / 0 heatmap | FLAGGED >=2of3: 0 
+There were 22 warnings (use warnings() to see them)
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  9561523 510.7   17243168 920.9 13608200 726.8
+Vcells 23406085 178.6   49976012 381.3 49975998 381.3
+[21:13:37] COHORT GSE25628 DONE 

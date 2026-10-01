@@ -1,0 +1,48 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[22:20:22] == make_figures v2.1: presentation only, zero new computation (A5) == 
+[22:20:24] wrote figures/ fig1a_contrasts .png/.pdf 
+[22:20:25] wrote figures/ fig1b_pipeline .png/.pdf 
+[22:20:25] wrote figures/ fig1_overview .png/.pdf 
+[22:20:27] wrote figures/ fig2a_volcano .png/.pdf 
+Warning messages:
+1: Removed 3 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+2: Removed 3 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+[22:20:28] wrote figures/ fig2b_forest .png/.pdf 
+[22:20:28] wrote figures/ fig2c_heterogeneity .png/.pdf 
+Warning messages:
+1: Removed 3 rows containing non-finite outside the scale range (`stat_bin()`). 
+2: Removed 3 rows containing non-finite outside the scale range (`stat_bin()`). 
+[22:20:31] wrote figures/ fig2_tier1_core .png/.pdf 
+Warning messages:
+1: Removed 3 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+2: Removed 3 rows containing non-finite outside the scale range (`stat_bin()`). 
+[22:20:31] fig1 + fig2 written 
+Warning messages:
+1: In sprintf("%.1f%%", 100 * x) : NAs introduced by coercion
+2: In sprintf("%.3f", x) : NAs introduced by coercion
+[22:20:35] wrote figures/ fig3a_battery .png/.pdf 
+[22:20:35] wrote figures/ fig3b_retention .png/.pdf 
+[22:20:36] wrote figures/ fig3_sensitivity .png/.pdf 
+[22:20:38] wrote figures/ fig4a_bulk_heatmap .png/.pdf 
+[22:20:39] wrote figures/ fig4b_scrna_dots .png/.pdf 
+[22:20:40] wrote figures/ fig4_localization .png/.pdf 
+[22:20:40] fig3 + fig4 written 
+[22:20:41] wrote figures/ fig5a_pathway_forest .png/.pdf 
+[22:20:42] wrote figures/ fig5b_concordance .png/.pdf 
+[22:20:42] wrote figures/ fig5c_scenarios .png/.pdf 
+[22:20:43] wrote figures/ fig5d_pathway_I2 .png/.pdf 
+[22:20:44] wrote figures/ fig5_pathway_meta_AB .png/.pdf 
+[22:20:44] wrote figures/ fig5_pathway_meta_CD .png/.pdf 
+[22:20:44] Fig 6: PENDING R3 -- placeholder note written (no failure) 
+[22:20:44] make_figures v2.2 DONE -- outputs under figures/ 

@@ -1,0 +1,134 @@
+useDynLib("oligo")
+
+######################################
+## Importing: Classes
+######################################
+
+importClassesFrom(Biobase, ExpressionSet)
+
+importClassesFrom(methods, array, matrix, ANY, character, integer,
+                  missing, numeric)
+
+importClassesFrom(oligoClasses, AffySNPPDInfo, DBPDInfo,
+                  ExonFeatureSet, ExpressionFeatureSet,
+                  ExpressionPDInfo, FeatureSet, GeneFeatureSet,
+                  SnpCnvFeatureSet, SnpFeatureSet, TilingFeatureSet,
+                  TilingPDInfo)
+
+######################################
+## Importing: Methods
+######################################
+
+importMethodsFrom(Biobase, channel,
+                  channelNames, combine, description, experimentData,
+                  "experimentData<-", exprs, "exprs<-", featureData,
+                  "featureData<-", featureNames, "featureNames<-",
+                  "notes<-", pData, "pData<-", phenoData, "phenoData<-",
+                  preproc, "preproc<-", protocolData, "protocolData<-",
+                  rowMedians, sampleNames, "sampleNames<-", varMetadata, "varMetadata<-", varLabels)
+
+importMethodsFrom(DBI, dbGetQuery, dbListFields, dbListTables)
+
+importMethodsFrom(oligoClasses, allele, bothStrands, calls, db,
+                  genomeBuild, geometry, getA, getM, kind,
+                  manufacturer)
+
+
+importMethodsFrom(BiocGenerics, ncol, boxplot, residuals, image, weights, 'annotation<-', annotation, normalize)
+
+importMethodsFrom(stats4, coef, plot)
+
+importMethodsFrom(RSQLite, dbDisconnect)
+
+importFrom(graphics, abline, frame, mtext, smoothScatter,
+             text)
+importFrom(stats, IQR, aggregate, approx, complete.cases,
+             loess, predict, rnorm, smooth.spline, splinefun)
+importFrom(utils, data)
+
+
+
+######################################
+## Importing: Functions
+######################################
+importFrom(affxparser, createCel, readCelHeader, readCelIntensities,
+           updateCel)
+
+importFrom(affyio, read.celfile.header, read.celfile, read_abatch)
+
+importFrom(Biobase, assayData, assayDataElement, assayDataElementReplace,
+           assayDataNew, assayDataElementNames, annotatedDataFrameFrom)
+
+importFrom(BiocGenerics, boxplot, image, ncol, residuals,
+           annotation, "annotation<-")
+
+importFrom(graphics, hist, lines, matplot, par)
+
+importFrom(grDevices, colorRampPalette, gray)
+
+importFrom(methods, callNextMethod, is, new, slot, "slot<-",
+           validObject, show)
+
+importFrom(oligoClasses, list.celfiles, requireAnnotation,
+           isPackageLoaded, setCluster, delCluster, getCluster,
+           ocProbesets, ocSamples, ocLapply, splitIndicesByLength,
+           splitIndicesByNode, getBar, createFF, ldPath, ldStatus)
+
+importFrom(preprocessCore, normalize.quantiles,
+           normalize.quantiles.determine.target,
+           normalize.quantiles.use.target,
+           normalize.quantiles.in.blocks, normalize.quantiles.robust,
+           rma.background.correct,
+           rcModelPLM, rcModelPLMr, rcModelPLMrr, rcModelPLMrc,
+           rcModelWPLM, rcModelWPLMr, rcModelWPLMrr, rcModelWPLMrc,
+           rcModelMedianPolish,
+           subrcModelPLM, subrcModelMedianPolish)
+
+importFrom(splines, ns)
+
+importFrom(stats, cov, density, dnorm, fitted, kmeans, lm,
+           lowess, mad, median, pchisq, quantile)
+
+importFrom(utils, packageDescription, read.delim, read.table,
+           setTxtProgressBar, txtProgressBar, write.table)
+
+importFrom(Biostrings, letterFrequency)
+
+importFrom(ff, ff, ffvecapply, clone.ff, clone.ffdf, filename, is.ff, 'finalizer<-', vmode)
+##importFrom(ff, open, finalizer, close, 'finalizer<-', delete)
+
+importFrom(bit, clone)
+
+## EXPORTS
+
+exportMethods(boxplot, bg, "bg<-", bgSequence, db, exprs, "exprs<-", getContainer,
+              getPlatformDesign, getX, getY, hist, image, MAplot, mm,
+              "mm<-", mmindex, mmSequence, pm, "pm<-", pmChr, pmAllele,
+              pmindex, pmFragmentLength, pmOffset, pmPosition,
+              pmSequence, pmStrand, probeNames, rma, runDate,
+              getNetAffx)
+
+export(basecontent, cleanPlatformName, read.celfiles, read.xysfiles,
+       sequenceDesignMatrix, list.xysfiles, readSummaries,
+       getCrlmmSummaries, getNgsColorsInfo, read.xysfiles2,
+       read.celfiles2, basicRMA, darkColors, seqColors, seqColors2,
+       divColors, getAffinitySplineCoefficients, getBaseProfile,
+       basicPLM, getProbeInfo, availProbeInfo)
+
+## Exported functions for CRLMM
+export(crlmm, snprma, justSNPRMA, justCRLMM, getPD)
+
+## Testing
+exportMethods(backgroundCorrect, normalize, summarize,
+              normalizeToTarget)
+export(plotM, backgroundCorrectionMethods, normalizationMethods)
+
+exportMethods(intensity, probesetNames)
+
+## PLM
+export("NUSE", "RLE")
+exportMethods("paCalls")
+exportClasses(oligoPLM)
+exportMethods(ncol, nprobes, nprobesets, coef, coefs.probe, weights, residuals, se, se.probe, residualSE, geometry, method, manufacturer, annotation, show, boxplot, image, opset2eset)
+
+export('fitProbeLevelModel', 'summarizationMethods')

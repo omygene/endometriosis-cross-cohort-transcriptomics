@@ -1,0 +1,22 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[17:15:46] S8_00: verifying locked input registry 
+[17:15:46]   registry OK ( 8  locked files ) 
+[17:15:46] S8_00: re-deriving the robust core from locked S4 files 
+[17:15:48]   robust core re-derived:  66  genes ( 14  up /  52  down) -- matches locked value 
+[17:15:48] S8_00: downloading L1000 gene info (GSE92742, ~200KB) 
+[17:15:50]   L1000 space:  12328  genes |  978  landmarks 
+[17:15:50]   coverage: core  48 /66 in L1000 |  8 /66 landmark | Tier-1 landmark  46  ( 13  up /  33  down) 
+[17:15:50] S8_00: querying iLINCS API for perturbation availability 
+[17:15:51]   SERPINE1:  7  signatures |  7  CGS-KD across  7  cell lines 
+[17:15:52]   estradiol LIB_5 (L1000):  136  signatures across  14  cell lines 
+[17:15:52] S8_00 DONE 
+[17:15:52]   verdict:  GO -- S8_01 reverse-confirmation may proceed (all locked criteria met) 
+[17:15:52]   outputs in  results/S8_perturb / (+ manifest) 

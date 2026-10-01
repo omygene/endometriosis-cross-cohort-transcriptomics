@@ -1,0 +1,19 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[14:55:28] == S5 smoke: 8 legs == 
+[PASS] leg 1: 1 z-mean axis score matches hand-computed values
+[PASS] leg 2: 2 SenMayo schema: locked header accepted, drifted header rejected
+[PASS] leg 3: 3 REML homogeneous: M = 1, SE = 0.1/sqrt(3), tau2 ~ 0
+[PASS] leg 4: 4 REML heterogeneous: M = 2, tau2 = 3.99 (+/-0.01), Q ~ 800, I2 > 95
+[PASS] leg 5: 5 structural floor: 1 z-able gene triggers FATAL (measured, R9)
+[PASS] leg 6: 6 frozen axes: 5 axes, 24 unique genes, no within-axis duplicates
+[PASS] leg 7: 7 SE = |logFC/t|: 0.8/2 = 0.4, 1.2/3 = 0.4
+[PASS] leg 8: 8 tiers: size+concord -> Tier1; FDR-only -> Tier2; BH boundary -> Tier3
+[14:55:30] S5 smoke: ALL 8 legs PASS -- stages may run. 

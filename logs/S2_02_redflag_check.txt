@@ -1,0 +1,59 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[01:50:33] == A. deliverable integrity ==
+[01:50:33] cells: 233459 -> registered 233459: TRUE
+[01:50:33] clusters: 29 (expected 29)
+[01:50:33] genes in light assay: 28
+[01:50:33] lineage NA cells: 0
+[01:50:33] condition NA cells: 0
+[01:50:33] cLISI_sample present+finite: TRUE
+[01:50:33] cLISI_dataset present+finite: TRUE
+[01:50:33] iLISI_lineage present+finite: TRUE
+[01:50:33] reductions: pca, harmony, umap
+[01:50:34] cell_index rows: 233459
+[01:50:34] cell order identical to index: TRUE
+[01:50:34] cell SET identical to index: TRUE
+[01:50:34] meta columns: orig.ident, nCount_RNA, nFeature_RNA, percent.mt, percent.hb, dataset, sample, condition, RNA_snn_res.0.5, seurat_clusters, cLISI_sample, cLISI_dataset, lineage, iLISI_lineage
+[01:50:34] 
+[01:50:34] == B. exclusive-cluster measurement ==
+[01:50:34] --- cluster 28 | n = 87 | share of total = 0.037%
+                                                
+                                                 Ctrl EcO
+  GSM6102534_C03_Ctrl_filtered_feature_bc_matrix    1   0
+  GSM6102556_E09_EcO_filtered_feature_bc_matrix     0  84
+  GSM6595261_E10_EcO_filtered_feature_bc_matrix     0   2
+[01:50:34] --- cluster 27 | n = 156 | share of total = 0.067%
+                                                
+                                                 Control Ctrl EcP EOR EuE RIF
+  GSM5572240_Ctrl-3                                    3    0   0   0   0   0
+  GSM5572243_RIF-3                                     0    0   0   0   0   1
+  GSM6102532_C01_Ctrl_filtered_feature_bc_matrix       0    2   0   0   0   0
+  GSM6102549_E05_EuE_filtered_feature_bc_matrix        0    0   0   0   1   0
+  GSM6102553_E07_EcP_filtered_feature_bc_matrix        0    0   1   0   0   0
+  GSM6102554_E07_EuE_filtered_feature_bc_matrix        0    0   0   0   1   0
+  GSM6102560_E09_EuE_filtered_feature_bc_matrix        0    0   0   0 146   0
+  GSM6102565_EOR03_filtered_feature_bc_matrix          0    0   0   1   0   0
+[01:50:34] --- cluster 26 | n = 207 | share of total = 0.089%
+                                               
+                                                EcO EcP EuE
+  GSM6102546_E04_EuE_filtered_feature_bc_matrix   0   0   1
+  GSM6102550_E06_EcP_filtered_feature_bc_matrix   0   2   0
+  GSM6102556_E09_EcO_filtered_feature_bc_matrix 180   0   0
+  GSM6102560_E09_EuE_filtered_feature_bc_matrix   0   0   2
+  GSM6595261_E10_EcO_filtered_feature_bc_matrix  22   0   0
+[01:50:34] stromal panel genes present: PDGFRB, DCN, COL1A1
+[01:50:34] per-cell stromal-panel mean | cluster 28:        median 2.6686  IQR 0.6212
+[01:50:34] per-cell stromal-panel mean | other stromal:    median 2.1842  IQR 0.7254
+[01:50:34] per-cell stromal-panel mean | all non-stromal:  median 0  IQR 0.336
+[01:50:34] QC columns available: nCount_RNA, nFeature_RNA, percent.mt
+[01:50:34] nCount_RNA | cluster 28 median 11.374 | all cells median 8.053
+[01:50:34] nFeature_RNA | cluster 28 median 6 | all cells median 4
+[01:50:34] percent.mt | cluster 28 median 6.762 | all cells median 8.116
+[01:50:34] RED FLAG CHECK DONE

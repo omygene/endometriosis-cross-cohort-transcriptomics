@@ -1,0 +1,79 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[19:45:39] == SMOKE 1/5: untar + count (GSE7305, expect 20 CEL) == 
+[19:45:42]   CELs found: 20 
+[19:45:42] == SMOKE 2/5: read.celfiles + rma == 
+Loading required package: pd.hg.u133.plus.2
+Loading required package: RSQLite
+Loading required package: DBI
+Platform design info loaded.
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175766.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175767.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175768.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175769.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175770.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175771.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175772.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175773.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175774.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175775.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175776.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175777.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175778.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175779.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175780.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175781.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175782.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175783.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175784.CEL.gz
+Reading in : data/processed/tmp_S2_03_smoke/GSE7305/GSM175785.CEL.gz
+[19:45:47]   raw class: ExpressionFeatureSet | dims: 1354896 x 20 
+[19:45:47]   sampleNames head: GSM175766.CEL.gz | GSM175767.CEL.gz | GSM175768.CEL.gz 
+Background correcting
+Normalizing
+Calculating Expression
+           used  (Mb) gc trigger   (Mb) max used  (Mb)
+Ncells 10536605 562.8   19354595 1033.7 13624174 727.7
+Vcells 48140457 367.3  103795868  791.9 85740089 654.2
+[19:46:10]   rma class: ExpressionSet | dims: 54675 x 20 
+[19:46:10]   exprs range: 1.955 .. 14.56 
+[19:46:10] == SMOKE 3/5: arrayQualityMetrics on the RMA ExpressionSet (Amendment S2_03-A route) == 
+The directory 'data/processed/tmp_S2_03_smoke/aqm' has been created.
+(loaded the KernSmooth namespace)
+[19:47:22]   AQM report written OK (index.html present) 
+[19:47:22]   AQM returned class: list 
+[19:47:22]   return names: modules, arrayTable, reporttitle, outdir 
+[19:47:22]    module[1] section=Between array comparison | n_stat=20 thr=7.49 n_out=1 | desc=sum of distances to other arrays <i>S<sub>a</sub></i>    module[1] section=Between array comparison | n_stat=20 thr=7.49 n_out=1 | desc=data-driven 
+[19:47:22]    module[2] section=Between array comparison | n_stat=0 thr=NA n_out=1 | desc=NA 
+[19:47:22]    module[3] section=Array intensity distributions | n_stat=20 thr=0.0124 n_out=1 | desc=Kolmogorov-Smirnov statistic <i>K<sub>a</sub></i>    module[3] section=Array intensity distributions | n_stat=20 thr=0.0124 n_out=1 | desc=data-driven 
+[19:47:22]    module[4] section=Array intensity distributions | n_stat=0 thr=NA n_out=1 | desc=NA 
+[19:47:22]    module[5] section=Variance mean dependence | n_stat=0 thr=NA n_out=1 | desc=NA 
+[19:47:22]    module[6] section=Individual array quality | n_stat=20 thr=0.15 n_out=0 | desc=<i>D<sub>a</sub></i>    module[6] section=Individual array quality | n_stat=20 thr=0.15 n_out=0 | desc=fixed 
+[19:47:22] == SMOKE 4/5: API formals dump (B.4 measurement) == 
+[19:47:22]    prepdata ( expressionset, intgroup, do.logtransform ) 
+[19:47:22]    aqm.boxplot ( x, subsample, outlierMethod, ... ) 
+[19:47:22]    aqm.maplot ( x, subsample, Dthresh, maxNumArrays, nrColumns, ... ) 
+[19:47:22]    aqm.heatmap ( x, ... ) 
+[19:47:22]    outliers ( exprs, method ) 
+[19:47:22]    boxplotOutliers ( x, coef ) 
+There were 20 warnings (use warnings() to see them)
+[19:47:22] == SMOKE 5/5: Agilent leg (2 files from GSE120103) == 
+[19:47:23]   members chosen: GSM3393491_US10200365_251485082207_S01_GE1_107_Sep09_1_1.txt.gz | GSM3393492_US10200365_251485082207_S01_GE1_107_Sep09_1_2.txt.gz 
+Read data/processed/tmp_S2_03_smoke/GSE120103/GSM3393491_US10200365_251485082207_S01_GE1_107_Sep09_1_1.txt.gz 
+Read data/processed/tmp_S2_03_smoke/GSE120103/GSM3393492_US10200365_251485082207_S01_GE1_107_Sep09_1_2.txt.gz 
+[19:47:25]   RG dims: x 
+[19:47:25]   genes columns: Row, Col, ControlType, ProbeName, SystematicName 
+[19:47:25]   genes$Status present: FALSE 
+[19:47:25]   NEQC ERROR: Detection p values not found in the data. 
+[19:47:25]   NEQC FAILED -> escalate (R9) 
+           used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells  9642737 515.0   19354595 1033.7  19354595 1033.7
+Vcells 26290867 200.6   83036695  633.6 103795809  791.9
+[19:47:26] SMOKE DONE WITH FAILURES -- see lines above 

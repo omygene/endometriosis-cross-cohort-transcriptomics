@@ -1,0 +1,28 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[17:16:17] S8_01: verifying locked input registry 
+[17:16:17]   registry OK 
+[17:16:17]   S8_00 verdict: GO -- proceeding 
+[17:16:17]   Tier-1 landmark genes:  46  | core landmark genes:  8 
+[17:16:17] S8_01: downloading SERPINE1-KD signatures (7 cell lines) 
+[17:16:17]   KD  LINCSKD_10891  ( HA1E ) 
+[17:16:19]   KD  LINCSKD_17110  ( HEPG2 ) 
+[17:16:20]   KD  LINCSKD_20428  ( HT29 ) 
+[17:16:21]   KD  LINCSKD_2842  ( A375 ) 
+[17:16:21]   KD  LINCSKD_35448  ( MCF7 ) 
+[17:16:22]   KD  LINCSKD_36193  ( PC3 ) 
+[17:16:23]   KD  LINCSKD_6447  ( A549 ) 
+[17:16:23] S8_01: downloading estradiol L1000 signatures and aggregating per cell line 
+[17:16:23]   estradiol cell lines with >=  3  signatures:  10  of  14 
+[17:17:49] S8_01: running the pre-registered hypothesis family 
+[17:17:49] S8_01 DONE 
+[17:17:49]    P1 NOT CONFIRMED: SERPINE1 knockdown does not significantly reverse the lesion signature -- reported as such 
+[17:17:49]    P2 NOT CONFIRMED: estradiol reversal not significant -- reported as such 
+[17:17:49]   outputs + manifest in  results/S8_perturb 

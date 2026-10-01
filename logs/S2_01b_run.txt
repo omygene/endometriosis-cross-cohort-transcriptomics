@@ -1,0 +1,148 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+top-level trio files: 27 | unique samples detected: 9 
+
+GSE183837 condition mapping (name-based; verify vs GEO metadata before freezing):
+             sample condition
+1 GSM5572238_Ctrl-1   Control
+2 GSM5572239_Ctrl-2   Control
+3 GSM5572240_Ctrl-3   Control
+4  GSM5572241_RIF-1       RIF
+5  GSM5572242_RIF-2       RIF
+6  GSM5572243_RIF-3       RIF
+7  GSM5572244_RIF-4       RIF
+8  GSM5572245_RIF-5       RIF
+9  GSM5572246_RIF-6       RIF
+
+#####  GSE183837  ##### ( 9  samples )
+loading GSM5572238_Ctrl-1 
+Creating ~5848 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 709 cells excluded from training.
+iter=1, 687 cells excluded from training.
+iter=2, 604 cells excluded from training.
+Threshold found:0.473
+504 (6.9%) doublets called
+  scDblFinder:504doublets removed (6.89%), cells 7310 -> 6806
+loading GSM5572239_Ctrl-2 
+Creating ~4915 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 468 cells excluded from training.
+iter=1, 609 cells excluded from training.
+iter=2, 617 cells excluded from training.
+Threshold found:0.486
+461 (7.5%) doublets called
+  scDblFinder:461doublets removed (7.5%), cells 6143 -> 5682
+loading GSM5572240_Ctrl-3 
+Creating ~5630 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 938 cells excluded from training.
+iter=1, 999 cells excluded from training.
+iter=2, 921 cells excluded from training.
+Threshold found:0.426
+613 (8.7%) doublets called
+  scDblFinder:613doublets removed (8.71%), cells 7037 -> 6424
+loading GSM5572241_RIF-1 
+Creating ~6320 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 734 cells excluded from training.
+iter=1, 719 cells excluded from training.
+iter=2, 708 cells excluded from training.
+Threshold found:0.47
+517 (6.5%) doublets called
+  scDblFinder:517doublets removed (6.54%), cells 7900 -> 7383
+loading GSM5572242_RIF-2 
+Creating ~5972 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 770 cells excluded from training.
+iter=1, 1102 cells excluded from training.
+iter=2, 1092 cells excluded from training.
+Threshold found:0.496
+682 (9.1%) doublets called
+  scDblFinder:682doublets removed (9.14%), cells 7465 -> 6783
+loading GSM5572243_RIF-3 
+Creating ~5892 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 740 cells excluded from training.
+iter=1, 872 cells excluded from training.
+iter=2, 822 cells excluded from training.
+Threshold found:0.417
+528 (7.2%) doublets called
+  scDblFinder:528doublets removed (7.17%), cells 7365 -> 6837
+loading GSM5572244_RIF-4 
+Creating ~8099 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1176 cells excluded from training.
+iter=1, 1244 cells excluded from training.
+iter=2, 1087 cells excluded from training.
+Threshold found:0.45
+806 (8%) doublets called
+  scDblFinder:806doublets removed (7.96%), cells 10123 -> 9317
+loading GSM5572245_RIF-5 
+Creating ~5776 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 686 cells excluded from training.
+iter=1, 788 cells excluded from training.
+iter=2, 797 cells excluded from training.
+Threshold found:0.456
+519 (7.2%) doublets called
+  scDblFinder:519doublets removed (7.19%), cells 7219 -> 6700
+loading GSM5572246_RIF-6 
+Creating ~5910 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 859 cells excluded from training.
+iter=1, 926 cells excluded from training.
+iter=2, 883 cells excluded from training.
+Threshold found:0.455
+670 (9.1%) doublets called
+  scDblFinder:670doublets removed (9.07%), cells 7387 -> 6717
+There were 18 warnings (use warnings() to see them)
+Warning: Some cell names are duplicated across objects provided. Renaming to enforce unique cell names.
+Warning: Default search for "data" layer in "RNA" assay yielded no results; utilizing "counts" layer instead.
+                             sample cells_before cells_after pct_kept dbl_pct
+GSM5572238_Ctrl-1 GSM5572238_Ctrl-1         7310        4332     59.3    6.89
+GSM5572239_Ctrl-2 GSM5572239_Ctrl-2         6143        4118     67.0    7.50
+GSM5572240_Ctrl-3 GSM5572240_Ctrl-3         7037        4148     58.9    8.71
+GSM5572241_RIF-1   GSM5572241_RIF-1         7900        5608     71.0    6.54
+GSM5572242_RIF-2   GSM5572242_RIF-2         7465        5376     72.0    9.14
+GSM5572243_RIF-3   GSM5572243_RIF-3         7365        5632     76.5    7.17
+GSM5572244_RIF-4   GSM5572244_RIF-4        10123        4199     41.5    7.96
+GSM5572245_RIF-5   GSM5572245_RIF-5         7219        2820     39.1    7.19
+GSM5572246_RIF-6   GSM5572246_RIF-6         7387        4568     61.8    9.07
+                  median_genes median_mt
+GSM5572238_Ctrl-1       2723.0     11.72
+GSM5572239_Ctrl-2       3252.5     10.86
+GSM5572240_Ctrl-3       3376.0     10.50
+GSM5572241_RIF-1        2456.0      9.77
+GSM5572242_RIF-2        3230.0     10.49
+GSM5572243_RIF-3        3208.0      9.16
+GSM5572244_RIF-4        2408.0     12.70
+GSM5572245_RIF-5        2843.5     10.76
+GSM5572246_RIF-6        3316.5     10.72
+
+S2_01b done. Wrote results/S2_qc_GSE183837.csv, figures/S2_qc_GSE183837.png, data/processed/GSE183837_filtered.rds — nothing else was touched.

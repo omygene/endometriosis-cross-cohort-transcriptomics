@@ -1,0 +1,184 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[09:04:48] == S4_02: sensitivity battery | base Tier-1 n = 485 
+[09:04:48] -- leg sansG7307 | cohorts: B-G7305, B-G6364, B-G25628, B-G51981, B-G120103 | REML 
+[09:04:50]   cohort contribution audit: 
+[09:04:50]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:04:50]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:04:50]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:04:50]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:04:50]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:04:50]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:04:50]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:04:50]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:04:50]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:04:50]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:04:52]   genes entering REML meta (k >= 4 ): 18768 of 22333 | excluded low-presence: 3565 
+There were 15 warnings (use warnings() to see them)
+[09:08:22] -- leg LOCO_B-G7305 | cohorts: B-G6364, B-G25628, B-G7307, B-G51981, B-G120103 | REML 
+[09:08:23]   cohort contribution audit: 
+[09:08:23]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:08:23]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:08:23]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:08:23]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:08:23]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:08:24]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:08:24]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:08:24]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:08:24]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:08:24]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:08:26]   genes entering REML meta (k >= 4 ): 18768 of 22333 | excluded low-presence: 3565 
+[09:12:28] -- leg LOCO_B-G6364 | cohorts: B-G7305, B-G25628, B-G7307, B-G51981, B-G120103 | REML 
+[09:12:30]   cohort contribution audit: 
+[09:12:30]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:12:30]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:12:30]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:12:30]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:12:30]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:12:30]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:12:30]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:12:30]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:12:30]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:12:30]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:12:32]   genes entering REML meta (k >= 4 ): 18768 of 22333 | excluded low-presence: 3565 
+[09:15:51] -- leg LOCO_B-G25628 | cohorts: B-G7305, B-G6364, B-G7307, B-G51981, B-G120103 | REML 
+[09:15:52]   cohort contribution audit: 
+[09:15:52]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:15:52]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:15:52]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:15:52]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:15:52]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:15:52]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:15:52]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:15:52]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:15:52]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:15:52]      B-G120103 : gene overlap with other cohorts = 18383 of 19360 (95.0%) 
+[09:15:54]   genes entering REML meta (k >= 4 ): 21355 of 22332 | excluded low-presence: 977 
+[09:20:07] -- leg LOCO_B-G7307 | cohorts: B-G7305, B-G6364, B-G25628, B-G51981, B-G120103 | REML 
+[09:20:09]   cohort contribution audit: 
+[09:20:09]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:20:09]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:20:09]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:20:09]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:20:09]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:20:09]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:20:09]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:20:09]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:20:09]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:20:09]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:20:12]   genes entering REML meta (k >= 4 ): 18768 of 22333 | excluded low-presence: 3565 
+[09:24:37] -- leg LOCO_B-G51981 | cohorts: B-G7305, B-G6364, B-G25628, B-G7307, B-G120103 | REML 
+[09:24:38]   cohort contribution audit: 
+[09:24:38]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:24:38]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:24:38]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:24:38]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:24:38]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:24:39]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:24:39]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:24:39]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:24:39]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:24:39]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:24:41]   genes entering REML meta (k >= 4 ): 18768 of 22333 | excluded low-presence: 3565 
+[09:27:53] -- leg LOCO_B-G120103 | cohorts: B-G7305, B-G6364, B-G25628, B-G7307, B-G51981 | REML 
+[09:27:54]   cohort contribution audit: 
+[09:27:54]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:27:54]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:27:54]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:27:54]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:27:54]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:27:54]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:27:54]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:27:54]      B-G25628 : gene overlap with other cohorts = 13039 of 13041 (100.0%) 
+[09:27:54]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:27:54]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:27:56]   genes entering REML meta (k >= 4 ): 21355 of 21357 | excluded low-presence: 2 
+There were 50 or more warnings (use warnings() to see the first 50)
+[09:33:06] -- leg FE | cohorts: B-G7305, B-G6364, B-G25628, B-G7307, B-G51981, B-G120103 | FE 
+[09:33:08]   cohort contribution audit: 
+[09:33:08]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:33:08]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:33:08]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:33:08]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:33:08]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:33:08]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:33:09]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:33:09]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:33:09]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:33:09]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:33:09]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:33:09]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:33:11]   genes entering FE meta (k >= 4 ): 21355 of 22333 | excluded low-presence: 978 
+[09:38:05] -- leg swap_B-G51981-S1 | cohorts: B-G7305, B-G6364, B-G25628, B-G7307, B-G120103, B-G51981-S1 | REML 
+[09:38:07]   cohort contribution audit: 
+[09:38:07]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:38:07]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:38:07]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:38:07]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:38:07]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:38:07]      B-G51981-S1 : rows = 21355 | unique genes = 21355 
+[09:38:07]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:38:07]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:38:07]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:38:07]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:38:07]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:38:07]      B-G51981-S1 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:38:10]   genes entering REML meta (k >= 4 ): 21355 of 22333 | excluded low-presence: 978 
+[09:43:56] -- leg swap_B-G51981-S2 | cohorts: B-G7305, B-G6364, B-G25628, B-G7307, B-G120103, B-G51981-S2 | REML 
+[09:43:58]   cohort contribution audit: 
+[09:43:58]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:43:58]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:43:58]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:43:58]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:43:58]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:43:58]      B-G51981-S2 : rows = 21355 | unique genes = 21355 
+[09:43:58]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:43:58]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:43:58]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:43:58]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:43:58]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:43:58]      B-G51981-S2 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:44:01]   genes entering REML meta (k >= 4 ): 21355 of 22333 | excluded low-presence: 978 
+There were 24 warnings (use warnings() to see them)
+[09:49:42] == sensitivity summary == 
+                                test                             detail
+sansG7307               sans-GSE7307          5-cohort meta w/o B-G7307
+LOCO_B-G7305            LOCO:B-G7305               leave-one-cohort-out
+LOCO_B-G6364            LOCO:B-G6364               leave-one-cohort-out
+LOCO_B-G25628          LOCO:B-G25628               leave-one-cohort-out
+LOCO_B-G7307            LOCO:B-G7307               leave-one-cohort-out
+LOCO_B-G51981          LOCO:B-G51981               leave-one-cohort-out
+LOCO_B-G120103        LOCO:B-G120103               leave-one-cohort-out
+FEvsRE                      FE-vs-RE fixed-effects on same 6-cohort set
+swap_B-G51981-S1 QC-swap:B-G51981-S1        B-G51981 replaced by QC leg
+swap_B-G51981-S2 QC-swap:B-G51981-S2        B-G51981 replaced by QC leg
+                                                metric             value
+sansG7307                     Tier-1 retention vs base               0.2
+LOCO_B-G7305                  Tier-1 retention vs base 0.305154639175258
+LOCO_B-G6364                  Tier-1 retention vs base 0.942268041237113
+LOCO_B-G25628                 Tier-1 retention vs base 0.494845360824742
+LOCO_B-G7307                  Tier-1 retention vs base               0.2
+LOCO_B-G51981                 Tier-1 retention vs base 0.274226804123711
+LOCO_B-G120103                Tier-1 retention vs base  0.82680412371134
+FEvsRE           spearman(M_RE, M_FE) | Tier-1 Jaccard     0.912 | 0.305
+swap_B-G51981-S1              Tier-1 retention vs base                 1
+swap_B-G51981-S2              Tier-1 retention vs base                 1
+                          criterion  pass
+sansG7307                   >= 0.70 FALSE
+LOCO_B-G7305                >= 0.50 FALSE
+LOCO_B-G6364                >= 0.50  TRUE
+LOCO_B-G25628               >= 0.50 FALSE
+LOCO_B-G7307                >= 0.50 FALSE
+LOCO_B-G51981               >= 0.50 FALSE
+LOCO_B-G120103              >= 0.50  TRUE
+FEvsRE                   rho > 0.95 FALSE
+swap_B-G51981-S1 >= 0.50 (reported)  TRUE
+swap_B-G51981-S2 >= 0.50 (reported)  TRUE
+[09:49:42] S4_02 DONE 

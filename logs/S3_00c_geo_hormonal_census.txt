@@ -1,0 +1,48 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[01:46:46] == S3_00c GEO hormonal census (read-only, parser v3) == 
+[01:46:46] series matrix: C:\endometriosis_immunoediting\data\raw\GSE179640\GSE179640_series_matrix.txt.gz 
+[01:46:46] cross-check: !Series_sample_id lists 59 samples | parsed 59 samples 
+[01:46:46] parsed 59 GSM samples | 5 characteristics: 
+[01:46:46]    condition | sample location | tissue | method | library type 
+[01:46:46]   accessions head: GSM6102532 GSM6102533 GSM6102534 ... tail: GSM6595259 GSM6595260 GSM6595261 
+[01:46:46] series title: Single cell analysis of endometriosis reveals a coordinated transcriptional program driving immunotolerance and angiogenesis across eutopic and ectopic tissues 
+[01:46:46] -- series summary, treatment-relevant sentences (verbatim) -- 
+[01:46:46]   * Its pathophysiology remains largely unknown, limiting early diagnosis and treatment. 
+[01:46:46]   * Altogether, this study provides a holistic view of the endometriosis microenvironment representing a comprehensive cell atlas of the disease in hormonally treated patients, essential information for advancing therapeutics and diagnostics. 
+[01:46:46]   NO treatment/hormone-named characteristic in the matrix 
+[01:46:46] -- candidate columns and their value sets -- 
+[01:46:46]    condition = Control | Endometriosis | Endometriosis + Control 
+[01:46:46]    sample location = Ectopic | Ectopic Adjacent | Ectopic Ovary | Eutopic | Mix 
+[01:46:46]    tissue = Endometrium | Ovary | Patient-Derived Organoid | Peritoneum 
+[01:46:46]    method = RNA-seq | scRNA-seq 
+[01:46:46]    library type = Cell Hashing | Gene Expression 
+[01:46:46] -- per-GSM consistency (must be exactly 1 value per accession) -- 
+[01:46:46]    condition : GSMs with >1 distinct value = 0 of 59 
+[01:46:46]    sample location : GSMs with >1 distinct value = 0 of 59 
+[01:46:46]    tissue : GSMs with >1 distinct value = 0 of 59 
+[01:46:46]    method : GSMs with >1 distinct value = 0 of 59 
+[01:46:46]    library type : GSMs with >1 distinct value = 0 of 59 
+[01:46:46] wrote scripts/S3_gse179640_geo_characteristics.tsv -- 59 rows x 7 cols 
+[01:47:03] join audit A (orig.ident GSM prefix <-> GEO accession): matched 33 of 33 orig.ident values 
+[01:47:08] join audit B (atlas): 'orig.ident' column present = TRUE 
+[01:47:08]   atlas GSE179640 orig.ident values: 33 | with GSM prefix: 33 of 33 | covered by GEO accession: 33 of 33 
+[01:47:08] join audit C (diagnostic): atlas 'sample' GSM-prefix coverage in GEO: 33 of 33 
+[01:47:08] JOIN KEY CONFIRMED: GSM accession = gsm_of(orig.ident) 
+[01:47:08] VERDICT (measured): no per-sample treatment/hormonal characteristic exists 
+[01:47:08]   in the official GEO series matrix. 
+[01:47:08]   AND the series summary states the cohort is 'hormonally treated patients' 
+[01:47:08]   -> the covariate has ZERO VARIANCE (series-level constant). A-HCOV / A-NOTX 
+[01:47:08]   are structurally impossible on GSE179640 as registered. LEAD DECISION: 
+[01:47:08]   Amendment to suspend both arms with this documented rationale (R6), or 
+[01:47:08]   register an external supplementary source (R5). Do NOT fill hormonal_col 
+[01:47:08]   with any of the 5 existing columns -- none is a treatment variable. 
+[01:47:08] CENSUS DONE -- fill the GSE179640 row of scripts/S3_group_map.tsv from the 
+[01:47:08]   atlas condition values in logs/S3_00_preflight.txt (R3). 

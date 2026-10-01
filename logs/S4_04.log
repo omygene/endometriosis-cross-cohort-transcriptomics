@@ -1,0 +1,26 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[09:50:27] == S4_04: immunoediting synthesis | Tier-1 core n = 485 
+[09:50:27] wrote S4_immunoediting_synthesis.csv 
+                                     axis n_axis_genes n_in_Tier1 n_up n_down
+cytotoxicity                 cytotoxicity            6          0   NA     NA
+antigen_presentation antigen_presentation            6          0   NA     NA
+senescence_dormancy   senescence_dormancy            4          1    1      0
+proliferation               proliferation            3          0   NA     NA
+stromal_ecm                   stromal_ecm            5          0   NA     NA
+                     binom_p
+cytotoxicity              NA
+antigen_presentation      NA
+senescence_dormancy        1
+proliferation             NA
+stromal_ecm               NA
+[09:50:27] Escape Score (immune-axis Tier-1 fraction DOWN): no immune genes in Tier-1 
+[09:50:28] wrote S4_knock_summary.md 
+[09:50:28] S4_04 DONE 

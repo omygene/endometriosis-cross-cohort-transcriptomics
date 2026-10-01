@@ -1,0 +1,76 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[13:58:50] == S3_04 Wilcoxon SENSITIVITY (not primary; per-dataset sources, v2.5) == 
+[13:58:50] presto engine: ACTIVE (fast wilcox, Seurat drop-in) 
+[13:58:56] dataset: GSE179640 
+[14:00:59]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[14:01:57]   join GSE179640 : 109398 cells matched to atlas annotations (100%) 
+[14:01:57]   [ 14:01:57 ] FindMarkers start: GSE179640 B_plasma | cells: 1981 | genes: 29448 
+[14:02:08]   wrote S3_wx_GSE179640_B_plasma.csv | genes: 29448 | nominal P<0.05: 2118 
+[14:02:08]   [ 14:02:08 ] FindMarkers start: GSE179640 Endothelial | cells: 10247 | genes: 29448 
+[14:02:22]   wrote S3_wx_GSE179640_Endothelial.csv | genes: 29448 | nominal P<0.05: 8658 
+[14:02:23]   [ 14:02:23 ] FindMarkers start: GSE179640 Epithelial | cells: 23315 | genes: 29448 
+[14:03:16]   wrote S3_wx_GSE179640_Epithelial.csv | genes: 29448 | nominal P<0.05: 14791 
+[14:03:18]   [ 14:03:18 ] FindMarkers start: GSE179640 Mast | cells: 623 | genes: 29448 
+[14:03:29]   wrote S3_wx_GSE179640_Mast.csv | genes: 29448 | nominal P<0.05: 2169 
+[14:03:29]   [ 14:03:29 ] FindMarkers start: GSE179640 Myeloid | cells: 11419 | genes: 29448 
+[14:03:48]   wrote S3_wx_GSE179640_Myeloid.csv | genes: 29448 | nominal P<0.05: 12205 
+[14:03:49]   [ 14:03:49 ] FindMarkers start: GSE179640 NKT | cells: 18286 | genes: 29448 
+[14:04:10]   wrote S3_wx_GSE179640_NKT.csv | genes: 29448 | nominal P<0.05: 8683 
+[14:04:11]   [ 14:04:11 ] FindMarkers start: GSE179640 Perivascular | cells: 5607 | genes: 29448 
+[14:04:21]   wrote S3_wx_GSE179640_Perivascular.csv | genes: 29448 | nominal P<0.05: 11185 
+[14:04:21]   [ 14:04:21 ] FindMarkers start: GSE179640 Stromal | cells: 37920 | genes: 29448 
+[14:05:52]   wrote S3_wx_GSE179640_Stromal.csv | genes: 29448 | nominal P<0.05: 14550 
+[14:05:54] dataset: GSE183837 
+[14:06:26]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[14:06:41]   join GSE183837 : 40801 cells matched to atlas annotations (100%) 
+[14:06:41]   [ 14:06:41 ] FindMarkers start: GSE183837 B_plasma | cells: 69 | genes: 20674 
+[14:06:44]   wrote S3_wx_GSE183837_B_plasma.csv | genes: 20674 | nominal P<0.05: 367 
+[14:06:44]   [ 14:06:44 ] FindMarkers start: GSE183837 Endothelial | cells: 645 | genes: 20674 
+[14:06:47]   wrote S3_wx_GSE183837_Endothelial.csv | genes: 20674 | nominal P<0.05: 2548 
+[14:06:48]   [ 14:06:48 ] FindMarkers start: GSE183837 Epithelial | cells: 894 | genes: 20674 
+[14:06:50]   wrote S3_wx_GSE183837_Epithelial.csv | genes: 20674 | nominal P<0.05: 2162 
+[14:06:50]   [ 14:06:50 ] FindMarkers start: GSE183837 Mast | cells: 113 | genes: 20674 
+[14:06:52]   wrote S3_wx_GSE183837_Mast.csv | genes: 20674 | nominal P<0.05: 626 
+[14:06:52]   [ 14:06:52 ] FindMarkers start: GSE183837 Myeloid | cells: 586 | genes: 20674 
+[14:06:55]   wrote S3_wx_GSE183837_Myeloid.csv | genes: 20674 | nominal P<0.05: 2393 
+[14:06:55]   [ 14:06:55 ] FindMarkers start: GSE183837 NKT | cells: 2455 | genes: 20674 
+[14:06:58]   wrote S3_wx_GSE183837_NKT.csv | genes: 20674 | nominal P<0.05: 1740 
+[14:06:58]   [ 14:06:58 ] FindMarkers start: GSE183837 Perivascular | cells: 774 | genes: 20674 
+[14:07:01]   wrote S3_wx_GSE183837_Perivascular.csv | genes: 20674 | nominal P<0.05: 1493 
+[14:07:01]   [ 14:07:01 ] FindMarkers start: GSE183837 Stromal | cells: 35265 | genes: 20674 
+[14:07:51]   wrote S3_wx_GSE183837_Stromal.csv | genes: 20674 | nominal P<0.05: 11055 
+[14:07:53] dataset: GSE214411 
+[14:09:08]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[14:09:46]   join GSE214411 : 83260 cells matched to atlas annotations (100%) 
+[14:09:47]   [ 14:09:47 ] FindMarkers start: GSE214411 B_plasma | cells: 240 | genes: 26388 
+[14:09:52]   wrote S3_wx_GSE214411_B_plasma.csv | genes: 26388 | nominal P<0.05: 1471 
+[14:09:52]   [ 14:09:52 ] FindMarkers start: GSE214411 Endothelial | cells: 6360 | genes: 26388 
+[14:10:02]   wrote S3_wx_GSE214411_Endothelial.csv | genes: 26388 | nominal P<0.05: 9156 
+[14:10:02]   [ 14:10:02 ] FindMarkers start: GSE214411 Epithelial | cells: 14742 | genes: 26388 
+[14:10:19]   wrote S3_wx_GSE214411_Epithelial.csv | genes: 26388 | nominal P<0.05: 14876 
+[14:10:20]   [ 14:10:20 ] FindMarkers start: GSE214411 Mast | cells: 588 | genes: 26388 
+[14:10:23]   wrote S3_wx_GSE214411_Mast.csv | genes: 26388 | nominal P<0.05: 2489 
+[14:10:23]   [ 14:10:23 ] FindMarkers start: GSE214411 Myeloid | cells: 2057 | genes: 26388 
+[14:10:27]   wrote S3_wx_GSE214411_Myeloid.csv | genes: 26388 | nominal P<0.05: 5523 
+[14:10:28]   [ 14:10:28 ] FindMarkers start: GSE214411 NKT | cells: 13039 | genes: 26388 
+[14:10:38]   wrote S3_wx_GSE214411_NKT.csv | genes: 26388 | nominal P<0.05: 9217 
+[14:10:38]   [ 14:10:38 ] FindMarkers start: GSE214411 Perivascular | cells: 3067 | genes: 26388 
+[14:10:44]   wrote S3_wx_GSE214411_Perivascular.csv | genes: 26388 | nominal P<0.05: 6212 
+[14:10:45]   [ 14:10:45 ] FindMarkers start: GSE214411 Stromal | cells: 43167 | genes: 26388 
+[14:11:49]   wrote S3_wx_GSE214411_Stromal.csv | genes: 26388 | nominal P<0.05: 13300 
+Warning messages:
+1: Layer 'data' is empty 
+2: Layer 'data' is empty 
+3: Layer 'data' is empty 
+           used  (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells  4085755 218.3    6972597  372.4    6972597   372.4
+Vcells 13056360  99.7 1108653176 8458.4 2725485184 20793.9
+[14:11:52] S3_04 DONE 

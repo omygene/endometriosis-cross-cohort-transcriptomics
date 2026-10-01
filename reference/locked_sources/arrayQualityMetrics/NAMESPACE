@@ -1,0 +1,88 @@
+##--------------------------------------------------
+## classes
+##--------------------------------------------------
+importClassesFrom(affy, AffyBatch)
+importClassesFrom(Biobase, NChannelSet)
+importClassesFrom(Biobase, ExpressionSet)
+importClassesFrom(beadarray, beadLevelData, ExpressionSetIllumina)
+importClassesFrom(limma, MAList, RGList)
+
+##--------------------------------------------------
+## methods
+##--------------------------------------------------
+importMethodsFrom(Biobase, assayData, channel, dims, exprs,
+                  fData, featureData, pData, phenoData, rowMedians,
+                  sampleNames, protocolData)
+
+importMethodsFrom(affy, Mbox, mm, pm)
+importMethodsFrom(genefilter, plot)
+importMethodsFrom(vsn, meanSdPlot)
+
+##--------------------------------------------------
+## ordinary functions & objects
+##--------------------------------------------------
+importFrom(affy, AffyRNAdeg, plotAffyRNAdeg)
+
+importFrom(affyPLM, fitPLM, RLE, NUSE)
+
+importFrom(Biobase, copySubstitute)
+
+#importFrom(Cairo, Cairo)
+importFrom(svglite, svglite)
+
+importFrom(genefilter, dist2)
+
+importFrom(graphics, abline, legend, lines, par, segments, text)
+
+importFrom(grDevices, boxplot.stats, colorRampPalette, pdf, png, rgb)
+
+importFrom(grid, gpar, grid.layout, frameGrob, placeGrob, rectGrob, unit)
+
+importFrom(Hmisc, hoeffd)
+
+importFrom(hwriter, closePage, hwrite, hmakeTag, hwriteImage, openPage)
+
+importFrom(lattice, barchart, bwplot, densityplot, draw.key,
+           levelplot, ltext, make.groups, packet.number,
+           panel.bwplot, panel.smoothScatter, panel.superpose, panel.barchart,
+           strip.default, trellis.par.get, trellis.par.set, xyplot)
+
+importFrom(latticeExtra, dendrogramGrob)
+
+importFrom(methods, as, is, new, slot, validObject)
+
+importFrom(RColorBrewer, brewer.pal, brewer.pal.info)
+
+importFrom(setRNG, setRNG)
+
+importFrom(stats, as.dendrogram, as.dist, density, ecdf, fft, hclust, ks.test,
+           na.omit, order.dendrogram, prcomp, quantile)
+
+#importFrom(SVGAnnotation, addECMAScripts, convertCSSStylesToSVG, 
+#           getMatplotSeries, getPlotPoints, getViewBox)
+
+importFrom(utils, read.table, sessionInfo)
+
+importFrom(XML, getNodeSet, xmlAttrs, "xmlAttrs<-", xmlChildren, xmlParse, xmlRoot, saveXML)
+
+importFrom(gridSVG, gridsvg, dev.off, grid.garnish)
+
+##--------------------------------------------------
+## export
+##--------------------------------------------------
+exportClasses("aqmReportModule", "outlierDetection")
+
+export("arrayQualityMetrics")
+export("prepdata", "prepaffy")
+
+export("aqm.writereport")
+
+export("aqm.boxplot", "aqm.maplot",  "aqm.density", "aqm.probesmap",
+       "aqm.meansd",  "aqm.heatmap", "aqm.pca",
+       "aqm.rle",     "aqm.nuse",    "aqm.rnadeg", ## "aqm.qcstats",
+       "aqm.pmmm",    "aqm.spatial")
+
+export("addXYfromGAL")
+export("outliers", "boxplotOutliers")
+
+

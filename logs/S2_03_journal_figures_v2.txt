@@ -1,0 +1,46 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[01:22:29] labels loaded: 322 rows across 7 cohorts 
+[01:22:29] ==  GSE7305  == 
+[01:22:29]   matrix: 54675 x 20 
+[01:22:30]   conditions: Endometriosis=10 / Normal endometrium=10 | flagged: 0  
+[01:22:31]   wrote  figures_journal/GSE7305_pca .png (300 dpi) + .pdf 
+[01:22:31] ==  GSE6364  == 
+[01:22:31]   matrix: 54675 x 37 
+[01:22:32]   conditions: Endometriosis eutopic=21 / Normal eutopic=16 | flagged: 2 (GSM150191, GSM150214) 
+[01:22:33]   wrote  figures_journal/GSE6364_pca .png (300 dpi) + .pdf 
+[01:22:33] ==  GSE25628  == 
+[01:22:33]   matrix: 22277 x 22 
+[01:22:33]   conditions: Ectopic lesion=8 / Eutopic (patient)=8 / Normal endometrium=6 | flagged: 0  
+[01:22:34]   wrote  figures_journal/GSE25628_pca .png (300 dpi) + .pdf 
+[01:22:34] ==  GSE7307  == 
+[01:22:34]   matrix: 54675 x 41 
+[01:22:35]   conditions: Endometriosis=18 / Normal endometrium=23 | flagged: 1 (GSM176240) 
+[01:22:36]   wrote  figures_journal/GSE7307_pca .png (300 dpi) + .pdf 
+[01:22:36] ==  GSE51981  == 
+[01:22:37]   matrix: 54675 x 148 
+[01:22:46]   conditions: Endometriosis (severity NA)=2 / Endometriosis minimal/mild=27 / Endometriosis moderate/severe=48 / Non-EMS no pelvic pathology=34 / Non-EMS pelvic pathology=37 | flagged: 1 (GSM1256659) 
+[01:22:47]   wrote  figures_journal/GSE51981_pca .png (300 dpi) + .pdf 
+[01:22:47] ==  GSE11691  == 
+[01:22:47]   matrix: 22283 x 18 
+[01:22:47]   conditions: Ectopic lesion=9 / Eutopic (patient)=9 | flagged: 1 (GSM296885) 
+[01:22:48]   wrote  figures_journal/GSE11691_pca .png (300 dpi) + .pdf 
+[01:22:48] ==  GSE120103  == 
+Loading required namespace: limma
+[01:22:48]   matrix: 43376 x 31 
+[01:22:49]   labeled-but-absent = exactly the 5 documented GE1-v5 exclusions [OK] 
+[01:22:49]   conditions: Fertile control=9 / Infertile control=9 / Stage IV ovarian EMS (2A)=9 / Stage IV ovarian EMS (2B)=4 | flagged: 0  
+[01:22:49]   wrote  figures_journal/GSE120103_pca .png (300 dpi) + .pdf 
+[01:22:49] == PLATE == 
+[01:22:52]   wrote PLATE_all_cohorts.png (300 dpi) + .pdf | panels A-G, 5 flagged ringed; PC variance shown in individual figures only 
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1798509 96.1    2882930 154.0  2882930 154.0
+Vcells 6321035 48.3   36744760 280.4 57413559 438.1
+[01:22:52] JOURNAL FIGURES V2 DONE 

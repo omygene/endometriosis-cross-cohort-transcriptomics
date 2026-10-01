@@ -1,0 +1,33 @@
+Package: arrayQualityMetrics
+Title: Quality metrics report for microarray data sets
+Version: 3.68.0
+Authors@R: c( person("Audrey", "Kauffmann", role = "aut"), person("Wolfgang", "Huber", role = "aut"), person("Hugo", "Gruson", role = "cre", email = "hugo.gruson@embl.de") )
+BugReports: https://github.com/Huber-group-EMBL/arrayQualityMetrics/issues
+VignetteBuilder: knitr
+Suggests: ALLMLL, CCl4, BiocStyle, knitr, rmarkdown
+Imports: affy, affyPLM (>= 1.27.3), beadarray, Biobase, genefilter, graphics,
+    grDevices, grid, gridSVG (>= 1.4-3), Hmisc, hwriter, jsonlite, lattice,
+    latticeExtra, limma, methods, RColorBrewer, setRNG, stats, utils, vsn (>=
+    3.23.3), XML, svglite
+Description: This package generates microarray quality metrics reports for data in Bioconductor microarray data containers (ExpressionSet, NChannelSet, AffyBatch). One and two color array platforms are supported.
+License: LGPL (>= 2)
+biocViews: Microarray, QualityControl, OneChannel, TwoChannel, ReportWriting
+Collate: classes.R affyspecific.r annotateSvg.R arrayQualityMetrics.r boxplot.r
+    density.r globalParameters.R heatmap.r makeColors.R maplot.r meansd.r
+    outlier.R pca.r prepdata.r probesmap.r spatial.r writereport.r XYfromGAL.r
+RoxygenNote: 7.3.3
+URL: https://github.com/Huber-group-EMBL/arrayQualityMetrics
+Config/pak/sysreqs: cmake libfontconfig1-dev libfreetype6-dev libfribidi-dev
+    make libharfbuzz-dev libicu-dev libjpeg-dev libpng-dev libuv1-dev
+    libxml2-dev libssl-dev zlib1g-dev
+Repository: https://bioc-release.r-universe.dev
+Date/Publication: 2026-04-28 12:32:30 UTC
+NeedsCompilation: no
+Packaged: 2026-04-29 18:15:20 UTC; root
+Author: Audrey Kauffmann [aut], Wolfgang Huber [aut], Hugo Gruson [cre]
+Maintainer: Hugo Gruson <hugo.gruson@embl.de>
+Built: R 4.6.0; ; 2026-04-29 18:36:40 UTC; windows
+RemoteType: repository
+RemoteUrl: https://github.com/bioc/arrayQualityMetrics
+RemoteRef: RELEASE_3_23
+RemoteSha: 846e042bc49f05def64004d237b14138c75e2cd1

@@ -1,0 +1,42 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[23:56:27] == S3_00f join audit (read-only) == 
+[23:56:34] atlas cells: 233459 | unique: 233459 
+[23:56:34] atlas colnames[1:5]: GSM6102532_C01_Ctrl_filtered_feature_bc_matrix__AAACCCATCGCTCTAC-1_1 | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix__AAACGAAAGCCTTCTC-1_1 | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix__AAACGAACATGTTTGG-1_1 | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix__AAACGAATCGGTTGTA-1_1 | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix__AAACGCTTCGCTCCTA-1_1 
+[23:56:34] md$sample[1:3]: GSM6102532_C01_Ctrl_filtered_feature_bc_matrix | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix 
+[23:56:34] md$orig.ident[1:3]: GSM6102532_C01_Ctrl_filtered_feature_bc_matrix | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix | GSM6102532_C01_Ctrl_filtered_feature_bc_matrix 
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  3969706 212.1    7164115 382.7  4180234 223.3
+Vcells 12564296  95.9   55866182 426.3 65450108 499.4
+[23:56:35] ---- GSE179640 ---- 
+[23:56:58]   per-dataset cells: 109398 | atlas cells for dataset: 109398 
+[23:56:58]   per-dataset colnames[1:5]: AAACCCATCGCTCTAC-1_1 | AAACGAAAGCCTTCTC-1_1 | AAACGAACATGTTTGG-1_1 | AAACGAATCGGTTGTA-1_1 | AAACGCTTCGCTCCTA-1_1 
+[23:56:58]   direct barcode match: 0 of 109398 
+[23:56:58]   match as <orig.ident>_<atlas>: 0 
+[23:56:58]   match as <sample>_<atlas>: 0 
+[23:56:59]   match after stripping -N suffix: 0 
+[23:56:59]   sample x orig.ident pairs: 33 | atlas sample values: GSM6102532_C01_Ctrl_filtered_feature_bc_matrix | GSM6102533_C02_Ctrl_filtered_feature_bc_matrix | GSM6102534_C03_Ctrl_filtered_feature_bc_matrix | GSM6102537_E01_EuE_filtered_feature_bc_matrix | GSM6102540_E02_EuE_filtered_feature_bc_matrix | GSM6102543_E03_EuE_filtered_feature_bc_matrix | GSM6102546_E04_EuE_filtered_feature_bc_matrix | GSM6102549_E05_EuE_filtered_feature_bc_matrix | GSM6102550_E06_EcP_filtered_feature_bc_matrix | GSM6102551_E06_EuE_filtered_feature_bc_matrix | GSM6102552_E07_EcO_filtered_feature_bc_matrix | GSM6102553_E07_EcP_filtered_feature_bc_matrix | GSM6102554_E07_EuE_filtered_feature_bc_matrix | GSM6102555_E08_EuE_filtered_feature_bc_matrix | GSM6102556_E09_EcO_filtered_feature_bc_matrix | GSM6102560_E09_EuE_filtered_feature_bc_matrix | GSM6102562_E11_EcO_filtered_feature_bc_matrix | GSM6102563_EOR01_filtered_feature_bc_matrix | GSM6102565_EOR03_filtered_feature_bc_matrix | GSM6595248_E01_EcP_filtered_feature_bc_matrix | GSM6595249_E01_EcPA_filtered_feature_bc_matrix | GSM6595250_E02_EcP_filtered_feature_bc_matrix | GSM6595251_E02_EcPA_filtered_feature_bc_matrix | GSM6595252_E03_EcP_filtered_feature_bc_matrix | GSM6595253_E03_EcPA_filtered_feature_bc_matrix | GSM6595254_E04_EcP_filtered_feature_bc_matrix | GSM6595255_E04_EcPA_filtered_feature_bc_matrix | GSM6595256_E05_EcP_filtered_feature_bc_matrix | GSM6595257_E05_EcPA_filtered_feature_bc_matrix | GSM6595258_E09_EcP_filtered_feature_bc_matrix | GSM6595259_E09_EcPA_filtered_feature_bc_matrix | GSM6595260_E09_EcPA2_filtered_feature_bc_matrix | GSM6595261_E10_EcO_filtered_feature_bc_matrix 
+[23:56:59] ---- GSE183837 ---- 
+[23:57:07]   per-dataset cells: 40801 | atlas cells for dataset: 40801 
+[23:57:07]   per-dataset colnames[1:5]: AAACCCACAAGGCTTT-1_1 | AAACCCACAAGTCGTT-1_1 | AAACCCACACGCAAAG-1_1 | AAACGAAGTCGGAAAC-1_1 | AAACGCTAGCCAGACA-1_1 
+[23:57:07]   direct barcode match: 0 of 40801 
+[23:57:07]   match as <orig.ident>_<atlas>: 0 
+[23:57:07]   match as <sample>_<atlas>: 0 
+[23:57:07]   match after stripping -N suffix: 0 
+[23:57:07]   sample x orig.ident pairs: 9 | atlas sample values: GSM5572238_Ctrl-1 | GSM5572239_Ctrl-2 | GSM5572240_Ctrl-3 | GSM5572241_RIF-1 | GSM5572242_RIF-2 | GSM5572243_RIF-3 | GSM5572244_RIF-4 | GSM5572245_RIF-5 | GSM5572246_RIF-6 
+[23:57:07] ---- GSE214411 ---- 
+[23:57:19]   per-dataset cells: 83260 | atlas cells for dataset: 83260 
+[23:57:19]   per-dataset colnames[1:5]: AAACCCAAGAGCCGTA-1_1 | AAACCCAAGGTAATCA-1_1 | AAACCCAAGGTGCAGT-1_1 | AAACCCACACGGTGCT-1_1 | AAACCCAGTACCAATC-1_1 
+[23:57:19]   direct barcode match: 0 of 83260 
+[23:57:19]   match as <orig.ident>_<atlas>: 0 
+[23:57:19]   match as <sample>_<atlas>: 0 
+[23:57:19]   match after stripping -N suffix: 0 
+[23:57:19]   sample x orig.ident pairs: 13 | atlas sample values: GSM6605431_EMS1 | GSM6605432_EMS2 | GSM6605433_EMS3 | GSM6605434_EMS4 | GSM6605435_EMS5 | GSM6605436_EMS6 | GSM6605437_N1 | GSM6605438_N2 | GSM6605439_N3 | GSM6605440_N4 | GSM7277296_N-5 | GSM7277297_N-6 | GSM7277298_N-7 
+[23:57:20] S3_00f DONE -- nothing was written or modified (read-only) 

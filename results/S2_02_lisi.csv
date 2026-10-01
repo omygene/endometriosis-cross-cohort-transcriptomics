@@ -1,0 +1,12 @@
+"metric","label","median","IQR"
+"cLISI_sample","overall",4.63623767786871,3.5834960807106
+"cLISI_dataset","overall",1.39288237138869,0.89681098936681
+"iLISI_lineage","overall",1,0
+"iLISI_lineage","Stromal",1,0
+"iLISI_lineage","Epithelial",1,0
+"iLISI_lineage","Endothelial",1,0
+"iLISI_lineage","Perivascular",1,0
+"iLISI_lineage","NKT",1,0
+"iLISI_lineage","Myeloid",1,0
+"iLISI_lineage","B_plasma",1,1.19209303761636e-07
+"iLISI_lineage","Mast",1,0.00854279362264876

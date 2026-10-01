@@ -1,0 +1,21 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[00:17:10] == S3_00b hormonal census (read-only) == 
+[00:17:28] object: data/processed/GSE179640_filtered.rds | cells: 109398 
+[00:17:28] metadata columns: 
+[00:17:28]    orig.ident | nCount_RNA | nFeature_RNA | percent.mt | percent.hb 
+[00:17:28]   (no name-matched candidates -- printing ALL columns' value sets) 
+[00:17:28]    orig.ident = ( 33  distinct values) 
+[00:17:28]    nCount_RNA = ( 29300  distinct values) 
+[00:17:28]    nFeature_RNA = ( 5747  distinct values) 
+[00:17:28]    percent.mt = ( 105905  distinct values) 
+[00:17:28]    percent.hb = ( 1323  distinct values) 
+Error: FATAL: no 'sample' column in data/processed/GSE179640_filtered.rds
+Execution halted

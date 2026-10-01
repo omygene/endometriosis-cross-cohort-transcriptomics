@@ -1,0 +1,29 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+[08:34:52]    GSE120103  accession->symbol: 32129 of 43376 probes mapped (bare probe ids / THC / TCONS unannotated by design) 
+[08:34:52]    GSE120103  trace -- first probe: A_24_P66027 -> NM_004900 -> APOBEC3B 
+[08:34:52]    GSE120103  probe->symbol: 43376 probes -> 19360 symbols (from data/processed/bulk_GSE120103_neqc.rds ) 
+[08:34:52] contrast: B-G120103 ( primary ) 
+[08:34:53]   wrote results/S3_bulk_contrasts/B-G120103.csv | n genes: 19360 | FDR< 0.05 : 1053 | +tier: 1052 
+[08:34:53] contrast: B-G120103-2A ( secondary ) 
+[08:34:54]   wrote results/S3_bulk_contrasts/B-G120103-2A.csv | n genes: 19360 | FDR< 0.05 : 2269 | +tier: 2269 
+[08:34:54] contrast: B-G120103-2B ( secondary ) 
+[08:34:55]   wrote results/S3_bulk_contrasts/B-G120103-2B.csv | n genes: 19360 | FDR< 0.05 : 6702 | +tier: 6702 
+[08:34:55] contrast: B-G120103-IC ( sensitivity ) 
+[08:34:56]   wrote results/S3_bulk_contrasts/B-G120103-IC.csv | n genes: 19360 | FDR< 0.05 : 7802 | +tier: 7327 
+[08:34:56] contrast: B-G120103-FCIC ( exploratory ) 
+[08:34:56]   wrote results/S3_bulk_contrasts/B-G120103-FCIC.csv | n genes: 19360 | FDR< 0.05 : 5489 | +tier: 5482 
+          used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 3679096 196.5    8190745 437.5  6425050 343.2
+Vcells 8643755  66.0   18928175 144.5 18927786 144.5
+[08:34:57] COHORT GSE120103 DONE 

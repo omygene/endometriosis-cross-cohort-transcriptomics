@@ -1,0 +1,31 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[23:22:59] == S2_03 collect: merging per-cohort outlier tables == 
+[23:22:59]   wrote results/S2_bulk_outliers.csv -- 286 arrays across 6 cohorts 
+[23:22:59]   FLAGGED arrays (>=2 of 3 AQ metrics): 
+         gse                sample stat_boxplot thr_boxplot out_boxplot
+22   GSE6364      GSM150191.CEL.gz   0.03392568  0.01889459        TRUE
+44   GSE6364      GSM150214.CEL.gz   0.03358649  0.01889459        TRUE
+119  GSE7307      GSM176240.CEL.gz   0.04207683  0.03929451        TRUE
+127 GSE51981 GSM1256659_134.CEL.gz   0.05792500  0.04644789        TRUE
+279 GSE11691      GSM296885.CEL.gz   0.04955556  0.02240833        TRUE
+    stat_maplot thr_maplot out_maplot stat_heatmap thr_heatmap out_heatmap
+22   0.02365204       0.15      FALSE    15.270015   13.741698        TRUE
+44   0.02761667       0.15      FALSE    15.309682   13.741698        TRUE
+119  0.02563252       0.15      FALSE    22.164220   21.913561        TRUE
+127  0.03239152       0.15      FALSE   107.617475  107.224246        TRUE
+279  0.02512011       0.15      FALSE     9.687653    6.427219        TRUE
+    n_fail flagged
+22       2    TRUE
+44       2    TRUE
+119      2    TRUE
+127      2    TRUE
+279      2    TRUE
+[23:22:59] COLLECT DONE 

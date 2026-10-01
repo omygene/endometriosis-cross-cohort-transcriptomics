@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="generator" content="r-universe/pandoc">
+      <meta name="author" content="Audrey Kauffmann, Wolfgang Huber">
+      
+      <title>Advanced topics: Customizing arrayQualityMetrics reports and programmatic processing of the output</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" data-external="1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" data-external="1">
+      <link rel="stylesheet" href="https://r-universe.dev/static/article-styles.css?nocache=1" data-external="1">
+   </head>
+   <body>
+      <div class="container" id="topcontainer">
+         <script>if (window.self != window.top) try {document.getElementById('topcontainer').className = "container-fluid article-in-iframe"; } catch(e) {}</script>
+
+         <div class="frontmatter">
+         <h1 class="title">Advanced topics: Customizing
+arrayQualityMetrics reports and programmatic processing of the
+output</h1>
+         </div>
+
+                  <div class="row">
+            <div class="col-xl-10"><div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>If you are new to this package, then please consult the vignette
+<em>Introduction: microarray quality assessment with
+arrayQualityMetrics</em>.</p>
+<p>This vignette addresses advanced topics. It explains how to customize
+the report by selecting specific modules and sections, or by adding your
+own ones. Furthermore, we will see how to (programmatically) postprocess
+the results of the outlier detection, or how to adapt the detection
+criteria to your needs.</p>
+<p><em>Terminology:</em> In the documentation of this package, we refer
+to a <em>module</em> as a self-contained element of a report that
+investigates one particular quality metric. A module consists of a
+figure and an explanatory text. It may also contain a data structure (an
+object of class <code>outlierDetection</code>) that marks a subset of
+the arrays in the dataset as outliers according to the particular metric
+investigated in the module. We refer to a <em>section</em> as a
+collection of one or more modules that are thematically related.</p>
+<p>For the following examples, let us load the needed packages and some
+data.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;arrayQualityMetrics&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="fu">library</span>(<span class="st">&quot;ALLMLL&quot;</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="fu">data</span>(<span class="st">&quot;MLL.A&quot;</span>)</span></code></pre></div>
+</div>
+<div id="data-preparation" class="section level2">
+<h2>Data preparation</h2>
+<p>Some of the computations that are needed for the modules are common
+between several modules, and thus we perform them once, beforehand.
+These functions are called <code>prepdata()</code> and
+<code>prepaffy()</code>, and we refer to their manual page for details.
+For example,</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>preparedData <span class="ot">=</span> <span class="fu">prepdata</span>(<span class="at">expressionset =</span> MLL.A, </span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>                        <span class="at">intgroup =</span> <span class="fu">c</span>(), </span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>                        <span class="at">do.logtransform =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<p>The arguments <code>intgroup</code> and <code>do.logtransform</code>
+are the same as for <code>arrayQualityMetrics()</code>, but in
+<code>prepdata()</code> they have no defaults, so we need to set them
+explicitely.</p>
+</div>
+<div id="module-generating-functions" class="section level2">
+<h2>Module generating functions</h2>
+<p>The package contains a variety of functions that compute modules, and
+they are listed on a manual page which you can access by typing:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>?aqm.boxplot</span></code></pre></div>
+<p>Here, let us create a report with only two quality metrics modules:
+boxplots and density plots.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>bo <span class="ot">=</span> <span class="fu">aqm.boxplot</span>(preparedData)</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>de <span class="ot">=</span> <span class="fu">aqm.density</span>(preparedData)</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>qm <span class="ot">=</span> <span class="fu">list</span>(<span class="st">&quot;Boxplot&quot;</span> <span class="ot">=</span> bo, <span class="st">&quot;Density&quot;</span> <span class="ot">=</span> de)</span></code></pre></div>
+<p>The objects <code>bo</code> and <code>de</code> are of class
+<code>aqmReportModule</code>; please consult the class’ manual page for
+more information.</p>
+<p>If you want to create your own modules, please have a look at the
+code for the various existing functions for this purpose, and adapt it.
+The function <code>aqm.pca()</code> is a good place to start.</p>
+</div>
+<div id="outlier-detection" class="section level2">
+<h2>Outlier detection</h2>
+<p>Some of the modules perform outlier detection. For instance, in the
+default report produced by <code>arrayQualityMetrics()</code>, the
+module headed <em>Boxplots</em> is followed by one headed <em>Outlier
+detection for Boxplots</em>. In the corresponding
+<code>aqmReportModule</code> object, this is reflected by a non-trivial
+value for the slot named <code>outliers</code>:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a>bo<span class="sc">@</span>outliers</span></code></pre></div>
+<pre><code>## An object of class &quot;outlierDetection&quot;
+## Slot &quot;statistic&quot;:
+##    JD-ALD009-v5-U133A.CEL    JD-ALD051-v5-U133A.CEL    JD-ALD052-v5-U133A.CEL 
+##                 0.0690075                 0.1014975                 0.1542875 
+##    JD-ALD057-v5-U133A.CEL    JD-ALD078-v5-U133A.CEL    JD-ALD180-v5-U133A.CEL 
+##                 0.0587950                 0.1181600                 0.2272225 
+## JD-ALD226-NA-v5-U133A.CEL    JD-ALD232-v5-U133A.CEL    JD-ALD237-v5-U133A.CEL 
+##                 0.2138350                 0.0924775                 0.1474050 
+##    JD-ALD244-v5-U133A.CEL    JD-ALD294-v5-U133A.CEL    JD-ALD380-v5-U133A.CEL 
+##                 0.1279775                 0.3689550                 0.0482950 
+##    JD-ALD381-v5-U133A.CEL    JD-ALD384-v5-U133A.CEL    JD-ALD385-v5-U133A.CEL 
+##                 0.0916225                 0.4333950                 0.1578400 
+##    JD-ALD420-v5-U133A.CEL    JD-ALD421-v5-U133A.CEL    JD-ALD431-v5-U133A.CEL 
+##                 0.1032175                 0.1217675                 0.1922125 
+##    JD-ALD433-v5-U133A.CEL    JD-ALD520-v5-U133A.CEL 
+##                 0.1485325                 0.0655500 
+## 
+## Slot &quot;threshold&quot;:
+## JD-ALD385-v5-U133A.CEL 
+##              0.2994906 
+## 
+## Slot &quot;which&quot;:
+## JD-ALD294-v5-U133A.CEL JD-ALD384-v5-U133A.CEL 
+##                     11                     14 
+## 
+## Slot &quot;description&quot;:
+## [1] &quot;Kolmogorov-Smirnov statistic &lt;i&gt;K&lt;sub&gt;a&lt;/sub&gt;&lt;/i&gt;&quot;
+## [2] &quot;data-driven&quot;</code></pre>
+<p>The slot named <code>statistic</code> contains, for each array, a
+single number based on which outlier detection is performed. For
+instance, in the case of <code>bo</code>, the slot
+<code>bo@outliers@statistic</code> is the Kolmogorov-Smirnov statistic
+for the comparison between each array’s intensity distribution and the
+distribution of the pooled data. The slot <code>threshold</code>
+contains the threshold against which the valuess of
+<code>statistic</code> were compared. Arrays with a value of
+<code>statistic</code> greater than <code>threshold</code> are called
+outliers. Their indices are listed in the vector <code>which</code>.
+Finally, the slot <code>description</code> contains a textual
+description of the definition of <code>statistic</code> and indicates
+how the <code>threshold</code> was chosen. The actual details of outlier
+detection are different for each report module, and are documented in
+the figure caption of the report module. For more information, please
+look at the code of the report module generating function of interest –
+for instance, at the first few lines of the <code>boxplot</code>
+function. The code there uses the helper functions <code>outliers</code>
+and <code>boxplotOutliers</code>, which are documented in their manual
+pages.</p>
+</div>
+<div id="rendering-the-report" class="section level2">
+<h2>Rendering the report</h2>
+<p>A report is rendered by calling the function
+<code>aqm.writereport()</code> with a list of
+<code>aqmReportModule</code> objects.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>outdir <span class="ot">=</span> <span class="fu">tempdir</span>()</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="fu">aqm.writereport</span>(<span class="at">modules =</span> qm, <span class="at">reporttitle =</span> <span class="st">&quot;My example&quot;</span>, <span class="at">outdir =</span> outdir, </span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>                <span class="at">arrayTable =</span> <span class="fu">pData</span>(MLL.A))</span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a>outdir</span></code></pre></div>
+<pre><code>## [1] &quot;/tmp/RtmponSTBI&quot;</code></pre>
+<p>Point your browser to the <code>index.html</code> file in that
+directory.</p>
+</div>
+<div id="session-info" class="section level2">
+<h2>Session Info</h2>
+<pre><code>## R version 4.6.0 (2026-04-24)
+## Platform: x86_64-pc-linux-gnu
+## Running under: Ubuntu 24.04.4 LTS
+## 
+## Matrix products: default
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.26.so;  LAPACK version 3.12.0
+## 
+## locale:
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## time zone: Etc/UTC
+## tzcode source: system (glibc)
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+## [1] ALLMLL_1.50.0              affy_1.90.0               
+## [3] Biobase_2.72.0             BiocGenerics_0.58.0       
+## [5] generics_0.1.4             arrayQualityMetrics_3.68.0
+## [7] BiocStyle_2.40.0          
+## 
+## loaded via a namespace (and not attached):
+##   [1] affyPLM_1.88.0        farver_2.1.2          blob_1.3.0           
+##   [4] Biostrings_2.80.0     S7_0.2.2              fastmap_1.2.0        
+##   [7] XML_3.99-0.23         digest_0.6.39         rpart_4.1.27         
+##  [10] lifecycle_1.0.5       cluster_2.1.8.2       statmod_1.5.1        
+##  [13] survival_3.8-6        KEGGREST_1.52.0       RSQLite_2.4.6        
+##  [16] magrittr_2.0.5        genefilter_1.94.0     compiler_4.6.0       
+##  [19] setRNG_2024.2-1       rlang_1.2.0           Hmisc_5.2-5          
+##  [22] sass_0.4.10           tools_4.6.0           yaml_2.3.12          
+##  [25] beadarray_2.62.0      data.table_1.18.2.1   knitr_1.51           
+##  [28] htmlwidgets_1.6.4     interp_1.1-6          bit_4.6.0            
+##  [31] plyr_1.8.9            RColorBrewer_1.1-3    foreign_0.8-91       
+##  [34] hwriter_1.3.2.1       sys_3.4.3             nnet_7.3-20          
+##  [37] grid_4.6.0            stats4_4.6.0          latticeExtra_0.6-31  
+##  [40] preprocessCore_1.74.0 xtable_1.8-8          colorspace_2.1-2     
+##  [43] ggplot2_4.0.3         scales_1.4.0          cli_3.6.6            
+##  [46] rmarkdown_2.31        crayon_1.5.3          rstudioapi_0.18.0    
+##  [49] reshape2_1.4.5        httr_1.4.8            gridSVG_1.7-7        
+##  [52] DBI_1.3.0             cachem_1.1.0          stringr_1.6.0        
+##  [55] splines_4.6.0         AnnotationDbi_1.74.0  vsn_3.80.0           
+##  [58] BiocManager_1.30.27   XVector_0.52.0        matrixStats_1.5.0    
+##  [61] base64enc_0.1-6       vctrs_0.7.3           Matrix_1.7-5         
+##  [64] jsonlite_2.0.0        IRanges_2.46.0        S4Vectors_0.50.0     
+##  [67] bit64_4.8.0           Formula_1.2-5         htmlTable_2.5.0      
+##  [70] jpeg_0.1-11           systemfonts_1.3.2     maketools_1.3.2      
+##  [73] limma_3.68.0          hexbin_1.28.5         jquerylib_0.1.4      
+##  [76] affyio_1.82.0         annotate_1.90.0       glue_1.8.1           
+##  [79] gcrma_2.84.0          codetools_0.2-20      stringi_1.8.7        
+##  [82] gtable_0.3.6          deldir_2.0-4          GenomicRanges_1.64.0 
+##  [85] htmltools_0.5.9       Seqinfo_1.2.0         BeadDataPackR_1.62.0 
+##  [88] R6_2.6.1              textshaping_1.0.5     evaluate_1.0.5       
+##  [91] lattice_0.22-9        png_0.1-9             backports_1.5.1      
+##  [94] memoise_2.0.1         bslib_0.10.0          Rcpp_1.1.1-1.1       
+##  [97] svglite_2.2.2         gridExtra_2.3         checkmate_2.3.4      
+## [100] xfun_0.57             MatrixGenerics_1.24.0 buildtools_1.0.0</code></pre>
+</div></div>
+            <div class="d-none d-xl-block col-xl-2 bd-toc">
+               <ul class="section-nav">
+                  <li class="toc-entry"><ul>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#data-preparation" id="toc-data-preparation">Data
+preparation</a></li>
+<li><a href="#module-generating-functions" id="toc-module-generating-functions">Module generating
+functions</a></li>
+<li><a href="#outlier-detection" id="toc-outlier-detection">Outlier
+detection</a></li>
+<li><a href="#rendering-the-report" id="toc-rendering-the-report">Rendering the report</a></li>
+<li><a href="#session-info" id="toc-session-info">Session Info</a></li>
+</ul></li>
+               </ul>
+            </div>
+         </div>
+               </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js" data-external="1"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" data-external="1"></script>
+      <script src="https://r-universe.dev/static/article.js" data-external="1"></script>
+
+      <!-- Mathjax -->
+      <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" data-external="1"></script> -->
+      <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/4.0.0/tex-mml-chtml.min.js" data-external="1"></script>
+   </body>
+</html>

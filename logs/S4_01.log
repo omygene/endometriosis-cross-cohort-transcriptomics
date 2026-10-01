@@ -1,0 +1,32 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[09:00:06] == S4_01: cross-cohort REML meta (6 primary cohorts) == 
+[09:00:06]   input registry CREATED (first run): scripts/S4_input_registry.tsv -- now FROZEN; any later input change halts here (R5) 
+[09:00:06] -- primary meta set: B-G7305, B-G6364, B-G25628, B-G7307, B-G51981, B-G120103 
+[09:00:10] genes observed in any primary cohort: 22333 
+[09:00:10]   cohort contribution audit: 
+[09:00:10]      B-G7305 : rows = 21355 | unique genes = 21355 
+[09:00:10]      B-G6364 : rows = 21355 | unique genes = 21355 
+[09:00:10]      B-G25628 : rows = 13041 | unique genes = 13041 
+[09:00:10]      B-G7307 : rows = 21355 | unique genes = 21355 
+[09:00:10]      B-G51981 : rows = 21355 | unique genes = 21355 
+[09:00:10]      B-G120103 : rows = 19360 | unique genes = 19360 
+[09:00:10]      B-G7305 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:00:10]      B-G6364 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:00:10]      B-G25628 : gene overlap with other cohorts = 13040 of 13041 (100.0%) 
+[09:00:10]      B-G7307 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:00:10]      B-G51981 : gene overlap with other cohorts = 21355 of 21355 (100.0%) 
+[09:00:10]      B-G120103 : gene overlap with other cohorts = 18384 of 19360 (95.0%) 
+[09:00:10]   genes entering REML meta (k >= 4 ): 21355 of 22333 | excluded low-presence: 978 
+There were 12 warnings (use warnings() to see them)
+[09:04:34]   wrote S4_meta_all_genes.csv | 21355 genes | Tier-1: 485 | Tier-2: 1292 
+[09:04:34]   wrote S4_meta_low_presence.csv | 978 genes with k < 4 
+[09:04:34]   GSE11691 arm: 13036 common genes | spearman rho = 0.324 | Tier-1 sign-match: 0.803 ( 391 of 485 ) 
+[09:04:34] S4_01 DONE 

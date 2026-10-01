@@ -1,0 +1,68 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[19:13:19] S2_03 preflight starting -- read-only measurement 
+[19:13:19] R:  R version 4.6.1 (2026-06-24 ucrt) 
+[19:13:19] == 1. Package census (renv library) == 
+[19:13:28]   oligo                  1.76.0 
+[19:13:28]   limma                  3.68.5 
+[19:13:32]   arrayQualityMetrics    3.68.0 
+[19:13:32]   affy                   1.90.0 
+[19:13:32]   ggplot2                4.0.3 
+[19:13:32]   pd.hg.u133.plus.2      3.12.0 
+[19:13:32]   pd.hg.u133a            3.12.0 
+[19:13:32]   hgu133plus2cdf         MISSING 
+[19:13:32]   hgu133acdf             MISSING 
+[19:13:32]   AQM-route inputs: pd.* (oligo) present = TRUE/TRUE | affy CDF present = FALSE/FALSE 
+[19:13:32] == 2. Raw input census vs dataset_manifest.tsv == 
+[19:13:32]   GSE51981_RAW.tar: 746,424,320 bytes (expect 746,424,320) size-OK 
+[19:13:35]   GSE51981_RAW.tar MD5 c3bc305129ce43ca97d93acad05effa4 MD5-OK 
+[19:13:44]   GSE51981_RAW.tar members matching pattern: 148 (expect 148) count-OK 
+[19:13:44]   GSE7305_RAW.tar: 91,064,320 bytes (expect 91,064,320) size-OK 
+[19:13:45]   GSE7305_RAW.tar MD5 212fd3ae15bf7e1c1207c420a9da1586 MD5-OK 
+[19:13:46]   GSE7305_RAW.tar members matching pattern: 20 (expect 20) count-OK 
+[19:13:46]   GSE25628_RAW.tar: 43,048,960 bytes (expect 43,048,960) size-OK 
+[19:13:46]   GSE25628_RAW.tar MD5 4b161cf132d486b8eaaf071b4774906e MD5-OK 
+[19:13:47]   GSE25628_RAW.tar members matching pattern: 22 (expect 22) count-OK 
+[19:13:47]   GSE6364_RAW.tar: 190,904,320 bytes (expect 190,904,320) size-OK 
+[19:13:47]   GSE6364_RAW.tar MD5 959690329da456c1f42a645c97dd3d09 MD5-OK 
+[19:13:50]   GSE6364_RAW.tar members matching pattern: 37 (expect 37) count-OK 
+[19:13:50]   GSE11691_RAW.tar: 62,914,560 bytes (expect 62,914,560) size-OK 
+[19:13:50]   GSE11691_RAW.tar MD5 0c0a95ce7bef627ac778ad68147dd951 MD5-OK 
+[19:13:51]   GSE11691_RAW.tar members matching pattern: 18 (expect 18) count-OK 
+[19:13:51]   GSE120103_RAW.tar: 109,291,520 bytes (expect 109,291,520) size-OK 
+[19:13:51]   GSE120103_RAW.tar MD5 9482b104a86f051ce86a1bca597f69b6 MD5-OK 
+[19:13:53]   GSE120103_RAW.tar members matching pattern: 36 (expect 36) count-OK 
+[19:13:53] == 3. Extraction-dir state == 
+[19:13:53]   GSE51981: no dir (clean untar target) 
+[19:13:53]   GSE7305: dir EXISTS - 1 files (0 data-like, 0 part files) 
+[19:13:53]   ISSUE:  GSE7305: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   GSE25628: dir EXISTS - 0 files (0 data-like, 0 part files) 
+[19:13:53]   ISSUE:  GSE25628: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   GSE6364: dir EXISTS - 3 files (0 data-like, 3 part files) 
+[19:13:53]   ISSUE:  GSE6364: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   GSE11691: dir EXISTS - 0 files (0 data-like, 0 part files) 
+[19:13:53]   ISSUE:  GSE11691: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   GSE120103: dir EXISTS - 2 files (0 data-like, 2 part files) 
+[19:13:53]   ISSUE:  GSE120103: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53] == 4. GSE7307 subset + frozen-list mapping == 
+[19:13:53]   subset dir: 41 CEL.gz files (expect 41) 
+[19:13:53]   frozen list: 41 GSMs (18 endometriosis + 23 normal_endometrium) 
+[19:13:53]   mapping test: v2-style (strip extension) = 41/41 matched ; GSM-regex = 41/41 matched 
+[19:13:53]   GSM-regex mapping = EXACT 41/41 set match with frozen list 
+[19:13:53]   example filenames:  GSM175786.CEL.gz | GSM175787.CEL.gz | GSM175788.CEL.gz 
+[19:13:53] == 5. Disk space (C:) == 
+[19:13:53]                  13 Dir(s)  146,754,326,528 bytes free 
+[19:13:53] == PREFLIGHT SUMMARY == 
+[19:13:53]   OPEN ISSUE:  GSE7305: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   OPEN ISSUE:  GSE25628: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   OPEN ISSUE:  GSE6364: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   OPEN ISSUE:  GSE11691: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53]   OPEN ISSUE:  GSE120103: dir exists with no data files -> v2 logic would SKIP untar (name collision) 
+[19:13:53] Preflight done. Upload logs/S2_03_preflight.txt for verification (R2). 

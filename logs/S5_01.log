@@ -1,0 +1,77 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[14:56:07] == S5_01: pathway scores (z-mean axes + locked SenMayo reuse) == 
+[14:56:08] registry verified: 9 inputs match scripts/S5_input_registry.tsv 
+[14:56:08] SenMayo schema verified: cohort,sample,gsm,condition,senmayo_ssgsea 
+
+'select()' returned 1:many mapping between keys and columns
+[14:56:14]    GSE7305  probe->symbol: 54675 probes -> 21355 symbols (from data/processed/bulk_GSE7305_rma.rds ) 
+[14:56:15]    GSE7305 cytotoxicity coverage: 6 of 6 genes 
+[14:56:15]    GSE7305 antigen_presentation coverage: 6 of 6 genes 
+[14:56:15]    GSE7305 senescence_dormancy coverage: 4 of 4 genes 
+[14:56:15]    GSE7305 proliferation coverage: 3 of 3 genes 
+[14:56:15]    GSE7305 stromal_ecm coverage: 5 of 5 genes 
+[14:56:15] GSE7305 scores written: 6 pathways x 20 samples 
+'select()' returned 1:many mapping between keys and columns
+[14:56:16]    GSE6364  probe->symbol: 54675 probes -> 21355 symbols (from data/processed/bulk_GSE6364_rma.rds ) 
+[14:56:17]    GSE6364 cytotoxicity coverage: 6 of 6 genes 
+[14:56:17]    GSE6364 antigen_presentation coverage: 6 of 6 genes 
+[14:56:17]    GSE6364 senescence_dormancy coverage: 4 of 4 genes 
+[14:56:17]    GSE6364 proliferation coverage: 3 of 3 genes 
+[14:56:17]    GSE6364 stromal_ecm coverage: 5 of 5 genes 
+[14:56:17] GSE6364 scores written: 6 pathways x 37 samples 
+
+'select()' returned 1:many mapping between keys and columns
+[14:56:17]    GSE25628  probe->symbol: 22277 probes -> 13041 symbols (from data/processed/bulk_GSE25628_rma.rds ) 
+[14:56:17]    GSE25628 cytotoxicity coverage: 6 of 6 genes 
+[14:56:17]    GSE25628 antigen_presentation coverage: 6 of 6 genes 
+[14:56:17]    GSE25628 senescence_dormancy coverage: 4 of 4 genes 
+[14:56:17]    GSE25628 proliferation coverage: 3 of 3 genes 
+[14:56:17]    GSE25628 stromal_ecm coverage: 5 of 5 genes 
+[14:56:17] GSE25628 scores written: 6 pathways x 22 samples 
+'select()' returned 1:many mapping between keys and columns
+[14:56:19]    GSE7307  probe->symbol: 54675 probes -> 21355 symbols (from data/processed/bulk_GSE7307_rma.rds ) 
+[14:56:19]    GSE7307 cytotoxicity coverage: 6 of 6 genes 
+[14:56:19]    GSE7307 antigen_presentation coverage: 6 of 6 genes 
+[14:56:19]    GSE7307 senescence_dormancy coverage: 4 of 4 genes 
+[14:56:19]    GSE7307 proliferation coverage: 3 of 3 genes 
+[14:56:19]    GSE7307 stromal_ecm coverage: 5 of 5 genes 
+[14:56:19] GSE7307 scores written: 6 pathways x 41 samples 
+'select()' returned 1:many mapping between keys and columns
+[14:56:21]    GSE51981  probe->symbol: 54675 probes -> 21355 symbols (from data/processed/bulk_GSE51981_rma.rds ) 
+[14:56:22]    GSE51981 cytotoxicity coverage: 6 of 6 genes 
+[14:56:22]    GSE51981 antigen_presentation coverage: 6 of 6 genes 
+[14:56:22]    GSE51981 senescence_dormancy coverage: 4 of 4 genes 
+[14:56:22]    GSE51981 proliferation coverage: 3 of 3 genes 
+[14:56:22]    GSE51981 stromal_ecm coverage: 5 of 5 genes 
+[14:56:22] GSE51981 scores written: 6 pathways x 148 samples 
+
+'select()' returned 1:many mapping between keys and columns
+[14:56:23]    GSE11691  probe->symbol: 22283 probes -> 13039 symbols (from data/processed/bulk_GSE11691_rma.rds ) 
+[14:56:23]    GSE11691 cytotoxicity coverage: 6 of 6 genes 
+[14:56:23]    GSE11691 antigen_presentation coverage: 6 of 6 genes 
+[14:56:23]    GSE11691 senescence_dormancy coverage: 4 of 4 genes 
+[14:56:23]    GSE11691 proliferation coverage: 3 of 3 genes 
+[14:56:23]    GSE11691 stromal_ecm coverage: 5 of 5 genes 
+[14:56:23] GSE11691 scores written: 6 pathways x 18 samples 
+Loading required namespace: limma
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+[14:56:33]    GSE120103  accession->symbol: 32129 of 43376 probes mapped (bare probe ids / THC / TCONS unannotated by design) 
+[14:56:33]    GSE120103  trace -- first probe: A_24_P66027 -> NM_004900 -> APOBEC3B 
+[14:56:33]    GSE120103  probe->symbol: 43376 probes -> 19360 symbols (from data/processed/bulk_GSE120103_neqc.rds ) 
+[14:56:34]    GSE120103 cytotoxicity coverage: 6 of 6 genes 
+[14:56:34]    GSE120103 antigen_presentation coverage: 6 of 6 genes 
+[14:56:34]    GSE120103 senescence_dormancy coverage: 4 of 4 genes 
+[14:56:34]    GSE120103 proliferation coverage: 3 of 3 genes 
+[14:56:34]    GSE120103 stromal_ecm coverage: 5 of 5 genes 
+[14:56:34] GSE120103 scores written: 6 pathways x 31 samples 
+[14:56:34] coverage audit: results/S5_pathway_scores/S5_01_coverage_audit.csv 
+[14:56:34] S5_01 DONE 

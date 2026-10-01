@@ -1,0 +1,3 @@
+"sample","reason"
+"GSM6102564_EOR02","features.tsv.gz size 124 B < 1000 B (GEO upload anomaly)"
+"GSM6102566_EOR04","features.tsv.gz size 140 B < 1000 B (GEO upload anomaly)"

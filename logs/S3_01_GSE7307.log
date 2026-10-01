@@ -1,0 +1,18 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+
+'select()' returned 1:many mapping between keys and columns
+[08:33:27]    GSE7307  probe->symbol: 54675 probes -> 21355 symbols (from data/processed/bulk_GSE7307_rma.rds ) 
+[08:33:27] contrast: B-G7307 ( primary ) 
+[08:33:28]   wrote results/S3_bulk_contrasts/B-G7307.csv | n genes: 21355 | FDR< 0.05 : 5101 | +tier: 2895 
+          used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 3740368 199.8    7550738 403.3  5542389 296.0
+Vcells 8361619  63.8   19017078 145.1 16860341 128.7
+[08:33:28] COHORT GSE7307 DONE 

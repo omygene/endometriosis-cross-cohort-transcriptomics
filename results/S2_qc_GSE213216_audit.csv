@@ -1,0 +1,7 @@
+"object","class","cells","genes","status"
+"auxiliary.seurat.shared.rds","Seurat",373851,30354,"OK"
+"endothelial_clusters.shared.rds","Seurat",23226,30354,"OK"
+"EnEpi_cells.shared.rds","Seurat",4885,30354,"OK"
+"EnS_cells.shared.rds","Seurat",4290,30354,"OK"
+"epithelial.annotated.shared.rds","Seurat",13771,30354,"OK"
+"mesenchymal.annotated.shared.rds","Seurat",82735,30354,"OK"

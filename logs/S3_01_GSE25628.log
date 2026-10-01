@@ -1,0 +1,24 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+
+'select()' returned 1:many mapping between keys and columns
+[08:33:03]    GSE25628  probe->symbol: 22277 probes -> 13041 symbols (from data/processed/bulk_GSE25628_rma.rds ) 
+[08:33:03] contrast: B-G25628 ( primary ) 
+[08:33:04]   wrote results/S3_bulk_contrasts/B-G25628.csv | n genes: 13041 | FDR< 0.05 : 4995 | +tier: 4213 
+[08:33:04] contrast: B-G25628-EXPL ( exploratory ) 
+[08:33:04]   wrote results/S3_bulk_contrasts/B-G25628-EXPL.csv | n genes: 13041 | FDR< 0.05 : 0 | +tier: 0 
+[08:33:04] contrast: B-G25628-ECT ( exploratory ) 
+[08:33:05]   wrote results/S3_bulk_contrasts/B-G25628-ECT.csv | n genes: 13041 | FDR< 0.05 : 5051 | +tier: 4526 
+[08:33:05] contrast: B-G25628-EUT ( exploratory ) 
+[08:33:05]   wrote results/S3_bulk_contrasts/B-G25628-EUT.csv | n genes: 13041 | FDR< 0.05 : 3925 | +tier: 3401 
+          used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 3699643 197.6    7482018 399.6  4486244 239.6
+Vcells 7522965  57.4   14786712 112.9 12252664  93.5
+[08:33:05] COHORT GSE25628 DONE 

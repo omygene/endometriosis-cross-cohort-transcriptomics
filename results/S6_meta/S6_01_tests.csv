@@ -1,0 +1,196 @@
+"endpoint","score","lineage","contrast","n_case","n_ctrl","W","delta_median","p","p_indep_patient","status","FDR"
+"E1","cytotoxicity","B/Plasma cells","C1",15,10,69,-0.092006702667695,0.760301333025344,0.767379776358683,"TESTED",0.87291470570049
+"E1","antigen_presentation","B/Plasma cells","C1",15,10,55,-0.319736407021906,0.279401240509134,0.331086670993525,"TESTED",0.486036955193087
+"E1","senescence_dormancy","B/Plasma cells","C1",15,10,75,0.0841418249753227,1,1,"TESTED",1
+"E1","proliferation","B/Plasma cells","C1",15,10,102,0.503106392551127,0.141267438459224,0.162980696891819,"TESTED",0.334742408522943
+"E1","stromal_ecm","B/Plasma cells","C1",15,10,64,0.149131601933649,0.56027357334491,0.966293255500384,"TESTED",0.693975221529491
+"E1","SenMayo","B/Plasma cells","C1",15,10,62,-0.0209736077052225,0.488074093165248,0.526168477756143,"TESTED",0.640964772951952
+"E3","tier1_signature","B/Plasma cells","C1",15,10,73,0.00496905721053499,0.933688513699506,0.767379776358683,"TESTED",0.971878078846714
+"E1","cytotoxicity","Endothelial cells","C1",19,10,87,-0.0894086565957048,0.730721458946892,0.772746890894504,"TESTED",0.87291470570049
+"E1","antigen_presentation","Endothelial cells","C1",19,10,97,-9.66010185088351e-05,0.945129140896805,0.836637402400589,"TESTED",0.971878078846714
+"E1","senescence_dormancy","Endothelial cells","C1",19,10,119,0.419474159778038,0.280920441992334,0.710523022916489,"TESTED",0.486036955193087
+"E1","proliferation","Endothelial cells","C1",19,10,78,-0.23996097982189,0.449006774826535,0.302548968453419,"TESTED",0.613017471889345
+"E1","stromal_ecm","Endothelial cells","C1",19,10,110,0.181683012844909,0.505855031478489,0.710523022916489,"TESTED",0.648684687425357
+"E1","SenMayo","Endothelial cells","C1",19,10,80,-0.0178418253157984,0.505855031478489,0.536186771900174,"TESTED",0.648684687425357
+"E3","tier1_signature","Endothelial cells","C1",19,10,153,0.325367936081542,0.00833275173918024,0.0149693805786542,"TESTED",0.119179248979227
+"E2","SERPINE1_logCPM","Endothelial cells","C1",19,10,79,-0.295611120063596,0.476912987912957,NA,"TESTED",0.633945313201369
+"E1","cytotoxicity","Epithelial cells","C1",18,10,53,-0.612077541532761,0.0799459592029823,0.124820300864682,"TESTED",0.242058598697918
+"E1","antigen_presentation","Epithelial cells","C1",18,10,96,0.146680936796369,0.792007384371654,0.693081936864884,"TESTED",0.88090617241337
+"E1","senescence_dormancy","Epithelial cells","C1",18,10,113,0.267933961213265,0.280680270962697,0.455969924243507,"TESTED",0.486036955193087
+"E1","proliferation","Epithelial cells","C1",18,10,63,-0.314496279627405,0.203878907036932,0.104684067091134,"TESTED",0.417885023872332
+"E1","stromal_ecm","Epithelial cells","C1",18,10,120,0.317727135626397,0.157239578020069,0.236401850127194,"TESTED",0.349777836820153
+"E1","SenMayo","Epithelial cells","C1",18,10,122,0.076649454056088,0.13096449437038,0.313158484430583,"TESTED",0.331979764799334
+"E3","tier1_signature","Epithelial cells","C1",18,10,139,1.10534767587039,0.0200507411020019,0.0593387986456093,"TESTED",0.141027363062466
+"E1","cytotoxicity","Erythrocytes","C1",12,7,67,0.631167518308196,0.0383935805371096,0.0163950718491923,"TESTED",0.167396011141798
+"E1","antigen_presentation","Erythrocytes","C1",12,7,64,0.505023865174015,0.0692046124136576,0.0455002638963584,"TESTED",0.226100068572724
+"E1","senescence_dormancy","Erythrocytes","C1",12,7,11,-0.651289033938555,0.0099454412655302,0.0830364393775582,"TESTED",0.119179248979227
+"E1","proliferation","Erythrocytes","C1",12,7,34.5,-0.577472706730312,0.552365013235348,0.789499812096988,"TESTED",0.692043522329344
+"E1","stromal_ecm","Erythrocytes","C1",12,7,31,-0.664961266757114,0.37485714268334,0.230139340443417,"TESTED",0.559718199349097
+"E1","SenMayo","Erythrocytes","C1",12,7,24,-0.218517691922537,0.139134984068184,0.142466754827972,"TESTED",0.334742408522943
+"E3","tier1_signature","Erythrocytes","C1",12,7,46,0.0663042850762224,0.767379776358683,0.893929766752772,"TESTED",0.87291470570049
+"E1","cytotoxicity","Mast cells","C1",8,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Mast cells","C1",8,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Mast cells","C1",8,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Mast cells","C1",8,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Mast cells","C1",8,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Mast cells","C1",8,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Mast cells","C1",8,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Mesenchymal cells","C1",19,10,67,-0.282112676492886,0.207025608156935,0.650093462348504,"TESTED",0.417885023872332
+"E1","antigen_presentation","Mesenchymal cells","C1",19,10,78,-0.331680070122239,0.449006774826535,1,"TESTED",0.613017471889345
+"E1","senescence_dormancy","Mesenchymal cells","C1",19,10,77,-0.65374849213037,0.422000705037592,0.386476230771233,"TESTED",0.613017471889345
+"E1","proliferation","Mesenchymal cells","C1",19,10,65,-0.62196999705369,0.175879084571875,0.265510388953874,"TESTED",0.375898435653615
+"E1","stromal_ecm","Mesenchymal cells","C1",19,10,142,0.655712671216127,0.0328782970136525,0.148914673178766,"TESTED",0.149322265603672
+"E1","SenMayo","Mesenchymal cells","C1",19,10,97,-0.0229493125170659,0.945129140896805,0.591881862930254,"TESTED",0.971878078846714
+"E3","tier1_signature","Mesenchymal cells","C1",19,10,163,0.618033776254274,0.00195415758062456,0.0187411367895967,"TESTED",0.106501588144039
+"E1","cytotoxicity","Myeloid cells","C1",19,10,98,0.229161539177063,0.908676678179949,0.591881862930254,"TESTED",0.971878078846714
+"E1","antigen_presentation","Myeloid cells","C1",19,10,123,0.59350324548782,0.207025608156935,0.148914673178766,"TESTED",0.417885023872332
+"E1","senescence_dormancy","Myeloid cells","C1",19,10,62,-0.542120814287286,0.135908397847371,0.0761806466045502,"TESTED",0.334742408522943
+"E1","proliferation","Myeloid cells","C1",19,10,78,-0.402795356750669,0.449006774826535,0.710523022916489,"TESTED",0.613017471889345
+"E1","stromal_ecm","Myeloid cells","C1",19,10,70,-0.367291829871631,0.260954870195031,0.148914673178766,"TESTED",0.486036955193087
+"E1","SenMayo","Myeloid cells","C1",19,10,89,0.0379292367902734,0.800764896268976,0.201101920938333,"TESTED",0.881650239326449
+"E3","tier1_signature","Myeloid cells","C1",19,10,136,0.286288220246104,0.0631310445612279,0.201101920938332,"TESTED",0.226100068572724
+"E1","cytotoxicity","Smooth muscle cells","C1",17,10,98,0.304008333578314,0.530252539023499,0.482405207166225,"TESTED",0.672064264576295
+"E1","antigen_presentation","Smooth muscle cells","C1",17,10,69,-0.200646857584655,0.436421946107136,0.373596637456436,"TESTED",0.613017471889345
+"E1","senescence_dormancy","Smooth muscle cells","C1",17,10,114,0.413627899404776,0.152437417786509,0.281447348966953,"TESTED",0.349777836820153
+"E1","proliferation","Smooth muscle cells","C1",17,10,26,-1.17727083709521,0.00331121871420896,0.0277376763935575,"TESTED",0.119179248979227
+"E1","stromal_ecm","Smooth muscle cells","C1",17,10,106,0.147326550456964,0.303339797772156,0.241706412007765,"TESTED",0.48623585231125
+"E1","SenMayo","Smooth muscle cells","C1",17,10,95,0.00833963354946728,0.633368086805562,0.606467632991008,"TESTED",0.77099531054925
+"E3","tier1_signature","Smooth muscle cells","C1",17,10,158,0.612836621387637,0.000272427168813927,0.00317521716113189,"TESTED",0.029694561400718
+"E2","SERPINE1_logCPM","Smooth muscle cells","C1",17,10,80,-0.252957012585103,0.821245441891575,NA,"TESTED",0.895157531661816
+"E1","cytotoxicity","T/NK cells","C1",19,10,71,-0.144702407581156,0.280920441992334,0.265510388953874,"TESTED",0.486036955193087
+"E1","antigen_presentation","T/NK cells","C1",19,10,115,0.0285908447913621,0.370936056336752,0.433306086089974,"TESTED",0.559718199349097
+"E1","senescence_dormancy","T/NK cells","C1",19,10,72,-0.344564640825787,0.301898444428528,0.386476230771233,"TESTED",0.48623585231125
+"E1","proliferation","T/NK cells","C1",19,10,50,-0.8553870214207,0.0411713711482376,0.0233193485119236,"TESTED",0.172603055967611
+"E1","stromal_ecm","T/NK cells","C1",19,10,71,-0.340795033412034,0.280920441992334,0.201101920938333,"TESTED",0.486036955193087
+"E1","SenMayo","T/NK cells","C1",19,10,47,-0.493039963345786,0.0292982944045506,0.0354478925524608,"TESTED",0.141027363062466
+"E3","tier1_signature","T/NK cells","C1",19,10,117,0.1885225027216,0.323893869872401,0.23172003531626,"TESTED",0.511658432117272
+"E1","cytotoxicity","B/Plasma cells","C2",6,4,24,1.41350515841662,0.0130618452007294,NA,"TESTED",0.119179248979227
+"E1","antigen_presentation","B/Plasma cells","C2",6,4,21,0.740055606582716,0.0699543585800104,NA,"TESTED",0.226100068572724
+"E1","senescence_dormancy","B/Plasma cells","C2",6,4,17,0.334903755392372,0.337355651776362,NA,"TESTED",0.517912197797513
+"E1","proliferation","B/Plasma cells","C2",6,4,20,0.73111241497096,0.108742053751657,NA,"TESTED",0.28221152045073
+"E1","stromal_ecm","B/Plasma cells","C2",6,4,16,0.50075902621319,0.45554509378933,NA,"TESTED",0.613017471889345
+"E1","SenMayo","B/Plasma cells","C2",6,4,21,0.638916882619245,0.0699543585800104,NA,"TESTED",0.226100068572724
+"E3","tier1_signature","B/Plasma cells","C2",6,4,2,-0.407772299095535,0.0428256092308914,NA,"TESTED",0.172888570598784
+"E1","cytotoxicity","Endothelial cells","C2",7,4,26,1.60542837280417,0.0297580674351992,NA,"TESTED",0.141027363062466
+"E1","antigen_presentation","Endothelial cells","C2",7,4,23,0.534178274300187,0.108197247523701,NA,"TESTED",0.28221152045073
+"E1","senescence_dormancy","Endothelial cells","C2",7,4,20,0.780404437558352,0.29861767444881,NA,"TESTED",0.48623585231125
+"E1","proliferation","Endothelial cells","C2",7,4,12,0.0689895919434396,0.776814004155482,NA,"TESTED",0.87291470570049
+"E1","stromal_ecm","Endothelial cells","C2",7,4,17,-0.00069200701449524,0.636601632563601,NA,"TESTED",0.77099531054925
+"E1","SenMayo","Endothelial cells","C2",7,4,23,0.26203460825941,0.108197247523701,NA,"TESTED",0.28221152045073
+"E3","tier1_signature","Endothelial cells","C2",7,4,7,-0.164479944953503,0.219302649679319,NA,"TESTED",0.426856943125817
+"E2","SERPINE1_logCPM","Endothelial cells","C2",7,4,24,0.333591590913499,0.0726009394499574,NA,"TESTED",0.226100068572724
+"E1","cytotoxicity","Epithelial cells","C2",6,4,23,1.59969915089944,0.0234363440973038,NA,"TESTED",0.141027363062466
+"E1","antigen_presentation","Epithelial cells","C2",6,4,23,1.09519939388417,0.0251814644044597,NA,"TESTED",0.141027363062466
+"E1","senescence_dormancy","Epithelial cells","C2",6,4,24,0.581458273996547,0.0142140388690821,NA,"TESTED",0.119179248979227
+"E1","proliferation","Epithelial cells","C2",6,4,16,0.195450144344593,0.45554509378933,NA,"TESTED",0.613017471889345
+"E1","stromal_ecm","Epithelial cells","C2",6,4,19,0.868806912010706,0.165806560194014,NA,"TESTED",0.361458301222949
+"E1","SenMayo","Epithelial cells","C2",6,4,24,0.628802664785278,0.0142140388690821,NA,"TESTED",0.119179248979227
+"E3","tier1_signature","Epithelial cells","C2",6,4,7,-0.207413485957876,0.337355651776362,NA,"TESTED",0.517912197797513
+"E1","cytotoxicity","Erythrocytes","C2",2,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Erythrocytes","C2",2,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Erythrocytes","C2",2,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Erythrocytes","C2",2,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Erythrocytes","C2",2,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Erythrocytes","C2",2,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Erythrocytes","C2",2,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Mast cells","C2",4,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Mast cells","C2",4,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Mast cells","C2",4,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Mast cells","C2",4,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Mast cells","C2",4,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Mast cells","C2",4,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Mast cells","C2",4,0,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Mesenchymal cells","C2",7,4,27,1.41430882382415,0.0181630183478765,NA,"TESTED",0.141027363062466
+"E1","antigen_presentation","Mesenchymal cells","C2",7,4,28,0.938912295234751,0.0107334161029973,NA,"TESTED",0.119179248979227
+"E1","senescence_dormancy","Mesenchymal cells","C2",7,4,20,0.461681419651495,0.29861767444881,NA,"TESTED",0.48623585231125
+"E1","proliferation","Mesenchymal cells","C2",7,4,23,0.511317025502212,0.108197247523701,NA,"TESTED",0.28221152045073
+"E1","stromal_ecm","Mesenchymal cells","C2",7,4,23,1.52840024588359,0.108197247523701,NA,"TESTED",0.28221152045073
+"E1","SenMayo","Mesenchymal cells","C2",7,4,26,0.589041633427432,0.0297580674351992,NA,"TESTED",0.141027363062466
+"E3","tier1_signature","Mesenchymal cells","C2",7,4,14,0.119138742248436,1,NA,"TESTED",1
+"E1","cytotoxicity","Myeloid cells","C2",7,4,28,2.0799401829781,0.0107334161029973,NA,"TESTED",0.119179248979227
+"E1","antigen_presentation","Myeloid cells","C2",7,4,28,1.91042107370332,0.0107334161029973,NA,"TESTED",0.119179248979227
+"E1","senescence_dormancy","Myeloid cells","C2",7,4,16,0.150952837175454,0.776814004155482,NA,"TESTED",0.87291470570049
+"E1","proliferation","Myeloid cells","C2",7,4,24,1.1176285322747,0.0726009394499574,NA,"TESTED",0.226100068572724
+"E1","stromal_ecm","Myeloid cells","C2",7,4,13,0.0353808452521673,0.92471903748677,NA,"TESTED",0.971878078846714
+"E1","SenMayo","Myeloid cells","C2",7,4,24,0.575607853171606,0.0726009394499574,NA,"TESTED",0.226100068572724
+"E3","tier1_signature","Myeloid cells","C2",7,4,5,-0.161431966736422,0.108197247523702,NA,"TESTED",0.28221152045073
+"E1","cytotoxicity","Smooth muscle cells","C2",6,4,24,1.4030230431576,0.0139219133281441,NA,"TESTED",0.119179248979227
+"E1","antigen_presentation","Smooth muscle cells","C2",6,4,18,0.353115191775223,0.24095466870157,NA,"TESTED",0.460772962955634
+"E1","senescence_dormancy","Smooth muscle cells","C2",6,4,10,-0.156554716631866,0.749119133000595,NA,"TESTED",0.87291470570049
+"E1","proliferation","Smooth muscle cells","C2",6,4,16,0.353846746094369,0.45554509378933,NA,"TESTED",0.613017471889345
+"E1","stromal_ecm","Smooth muscle cells","C2",6,4,21,1.57622655975938,0.0699543585800104,NA,"TESTED",0.226100068572724
+"E1","SenMayo","Smooth muscle cells","C2",6,4,23,0.490138827562383,0.0251814644044597,NA,"TESTED",0.141027363062466
+"E3","tier1_signature","Smooth muscle cells","C2",6,4,12,0.0268458595605378,1,NA,"TESTED",1
+"E2","SERPINE1_logCPM","Smooth muscle cells","C2",6,4,14,-0.229266122305957,0.749119133000595,NA,"TESTED",0.87291470570049
+"E1","cytotoxicity","T/NK cells","C2",7,4,26,1.55881003969423,0.0297580674351992,NA,"TESTED",0.141027363062466
+"E1","antigen_presentation","T/NK cells","C2",7,4,28,1.76941206522317,0.0107334161029973,NA,"TESTED",0.119179248979227
+"E1","senescence_dormancy","T/NK cells","C2",7,4,7,-0.381276684144344,0.219302649679319,NA,"TESTED",0.426856943125817
+"E1","proliferation","T/NK cells","C2",7,4,13,0.0455827384281705,0.92471903748677,NA,"TESTED",0.971878078846714
+"E1","stromal_ecm","T/NK cells","C2",7,4,6,-0.552831541052665,0.156375721759645,NA,"TESTED",0.349777836820153
+"E1","SenMayo","T/NK cells","C2",7,4,20,0.218658895284733,0.29861767444881,NA,"TESTED",0.48623585231125
+"E3","tier1_signature","T/NK cells","C2",7,4,2,-0.779727162842179,0.0297580674351992,NA,"TESTED",0.141027363062466
+"E1","cytotoxicity","B/Plasma cells","C3",9,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","B/Plasma cells","C3",9,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","B/Plasma cells","C3",9,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","B/Plasma cells","C3",9,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","B/Plasma cells","C3",9,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","B/Plasma cells","C3",9,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","B/Plasma cells","C3",9,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E2","SERPINE1_logCPM","Endothelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Epithelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Epithelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Epithelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Epithelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Epithelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Epithelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Epithelial cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Erythrocytes","C3",10,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Erythrocytes","C3",10,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Erythrocytes","C3",10,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Erythrocytes","C3",10,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Erythrocytes","C3",10,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Erythrocytes","C3",10,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Erythrocytes","C3",10,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Mast cells","C3",4,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Mast cells","C3",4,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Mast cells","C3",4,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Mast cells","C3",4,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Mast cells","C3",4,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Mast cells","C3",4,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Mast cells","C3",4,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Mesenchymal cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Mesenchymal cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Mesenchymal cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Mesenchymal cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Mesenchymal cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Mesenchymal cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Mesenchymal cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Myeloid cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Myeloid cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Myeloid cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Myeloid cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Myeloid cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Myeloid cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Myeloid cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E2","SERPINE1_logCPM","Smooth muscle cells","C3",11,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","cytotoxicity","T/NK cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","antigen_presentation","T/NK cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","senescence_dormancy","T/NK cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","proliferation","T/NK cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","stromal_ecm","T/NK cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E1","SenMayo","T/NK cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA
+"E3","tier1_signature","T/NK cells","C3",12,2,NA,NA,NA,NA,"NOT_TESTABLE(<4/arm)",NA

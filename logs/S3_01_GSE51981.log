@@ -1,0 +1,28 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+
+'select()' returned 1:many mapping between keys and columns
+[08:33:45]    GSE51981  probe->symbol: 54675 probes -> 21355 symbols (from data/processed/bulk_GSE51981_rma.rds ) 
+[08:33:45] contrast: B-G51981 ( primary ) 
+[08:33:47]   wrote results/S3_bulk_contrasts/B-G51981.csv | n genes: 21355 | FDR< 0.05 : 17353 | +tier: 8624 
+[08:33:47] contrast: B-G51981-MILD ( secondary ) 
+[08:33:48]   wrote results/S3_bulk_contrasts/B-G51981-MILD.csv | n genes: 21355 | FDR< 0.05 : 16668 | +tier: 10189 
+[08:33:48] contrast: B-G51981-SEV ( secondary ) 
+[08:33:49]   wrote results/S3_bulk_contrasts/B-G51981-SEV.csv | n genes: 21355 | FDR< 0.05 : 16019 | +tier: 6902 
+[08:33:49] contrast: B-G51981-S1 ( sensitivity ) 
+[08:33:50]   wrote results/S3_bulk_contrasts/B-G51981-S1.csv | n genes: 21355 | FDR< 0.05 : 17353 | +tier: 8624 
+[08:33:50] contrast: B-G51981-S2 ( sensitivity ) 
+[08:33:51]   wrote results/S3_bulk_contrasts/B-G51981-S2.csv | n genes: 21355 | FDR< 0.05 : 17353 | +tier: 8624 
+[08:33:51] contrast: B-G51981-S3 ( sensitivity ) 
+[08:33:53]   wrote results/S3_bulk_contrasts/B-G51981-S3.csv | n genes: 21355 | FDR< 0.05 : 13850 | +tier: 2256 
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  3740577 199.8    6307534 336.9  5796363 309.6
+Vcells 10647718  81.3   34324229 261.9 33127071 252.8
+[08:33:53] COHORT GSE51981 DONE 

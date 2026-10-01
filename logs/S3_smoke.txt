@@ -1,0 +1,47 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[08:46:29] == SMOKE 1/12: frozen registry parse == 
+[08:46:29]   frozen rows: 19 | covariate_col NA-marker preserved: TRUE | G25628 exclusions + group map round-trip: TRUE 
+[08:46:29] == SMOKE 2/12: unpaired limma contrast == 
+[08:46:29]   nominal<0.05: 46 /50 | FDR<0.05: 28 /50 | purity: 0.933 | mean logFC injected: 2.03 
+[08:46:29]   unpaired OK 
+[08:46:29] == SMOKE 3/12: paired limma contrast == 
+[08:46:31]   synthetic paired consensus cor = -0.013 
+[08:46:31]   nominal<0.05: 50 /50 | FDR<0.05: 50 /50 | purity: 0.943 | mean logFC injected: 3.01 
+[08:46:31]   paired OK 
+[08:46:31] == SMOKE 4/12: GSE11691 pairing audit == 
+[08:46:31]   9 women / 18 distinct GSMs OK 
+[08:46:31] == SMOKE 5/12: max-mean symbol collapse (shipped function) == 
+[08:46:31]   collapse keeps p2 as A, p3 as B, rownames=symbols OK 
+[08:46:31] == SMOKE 6/12: ssGSEA via GSVA (synthetic) == 
+ℹ GSVA version 2.6.6
+ℹ Searching for rows with constant values
+ℹ Calculating ssGSEA scores for 1 gene sets
+ℹ Normalizing ssGSEA scores
+✔ Calculations finished
+[08:46:45]   ssGSEA direction OK (GSVA 2.6.6 ) 
+[08:46:45] == SMOKE 7/12: z-mean equals manual reference == 
+[08:46:45]   z-mean OK 
+[08:46:45] == SMOKE 8/12: pseudobulk aggregation == 
+[08:46:45]   aggregation OK 
+[08:46:45] == SMOKE 9/12: get_rna extraction path == 
+[08:46:47]   get_rna counts extraction OK (SeuratObject 5.4.0 ) 
+[08:46:47] == SMOKE 10/12: prep_rna_norm fills empty data layer == 
+[08:46:54]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[08:46:55]   RNA data layer present -- normalization skipped (idempotent) 
+[08:46:55]   prep_rna_norm OK -- empty data layer filled (log1p CP10K), idempotent 
+Warning message:
+Layer 'data' is empty 
+[08:46:55] == SMOKE 11/12: join_annotations round-trip + fail-loud gates == 
+[08:46:55]   join D1 : 4 cells matched to atlas annotations (100%) 
+[08:46:55]   join_annotations OK -- round-trip + both fail-loud gates 
+[08:46:55] == SMOKE 12/12: pooled z-mean NA convention == 
+[08:46:55]   pooled z-mean OK -- NA->0 convention matches frozen definition 
+[08:46:55] SMOKE PASS -- S3 may run after lead approval (R3) 

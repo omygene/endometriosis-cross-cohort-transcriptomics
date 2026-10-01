@@ -1,0 +1,46 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[14:56:51] == S5_02: pathway-level REML meta over the 6 locked cohorts == 
+[14:56:52] registry inputs verified (S5_01 state frozen) 
+[14:56:52]    B-G6364  covariate levels: Early Secretory | Mid Secretory | Proliferative 
+[14:56:52]    B-G11691  paired consensus cor = 0.051 
+[14:56:52] presence table (pathways x contrasts): 
+                      
+                       B-G11691 B-G120103 B-G25628 B-G51981 B-G51981-S1
+  antigen_presentation        1         1        1        1           1
+  cytotoxicity                1         1        1        1           1
+  proliferation               1         1        1        1           1
+  senescence_dormancy         1         1        1        1           1
+  SenMayo                     1         1        1        1           1
+  stromal_ecm                 1         1        1        1           1
+                      
+                       B-G51981-S2 B-G6364 B-G7305 B-G7307
+  antigen_presentation           1       1       1       1
+  cytotoxicity                   1       1       1       1
+  proliferation                  1       1       1       1
+  senescence_dormancy            1       1       1       1
+  SenMayo                        1       1       1       1
+  stromal_ecm                    1       1       1       1
+[14:56:52]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53] base meta written | significant pathways (FDR < 0.05): proliferation 
+[14:56:53] GSE11691 concordance: sign-match = 0.5 | Spearman rho = 0.429 
+[14:56:53] base significant set ( 1 ): proliferation 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering REML meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53]   genes entering FE meta (k >= 4 ): 6 of 6 | excluded low-presence: 0 
+[14:56:53] wrote results/S5_meta/S5_sensitivity_summary.md 
+[14:56:53] S5_02 DONE 

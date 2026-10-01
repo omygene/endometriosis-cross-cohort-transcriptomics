@@ -1,0 +1,5 @@
+"hypothesis","test","n","p_value","BH_FDR","verdict"
+"P1a","SERPINE1-KD r_tier1 < 0 (7 cell lines)",7,0.234375,0.3125,"NOT CONFIRMED"
+"P1b","SERPINE1-KD prolif(TOP2A,PCNA) > 0",7,1,1,"NOT CONFIRMED"
+"P2a","estradiol per-line r_tier1 < 0 (cell-line medians)",10,0.2158203125,0.3125,"NOT CONFIRMED"
+"P2b","estradiol prolif > 0",10,0.0322265625,0.12890625,"NOT CONFIRMED"

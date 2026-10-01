@@ -1,0 +1,45 @@
+# GSE7307 endometriosis-relevant subset — frozen 2026-09-11
+# Selection: !Sample_title matches "Endometrium/Ovary * Disease" (n=18) or "Endometrium * Normal" (n=23)
+# from GSE7307_series_matrix.txt.gz (677 samples total)
+# group	GSM
+endometriosis	GSM175786
+endometriosis	GSM175787
+endometriosis	GSM175788
+endometriosis	GSM176082
+endometriosis	GSM176083
+endometriosis	GSM176084
+endometriosis	GSM176085
+endometriosis	GSM176086
+endometriosis	GSM176087
+endometriosis	GSM176088
+endometriosis	GSM176089
+endometriosis	GSM176090
+endometriosis	GSM176091
+endometriosis	GSM176092
+endometriosis	GSM176234
+endometriosis	GSM176236
+endometriosis	GSM176238
+endometriosis	GSM176240
+normal_endometrium	GSM176039
+normal_endometrium	GSM176040
+normal_endometrium	GSM176041
+normal_endometrium	GSM176043
+normal_endometrium	GSM176093
+normal_endometrium	GSM176094
+normal_endometrium	GSM176095
+normal_endometrium	GSM176096
+normal_endometrium	GSM176097
+normal_endometrium	GSM176098
+normal_endometrium	GSM176099
+normal_endometrium	GSM176100
+normal_endometrium	GSM176101
+normal_endometrium	GSM176127
+normal_endometrium	GSM176132
+normal_endometrium	GSM176137
+normal_endometrium	GSM176141
+normal_endometrium	GSM176142
+normal_endometrium	GSM176143
+normal_endometrium	GSM176144
+normal_endometrium	GSM176145
+normal_endometrium	GSM176146
+normal_endometrium	GSM176319

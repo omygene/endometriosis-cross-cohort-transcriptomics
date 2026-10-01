@@ -1,0 +1,100 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[17:58:14] == S3_05 z-mean (SenMayo; per-dataset sources, v2.4) == 
+[17:58:14] SenMayo symbols in GMT: 124 
+[18:00:34]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[18:01:30]   join GSE179640 : 109398 cells matched to atlas annotations (100%) 
+[18:01:34] GSE179640 SenMayo genes present: 124 of 124 
+[18:02:03]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[18:02:14]   join GSE183837 : 40801 cells matched to atlas annotations (100%) 
+[18:02:15] GSE183837 SenMayo genes present: 120 of 124 
+[18:03:15]   RNA data layer EMPTY (measured design) -- NormalizeData log1p (LogNormalize) 
+[18:03:48]   join GSE214411 : 83260 cells matched to atlas annotations (100%) 
+[18:03:51] GSE214411 SenMayo genes present: 123 of 124 
+Warning messages:
+1: Layer 'data' is empty 
+2: Layer 'data' is empty 
+3: Layer 'data' is empty 
+           used  (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells  4133601 220.8    7123571  380.5    7123571   380.5
+Vcells 52828260 403.1  919502370 7015.3 2428834858 18530.6
+[18:03:55] pooled SenMayo matrix: 124 genes x 233459 cells (atlas = 233459) 
+           used  (Mb) gc trigger   (Mb)   max used    (Mb)
+Ncells  4134177 220.8    7123571  380.5    7123571   380.5
+Vcells 24114221 184.0  735601896 5612.2 2428834858 18530.6
+[18:04:04] wrote results/S3_scrna_zmean_summary.csv -- 429 rows 
+[18:04:05] wrote results/S3_scrna_zmean_tests.csv -- 32 tests 
+                           dataset      lineage arm n_test n_ref        logFC
+GSE179640_Stromal_A      GSE179640      Stromal   A     30     3 -0.046449137
+GSE179640_Epithelial_A   GSE179640   Epithelial   A     30     3  0.041495763
+GSE179640_Endothelial_A  GSE179640  Endothelial   A     28     3  0.020123214
+GSE179640_Perivascular_A GSE179640 Perivascular   A     29     3  0.029012219
+GSE179640_NKT_A          GSE179640          NKT   A     29     3  0.006048943
+GSE179640_Myeloid_A      GSE179640      Myeloid   A     28     3  0.060394316
+GSE179640_B_plasma_A     GSE179640     B_plasma   A     28     3  0.029563864
+GSE179640_Mast_A         GSE179640         Mast   A     28     3  0.013140178
+GSE183837_Stromal_A      GSE183837      Stromal   A      6     3 -0.046741291
+GSE183837_Epithelial_A   GSE183837   Epithelial   A      6     3 -0.011744389
+GSE183837_Endothelial_A  GSE183837  Endothelial   A      6     3  0.028530313
+GSE183837_Perivascular_A GSE183837 Perivascular   A      6     3 -0.010357534
+GSE183837_NKT_A          GSE183837          NKT   A      6     3 -0.021137100
+GSE183837_Myeloid_A      GSE183837      Myeloid   A      6     3 -0.010149565
+GSE183837_B_plasma_A     GSE183837     B_plasma   A      6     2 -0.010031609
+GSE183837_Mast_A         GSE183837         Mast   A      6     3 -0.023026170
+GSE214411_Stromal_A      GSE214411      Stromal   A      6     7  0.034302473
+GSE214411_Stromal_B      GSE214411      Stromal   B      6     6  0.042115809
+GSE214411_Epithelial_A   GSE214411   Epithelial   A      6     7  0.036426891
+GSE214411_Epithelial_B   GSE214411   Epithelial   B      6     6  0.060672481
+GSE214411_Endothelial_A  GSE214411  Endothelial   A      6     7  0.065696579
+GSE214411_Endothelial_B  GSE214411  Endothelial   B      6     6  0.073585614
+GSE214411_Perivascular_A GSE214411 Perivascular   A      6     7  0.046150254
+GSE214411_Perivascular_B GSE214411 Perivascular   B      6     6  0.050729328
+GSE214411_NKT_A          GSE214411          NKT   A      6     7  0.015358908
+GSE214411_NKT_B          GSE214411          NKT   B      6     6  0.025821783
+GSE214411_Myeloid_A      GSE214411      Myeloid   A      6     7 -0.023548988
+GSE214411_Myeloid_B      GSE214411      Myeloid   B      6     6 -0.008991138
+GSE214411_B_plasma_A     GSE214411     B_plasma   A      6     7  0.030623668
+GSE214411_B_plasma_B     GSE214411     B_plasma   B      6     6  0.024664479
+GSE214411_Mast_A         GSE214411         Mast   A      6     7  0.021993653
+GSE214411_Mast_B         GSE214411         Mast   B      6     6  0.046911243
+                                   P         FDR
+GSE179640_Stromal_A      0.488895443 0.488895443
+GSE179640_Epithelial_A   0.360923318 0.360923318
+GSE179640_Endothelial_A  0.469257988 0.469257988
+GSE179640_Perivascular_A 0.635006023 0.635006023
+GSE179640_NKT_A          0.740746556 0.740746556
+GSE179640_Myeloid_A      0.218495871 0.218495871
+GSE179640_B_plasma_A     0.208857552 0.208857552
+GSE179640_Mast_A         0.683055737 0.683055737
+GSE183837_Stromal_A      0.005943369 0.005943369
+GSE183837_Epithelial_A   0.693049477 0.693049477
+GSE183837_Endothelial_A  0.298157816 0.298157816
+GSE183837_Perivascular_A 0.234186326 0.234186326
+GSE183837_NKT_A          0.224866366 0.224866366
+GSE183837_Myeloid_A      0.801121836 0.801121836
+GSE183837_B_plasma_A     0.791863472 0.791863472
+GSE183837_Mast_A         0.452694418 0.452694418
+GSE214411_Stromal_A      0.029582918 0.029582918
+GSE214411_Stromal_B      0.004949281 0.004949281
+GSE214411_Epithelial_A   0.389485317 0.389485317
+GSE214411_Epithelial_B   0.101948441 0.101948441
+GSE214411_Endothelial_A  0.016374250 0.016374250
+GSE214411_Endothelial_B  0.010617814 0.010617814
+GSE214411_Perivascular_A 0.017082185 0.017082185
+GSE214411_Perivascular_B 0.013957925 0.013957925
+GSE214411_NKT_A          0.493351464 0.493351464
+GSE214411_NKT_B          0.227527741 0.227527741
+GSE214411_Myeloid_A      0.677364687 0.677364687
+GSE214411_Myeloid_B      0.878746658 0.878746658
+GSE214411_B_plasma_A     0.322738587 0.322738587
+GSE214411_B_plasma_B     0.450538238 0.450538238
+GSE214411_Mast_A         0.620647827 0.620647827
+GSE214411_Mast_B         0.229005752 0.229005752
+[18:04:05] S3_05 DONE 

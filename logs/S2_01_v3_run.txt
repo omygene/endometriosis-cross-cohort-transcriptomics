@@ -1,0 +1,504 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+
+##### GSE179640 #####
+bulk featurecounts files present (recorded, NOT analysed per Amendment S2-A): 24 
+loading GSM6102532_C01_Ctrl_filtered_feature_bc_matrix 
+Creating ~3307 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 637 cells excluded from training.
+iter=1, 692 cells excluded from training.
+iter=2, 669 cells excluded from training.
+Threshold found:0.651
+278 (6.7%) doublets called
+loading GSM6102533_C02_Ctrl_filtered_feature_bc_matrix 
+Creating ~6241 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1798 cells excluded from training.
+iter=1, 1827 cells excluded from training.
+iter=2, 1787 cells excluded from training.
+Threshold found:0.37
+618 (7.9%) doublets called
+loading GSM6102534_C03_Ctrl_filtered_feature_bc_matrix 
+Creating ~4425 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1016 cells excluded from training.
+iter=1, 1037 cells excluded from training.
+iter=2, 1019 cells excluded from training.
+Threshold found:0.377
+351 (6.3%) doublets called
+loading GSM6102537_E01_EuE_filtered_feature_bc_matrix 
+Creating ~6132 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1194 cells excluded from training.
+iter=1, 1209 cells excluded from training.
+iter=2, 1185 cells excluded from training.
+Threshold found:0.497
+665 (8.7%) doublets called
+loading GSM6102540_E02_EuE_filtered_feature_bc_matrix 
+Creating ~4222 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 841 cells excluded from training.
+iter=1, 974 cells excluded from training.
+iter=2, 933 cells excluded from training.
+Threshold found:0.449
+345 (6.5%) doublets called
+loading GSM6102543_E03_EuE_filtered_feature_bc_matrix 
+Creating ~4242 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 707 cells excluded from training.
+iter=1, 781 cells excluded from training.
+iter=2, 749 cells excluded from training.
+Threshold found:0.434
+361 (6.8%) doublets called
+loading GSM6102546_E04_EuE_filtered_feature_bc_matrix 
+Creating ~3056 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 543 cells excluded from training.
+iter=1, 568 cells excluded from training.
+iter=2, 568 cells excluded from training.
+Threshold found:0.448
+219 (5.7%) doublets called
+loading GSM6102549_E05_EuE_filtered_feature_bc_matrix 
+Creating ~2424 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 480 cells excluded from training.
+iter=1, 479 cells excluded from training.
+iter=2, 475 cells excluded from training.
+Threshold found:0.439
+129 (4.3%) doublets called
+loading GSM6102550_E06_EcP_filtered_feature_bc_matrix 
+Creating ~1996 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 449 cells excluded from training.
+iter=1, 446 cells excluded from training.
+iter=2, 443 cells excluded from training.
+Threshold found:0.552
+119 (4.8%) doublets called
+loading GSM6102551_E06_EuE_filtered_feature_bc_matrix 
+Creating ~4181 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 989 cells excluded from training.
+iter=1, 966 cells excluded from training.
+iter=2, 936 cells excluded from training.
+Threshold found:0.411
+317 (6.1%) doublets called
+loading GSM6102552_E07_EcO_filtered_feature_bc_matrix 
+Creating ~2151 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 362 cells excluded from training.
+iter=1, 357 cells excluded from training.
+iter=2, 346 cells excluded from training.
+Threshold found:0.502
+114 (4.2%) doublets called
+loading GSM6102553_E07_EcP_filtered_feature_bc_matrix 
+Creating ~3498 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 782 cells excluded from training.
+iter=1, 830 cells excluded from training.
+iter=2, 796 cells excluded from training.
+Threshold found:0.492
+301 (6.9%) doublets called
+loading GSM6102554_E07_EuE_filtered_feature_bc_matrix 
+Creating ~2463 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 447 cells excluded from training.
+iter=1, 447 cells excluded from training.
+iter=2, 392 cells excluded from training.
+Threshold found:0.43
+130 (4.2%) doublets called
+loading GSM6102555_E08_EuE_filtered_feature_bc_matrix 
+Creating ~2224 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 413 cells excluded from training.
+iter=1, 389 cells excluded from training.
+iter=2, 370 cells excluded from training.
+Threshold found:0.427
+131 (4.7%) doublets called
+loading GSM6102556_E09_EcO_filtered_feature_bc_matrix 
+Creating ~4922 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1162 cells excluded from training.
+iter=1, 1147 cells excluded from training.
+iter=2, 1134 cells excluded from training.
+Threshold found:0.47
+462 (7.5%) doublets called
+loading GSM6102560_E09_EuE_filtered_feature_bc_matrix 
+Creating ~4204 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 964 cells excluded from training.
+iter=1, 1036 cells excluded from training.
+iter=2, 1029 cells excluded from training.
+Threshold found:0.565
+414 (7.9%) doublets called
+loading GSM6102562_E11_EcO_filtered_feature_bc_matrix 
+Creating ~5897 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1188 cells excluded from training.
+iter=1, 1186 cells excluded from training.
+iter=2, 1184 cells excluded from training.
+Threshold found:0.403
+513 (7%) doublets called
+loading GSM6102563_EOR01_filtered_feature_bc_matrix 
+Creating ~4872 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 828 cells excluded from training.
+iter=1, 968 cells excluded from training.
+iter=2, 994 cells excluded from training.
+Threshold found:0.531
+535 (8.8%) doublets called
+loading GSM6102565_EOR03_filtered_feature_bc_matrix 
+Creating ~10650 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2098 cells excluded from training.
+iter=1, 2180 cells excluded from training.
+iter=2, 2228 cells excluded from training.
+Threshold found:0.471
+1702 (12.8%) doublets called
+loading GSM6595248_E01_EcP_filtered_feature_bc_matrix 
+Creating ~2369 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 355 cells excluded from training.
+iter=1, 377 cells excluded from training.
+iter=2, 381 cells excluded from training.
+Threshold found:0.593
+168 (5.7%) doublets called
+loading GSM6595249_E01_EcPA_filtered_feature_bc_matrix 
+Creating ~3144 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 506 cells excluded from training.
+iter=1, 559 cells excluded from training.
+iter=2, 541 cells excluded from training.
+Threshold found:0.437
+248 (6.3%) doublets called
+loading GSM6595250_E02_EcP_filtered_feature_bc_matrix 
+Creating ~4040 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 786 cells excluded from training.
+iter=1, 772 cells excluded from training.
+iter=2, 735 cells excluded from training.
+Threshold found:0.472
+296 (5.9%) doublets called
+loading GSM6595251_E02_EcPA_filtered_feature_bc_matrix 
+Creating ~2324 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 404 cells excluded from training.
+iter=1, 391 cells excluded from training.
+iter=2, 378 cells excluded from training.
+Threshold found:0.526
+152 (5.2%) doublets called
+loading GSM6595252_E03_EcP_filtered_feature_bc_matrix 
+Creating ~5353 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 1121 cells excluded from training.
+iter=1, 1071 cells excluded from training.
+iter=2, 1056 cells excluded from training.
+Threshold found:0.412
+432 (6.5%) doublets called
+loading GSM6595253_E03_EcPA_filtered_feature_bc_matrix 
+Creating ~2957 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 545 cells excluded from training.
+iter=1, 512 cells excluded from training.
+iter=2, 502 cells excluded from training.
+Threshold found:0.467
+170 (4.6%) doublets called
+loading GSM6595254_E04_EcP_filtered_feature_bc_matrix 
+Creating ~2829 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 542 cells excluded from training.
+iter=1, 539 cells excluded from training.
+iter=2, 514 cells excluded from training.
+Threshold found:0.478
+200 (5.7%) doublets called
+loading GSM6595255_E04_EcPA_filtered_feature_bc_matrix 
+Creating ~2496 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 464 cells excluded from training.
+iter=1, 502 cells excluded from training.
+iter=2, 492 cells excluded from training.
+Threshold found:0.706
+179 (5.7%) doublets called
+loading GSM6595256_E05_EcP_filtered_feature_bc_matrix 
+Creating ~3235 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 689 cells excluded from training.
+iter=1, 677 cells excluded from training.
+iter=2, 662 cells excluded from training.
+Threshold found:0.469
+247 (6.1%) doublets called
+loading GSM6595257_E05_EcPA_filtered_feature_bc_matrix 
+Creating ~4120 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 888 cells excluded from training.
+iter=1, 900 cells excluded from training.
+iter=2, 853 cells excluded from training.
+Threshold found:0.472
+379 (7.4%) doublets called
+loading GSM6595258_E09_EcP_filtered_feature_bc_matrix 
+Creating ~2015 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 451 cells excluded from training.
+iter=1, 438 cells excluded from training.
+iter=2, 428 cells excluded from training.
+Threshold found:0.554
+130 (5.2%) doublets called
+loading GSM6595259_E09_EcPA_filtered_feature_bc_matrix 
+Creating ~1500 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 39 cells excluded from training.
+iter=1, 37 cells excluded from training.
+iter=2, 38 cells excluded from training.
+Threshold found:0.851
+18 (3.8%) doublets called
+loading GSM6595260_E09_EcPA2_filtered_feature_bc_matrix 
+Creating ~1500 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 219 cells excluded from training.
+iter=1, 206 cells excluded from training.
+iter=2, 196 cells excluded from training.
+Threshold found:0.704
+74 (4.6%) doublets called
+loading GSM6595261_E10_EcO_filtered_feature_bc_matrix 
+Creating ~10231 artificial doublets...
+Dimensional reduction
+Evaluating kNN...
+Training model...
+iter=0, 2120 cells excluded from training.
+iter=1, 1886 cells excluded from training.
+iter=2, 1521 cells excluded from training.
+Threshold found:0.393
+1322 (10.3%) doublets called
+Warning: Some cell names are duplicated across objects provided. Renaming to enforce unique cell names.
+Warning: Default search for "data" layer in "RNA" assay yielded no results; utilizing "counts" layer instead.
+Rasterizing points since number of points exceeds 100,000.
+To disable this behavior set `raster=FALSE`
+Rasterizing points since number of points exceeds 100,000.
+To disable this behavior set `raster=FALSE`
+Rasterizing points since number of points exceeds 100,000.
+To disable this behavior set `raster=FALSE`
+                                                                                         sample
+GSM6102532_C01_Ctrl_filtered_feature_bc_matrix   GSM6102532_C01_Ctrl_filtered_feature_bc_matrix
+GSM6102533_C02_Ctrl_filtered_feature_bc_matrix   GSM6102533_C02_Ctrl_filtered_feature_bc_matrix
+GSM6102534_C03_Ctrl_filtered_feature_bc_matrix   GSM6102534_C03_Ctrl_filtered_feature_bc_matrix
+GSM6102537_E01_EuE_filtered_feature_bc_matrix     GSM6102537_E01_EuE_filtered_feature_bc_matrix
+GSM6102540_E02_EuE_filtered_feature_bc_matrix     GSM6102540_E02_EuE_filtered_feature_bc_matrix
+GSM6102543_E03_EuE_filtered_feature_bc_matrix     GSM6102543_E03_EuE_filtered_feature_bc_matrix
+GSM6102546_E04_EuE_filtered_feature_bc_matrix     GSM6102546_E04_EuE_filtered_feature_bc_matrix
+GSM6102549_E05_EuE_filtered_feature_bc_matrix     GSM6102549_E05_EuE_filtered_feature_bc_matrix
+GSM6102550_E06_EcP_filtered_feature_bc_matrix     GSM6102550_E06_EcP_filtered_feature_bc_matrix
+GSM6102551_E06_EuE_filtered_feature_bc_matrix     GSM6102551_E06_EuE_filtered_feature_bc_matrix
+GSM6102552_E07_EcO_filtered_feature_bc_matrix     GSM6102552_E07_EcO_filtered_feature_bc_matrix
+GSM6102553_E07_EcP_filtered_feature_bc_matrix     GSM6102553_E07_EcP_filtered_feature_bc_matrix
+GSM6102554_E07_EuE_filtered_feature_bc_matrix     GSM6102554_E07_EuE_filtered_feature_bc_matrix
+GSM6102555_E08_EuE_filtered_feature_bc_matrix     GSM6102555_E08_EuE_filtered_feature_bc_matrix
+GSM6102556_E09_EcO_filtered_feature_bc_matrix     GSM6102556_E09_EcO_filtered_feature_bc_matrix
+GSM6102560_E09_EuE_filtered_feature_bc_matrix     GSM6102560_E09_EuE_filtered_feature_bc_matrix
+GSM6102562_E11_EcO_filtered_feature_bc_matrix     GSM6102562_E11_EcO_filtered_feature_bc_matrix
+GSM6102563_EOR01_filtered_feature_bc_matrix         GSM6102563_EOR01_filtered_feature_bc_matrix
+GSM6102565_EOR03_filtered_feature_bc_matrix         GSM6102565_EOR03_filtered_feature_bc_matrix
+GSM6595248_E01_EcP_filtered_feature_bc_matrix     GSM6595248_E01_EcP_filtered_feature_bc_matrix
+GSM6595249_E01_EcPA_filtered_feature_bc_matrix   GSM6595249_E01_EcPA_filtered_feature_bc_matrix
+GSM6595250_E02_EcP_filtered_feature_bc_matrix     GSM6595250_E02_EcP_filtered_feature_bc_matrix
+GSM6595251_E02_EcPA_filtered_feature_bc_matrix   GSM6595251_E02_EcPA_filtered_feature_bc_matrix
+GSM6595252_E03_EcP_filtered_feature_bc_matrix     GSM6595252_E03_EcP_filtered_feature_bc_matrix
+GSM6595253_E03_EcPA_filtered_feature_bc_matrix   GSM6595253_E03_EcPA_filtered_feature_bc_matrix
+GSM6595254_E04_EcP_filtered_feature_bc_matrix     GSM6595254_E04_EcP_filtered_feature_bc_matrix
+GSM6595255_E04_EcPA_filtered_feature_bc_matrix   GSM6595255_E04_EcPA_filtered_feature_bc_matrix
+GSM6595256_E05_EcP_filtered_feature_bc_matrix     GSM6595256_E05_EcP_filtered_feature_bc_matrix
+GSM6595257_E05_EcPA_filtered_feature_bc_matrix   GSM6595257_E05_EcPA_filtered_feature_bc_matrix
+GSM6595258_E09_EcP_filtered_feature_bc_matrix     GSM6595258_E09_EcP_filtered_feature_bc_matrix
+GSM6595259_E09_EcPA_filtered_feature_bc_matrix   GSM6595259_E09_EcPA_filtered_feature_bc_matrix
+GSM6595260_E09_EcPA2_filtered_feature_bc_matrix GSM6595260_E09_EcPA2_filtered_feature_bc_matrix
+GSM6595261_E10_EcO_filtered_feature_bc_matrix     GSM6595261_E10_EcO_filtered_feature_bc_matrix
+                                                cells_before cells_after
+GSM6102532_C01_Ctrl_filtered_feature_bc_matrix          4133        1917
+GSM6102533_C02_Ctrl_filtered_feature_bc_matrix          7801        5788
+GSM6102534_C03_Ctrl_filtered_feature_bc_matrix          5531        4256
+GSM6102537_E01_EuE_filtered_feature_bc_matrix           7665        4150
+GSM6102540_E02_EuE_filtered_feature_bc_matrix           5277        3199
+GSM6102543_E03_EuE_filtered_feature_bc_matrix           5302        3392
+GSM6102546_E04_EuE_filtered_feature_bc_matrix           3819        2696
+GSM6102549_E05_EuE_filtered_feature_bc_matrix           3030        2293
+GSM6102550_E06_EcP_filtered_feature_bc_matrix           2494        1871
+GSM6102551_E06_EuE_filtered_feature_bc_matrix           5226        3355
+GSM6102552_E07_EcO_filtered_feature_bc_matrix           2688        2025
+GSM6102553_E07_EcP_filtered_feature_bc_matrix           4372        3308
+GSM6102554_E07_EuE_filtered_feature_bc_matrix           3078        2383
+GSM6102555_E08_EuE_filtered_feature_bc_matrix           2780        1736
+GSM6102556_E09_EcO_filtered_feature_bc_matrix           6152        4143
+GSM6102560_E09_EuE_filtered_feature_bc_matrix           5255        3077
+GSM6102562_E11_EcO_filtered_feature_bc_matrix           7371        5852
+GSM6102563_EOR01_filtered_feature_bc_matrix             6089        3287
+GSM6102565_EOR03_filtered_feature_bc_matrix            13312        8387
+GSM6595248_E01_EcP_filtered_feature_bc_matrix           2961        2389
+GSM6595249_E01_EcPA_filtered_feature_bc_matrix          3929        2416
+GSM6595250_E02_EcP_filtered_feature_bc_matrix           5049        3914
+GSM6595251_E02_EcPA_filtered_feature_bc_matrix          2904        2189
+GSM6595252_E03_EcP_filtered_feature_bc_matrix           6691        4876
+GSM6595253_E03_EcPA_filtered_feature_bc_matrix          3696        2734
+GSM6595254_E04_EcP_filtered_feature_bc_matrix           3536        2569
+GSM6595255_E04_EcPA_filtered_feature_bc_matrix          3119        1933
+GSM6595256_E05_EcP_filtered_feature_bc_matrix           4043        2701
+GSM6595257_E05_EcPA_filtered_feature_bc_matrix          5150        3198
+GSM6595258_E09_EcP_filtered_feature_bc_matrix           2518        1500
+GSM6595259_E09_EcPA_filtered_feature_bc_matrix           468         378
+GSM6595260_E09_EcPA2_filtered_feature_bc_matrix         1607         737
+GSM6595261_E10_EcO_filtered_feature_bc_matrix          12788       10749
+                                                pct_kept dbl_pct median_genes
+GSM6102532_C01_Ctrl_filtered_feature_bc_matrix      46.4      NA       4184.0
+GSM6102533_C02_Ctrl_filtered_feature_bc_matrix      74.2      NA       2601.0
+GSM6102534_C03_Ctrl_filtered_feature_bc_matrix      76.9      NA       2970.0
+GSM6102537_E01_EuE_filtered_feature_bc_matrix       54.1      NA       2744.5
+GSM6102540_E02_EuE_filtered_feature_bc_matrix       60.6      NA       4537.0
+GSM6102543_E03_EuE_filtered_feature_bc_matrix       64.0      NA       3300.0
+GSM6102546_E04_EuE_filtered_feature_bc_matrix       70.6      NA       2297.0
+GSM6102549_E05_EuE_filtered_feature_bc_matrix       75.7      NA       2337.0
+GSM6102550_E06_EcP_filtered_feature_bc_matrix       75.0      NA       2150.0
+GSM6102551_E06_EuE_filtered_feature_bc_matrix       64.2      NA       3643.0
+GSM6102552_E07_EcO_filtered_feature_bc_matrix       75.3      NA       2553.0
+GSM6102553_E07_EcP_filtered_feature_bc_matrix       75.7      NA       3147.5
+GSM6102554_E07_EuE_filtered_feature_bc_matrix       77.4      NA       3848.0
+GSM6102555_E08_EuE_filtered_feature_bc_matrix       62.4      NA       2142.5
+GSM6102556_E09_EcO_filtered_feature_bc_matrix       67.3      NA       2221.0
+GSM6102560_E09_EuE_filtered_feature_bc_matrix       58.6      NA       3894.0
+GSM6102562_E11_EcO_filtered_feature_bc_matrix       79.4      NA       3394.0
+GSM6102563_EOR01_filtered_feature_bc_matrix         54.0      NA       4814.0
+GSM6102565_EOR03_filtered_feature_bc_matrix         63.0      NA       3876.0
+GSM6595248_E01_EcP_filtered_feature_bc_matrix       80.7      NA       2562.0
+GSM6595249_E01_EcPA_filtered_feature_bc_matrix      61.5      NA       2901.0
+GSM6595250_E02_EcP_filtered_feature_bc_matrix       77.5      NA       2262.5
+GSM6595251_E02_EcPA_filtered_feature_bc_matrix      75.4      NA       2520.0
+GSM6595252_E03_EcP_filtered_feature_bc_matrix       72.9      NA       2754.5
+GSM6595253_E03_EcPA_filtered_feature_bc_matrix      74.0      NA       2122.0
+GSM6595254_E04_EcP_filtered_feature_bc_matrix       72.7      NA       2575.0
+GSM6595255_E04_EcPA_filtered_feature_bc_matrix      62.0      NA       2594.0
+GSM6595256_E05_EcP_filtered_feature_bc_matrix       66.8      NA       2639.0
+GSM6595257_E05_EcPA_filtered_feature_bc_matrix      62.1      NA       2833.5
+GSM6595258_E09_EcP_filtered_feature_bc_matrix       59.6      NA       2133.0
+GSM6595259_E09_EcPA_filtered_feature_bc_matrix      80.8      NA       2490.5
+GSM6595260_E09_EcPA2_filtered_feature_bc_matrix     45.9      NA       1750.0
+GSM6595261_E10_EcO_filtered_feature_bc_matrix       84.1      NA       1697.0
+                                                median_mt
+GSM6102532_C01_Ctrl_filtered_feature_bc_matrix      12.36
+GSM6102533_C02_Ctrl_filtered_feature_bc_matrix      11.36
+GSM6102534_C03_Ctrl_filtered_feature_bc_matrix       8.87
+GSM6102537_E01_EuE_filtered_feature_bc_matrix        9.33
+GSM6102540_E02_EuE_filtered_feature_bc_matrix        9.79
+GSM6102543_E03_EuE_filtered_feature_bc_matrix       10.60
+GSM6102546_E04_EuE_filtered_feature_bc_matrix       10.57
+GSM6102549_E05_EuE_filtered_feature_bc_matrix        8.85
+GSM6102550_E06_EcP_filtered_feature_bc_matrix        5.39
+GSM6102551_E06_EuE_filtered_feature_bc_matrix       10.19
+GSM6102552_E07_EcO_filtered_feature_bc_matrix       10.48
+GSM6102553_E07_EcP_filtered_feature_bc_matrix        7.56
+GSM6102554_E07_EuE_filtered_feature_bc_matrix        8.97
+GSM6102555_E08_EuE_filtered_feature_bc_matrix       11.61
+GSM6102556_E09_EcO_filtered_feature_bc_matrix        7.82
+GSM6102560_E09_EuE_filtered_feature_bc_matrix       11.74
+GSM6102562_E11_EcO_filtered_feature_bc_matrix        4.90
+GSM6102563_EOR01_filtered_feature_bc_matrix         10.18
+GSM6102565_EOR03_filtered_feature_bc_matrix          8.12
+GSM6595248_E01_EcP_filtered_feature_bc_matrix        9.57
+GSM6595249_E01_EcPA_filtered_feature_bc_matrix       9.84
+GSM6595250_E02_EcP_filtered_feature_bc_matrix        7.82
+GSM6595251_E02_EcPA_filtered_feature_bc_matrix       9.97
+GSM6595252_E03_EcP_filtered_feature_bc_matrix        7.06
+GSM6595253_E03_EcPA_filtered_feature_bc_matrix      11.28
+GSM6595254_E04_EcP_filtered_feature_bc_matrix        8.41
+GSM6595255_E04_EcPA_filtered_feature_bc_matrix      10.17
+GSM6595256_E05_EcP_filtered_feature_bc_matrix        9.01
+GSM6595257_E05_EcPA_filtered_feature_bc_matrix       8.87
+GSM6595258_E09_EcP_filtered_feature_bc_matrix        9.08
+GSM6595259_E09_EcPA_filtered_feature_bc_matrix       8.78
+GSM6595260_E09_EcPA2_filtered_feature_bc_matrix      9.03
+GSM6595261_E10_EcO_filtered_feature_bc_matrix        9.16
+There were 50 or more warnings (use warnings() to see the first 50)
+
+##### GSE213216 processed-object audit (report-only) #####
+rds files found: 6 (expected 6 objects)
+                       object  class  cells genes status
+1 auxiliary.seurat.shared.rds Seurat 373851 30354     OK
+                           object  class cells genes status
+1 endothelial_clusters.shared.rds Seurat 23226 30354     OK
+                  object  class cells genes status
+1 EnEpi_cells.shared.rds Seurat  4885 30354     OK
+                object  class cells genes status
+1 EnS_cells.shared.rds Seurat  4290 30354     OK
+                           object  class cells genes status
+1 epithelial.annotated.shared.rds Seurat 13771 30354     OK
+                            object  class cells genes status
+1 mesenchymal.annotated.shared.rds Seurat 82735 30354     OK
+
+S2_01 done. QC tables in results/, figures in figures/, filtered objects in data/processed/.

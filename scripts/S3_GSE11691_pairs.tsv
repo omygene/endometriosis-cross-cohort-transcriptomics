@@ -1,0 +1,17 @@
+# S3_GSE11691_pairs.tsv -- FROZEN woman-level pairing for GSE11691 (9 women)
+# Each woman contributes exactly one eutopic and one ectopic array.
+# Self-audited by S3_01/S3_smoke: 9 women, 18 distinct GSMs, one eutopic +
+# one ectopic per woman; any violation = FATAL.
+# Derived from GEO GSE11691 sample order (GSM296875-883 eutopic block,
+# GSM296884-892 ectopic block); confirm against series-matrix characteristics
+# in review -- mismatch triggers an Amendment, not a silent edit (R5).
+woman	eutopic_gsm	ectopic_gsm
+W1	GSM296875	GSM296884
+W2	GSM296876	GSM296885
+W3	GSM296877	GSM296886
+W4	GSM296878	GSM296887
+W5	GSM296879	GSM296888
+W6	GSM296880	GSM296889
+W7	GSM296881	GSM296890
+W8	GSM296882	GSM296891
+W9	GSM296883	GSM296892

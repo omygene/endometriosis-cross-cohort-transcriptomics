@@ -1,0 +1,66 @@
+S2 entry checks — corrective re-run — 2026-09-12 22:53:47 
+
+== E1-GSE179640: tar members vs GEO official filelist ==
+local tar members: 63 
+GEO official files: 63 
+in GEO but NOT in local tar: 0 
+in local tar but NOT in GEO: 0 
+E1-GSE179640 verdict: PASS (criterion: 63/63 exact name match)
+
+== E2 redo: GSE7305 vs GSE7307 overlap (GSM-level, official GEO records) ==
+GSE7305 official GSMs: 20 (manifest: 20)
+GSE7307 official GSMs: 677 
+frozen 41-subset all within official GSE7307: TRUE 
+GSM accessions shared by GSE7305 and the frozen subset: 0 
+NOTE stands: distinct GSM accessions do not exclude shared donors (same tissue
+bank, Neurocrine submissions 2007). Pre-registered action unchanged: in S4, any
+score-stage association relying on BOTH GSE7305 and GSE7307 is re-run without
+GSE7307 as a sensitivity analysis.
+
+== E3 redo: GSE25628 metadata (22 samples, GEO official) ==
+          geo_accession                 title source_name_ch1
+GSM629719     GSM629719 Ectopic endometrium_g     Endometrium
+GSM629720     GSM629720 Eutopic endometrium_s     Endometrium
+GSM629721     GSM629721 Ectopic endometrium_i     Endometrium
+GSM629722     GSM629722  Normal endometrium_d     Endometrium
+GSM629723     GSM629723 Ectopic endometrium_m     Endometrium
+GSM629724     GSM629724  Normal endometrium_f     Endometrium
+GSM629725     GSM629725  Normal endometrium_a     Endometrium
+GSM629726     GSM629726 Ectopic endometrium_h     Endometrium
+GSM629727     GSM629727  Normal endometrium_c     Endometrium
+GSM629728     GSM629728 Ectopic endometrium_l     Endometrium
+GSM629729     GSM629729  Normal endometrium_e     Endometrium
+GSM629730     GSM629730 Ectopic endometrium_n     Endometrium
+GSM629731     GSM629731 Eutopic endometrium_y     Endometrium
+GSM629732     GSM629732 Ectopic endometrium_p     Endometrium
+GSM629733     GSM629733 Eutopic endometrium_q     Endometrium
+GSM629734     GSM629734 Eutopic endometrium_r     Endometrium
+GSM629735     GSM629735  Normal endometrium_b     Endometrium
+GSM629736     GSM629736 Eutopic endometrium_t     Endometrium
+GSM629737     GSM629737 Eutopic endometrium_u     Endometrium
+GSM629738     GSM629738 Eutopic endometrium_v     Endometrium
+GSM629739     GSM629739 Eutopic endometrium_z     Endometrium
+GSM629740     GSM629740 Ectopic endometrium_o     Endometrium
+           characteristics_ch1 characteristics_ch1.1
+GSM629719       donor: patient   tissue: endometrium
+GSM629720       donor: patient   tissue: endometrium
+GSM629721       donor: patient   tissue: endometrium
+GSM629722 donor: healthy donor   tissue: endometrium
+GSM629723       donor: patient   tissue: endometrium
+GSM629724 donor: healthy donor   tissue: endometrium
+GSM629725 donor: healthy donor   tissue: endometrium
+GSM629726       donor: patient   tissue: endometrium
+GSM629727 donor: healthy donor   tissue: endometrium
+GSM629728       donor: patient   tissue: endometrium
+GSM629729 donor: healthy donor   tissue: endometrium
+GSM629730       donor: patient   tissue: endometrium
+GSM629731       donor: patient   tissue: endometrium
+GSM629732       donor: patient   tissue: endometrium
+GSM629733       donor: patient   tissue: endometrium
+GSM629734       donor: patient   tissue: endometrium
+GSM629735 donor: healthy donor   tissue: endometrium
+GSM629736       donor: patient   tissue: endometrium
+GSM629737       donor: patient   tissue: endometrium
+GSM629738       donor: patient   tissue: endometrium
+GSM629739       donor: patient   tissue: endometrium
+GSM629740       donor: patient   tissue: endometrium

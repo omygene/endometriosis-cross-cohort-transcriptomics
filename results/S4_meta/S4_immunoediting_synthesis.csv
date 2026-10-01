@@ -1,0 +1,6 @@
+"axis","n_axis_genes","n_in_Tier1","n_up","n_down","binom_p"
+"cytotoxicity",6,0,NA,NA,NA
+"antigen_presentation",6,0,NA,NA,NA
+"senescence_dormancy",4,1,1,0,1
+"proliferation",3,0,NA,NA,NA
+"stromal_ecm",5,0,NA,NA,NA

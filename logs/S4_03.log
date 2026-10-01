@@ -1,0 +1,24 @@
+The following package(s) were loaded before renv activated this project:
+- BiocManager [C:/Users/hp zbook g3/AppData/Local/R/cache/R/renv/cache/v5/windows/R-4.6/x86_64-w64-mingw32/BiocManager/1.30.27/594af2c6021b55271b6759d004a25ca2/BiocManager]
+These packages are not managed by renv and may cause `renv::status()`
+and `renv::snapshot()` to report inconsistencies. Restart R in a clean
+session to recover. The paths above may help identify where each
+package was loaded from.
+Set `RENV_CONFIG_NAMESPACES_CHECK=FALSE` to silence this check.
+
+- The project is out-of-sync -- use `renv::status()` for details.
+[09:50:02] == S4_03: scRNA projection of bulk Tier-1 core | core n = 485 
+[09:50:02] pseudobulk legs found: 27 
+[09:50:07] wrote S4_scrna_projection.csv | 27 legs | median sign-match: 0.507 
+[09:50:07] wrote S4_scrna_lineage_readout.csv | 9 lineages 
+       lineage mean_sign_match
+1          ALL       0.5020998
+2     B_plasma       0.4143664
+3  Endothelial       0.5500026
+4   Epithelial       0.5105390
+5         Mast       0.5316835
+6      Myeloid       0.5403810
+7          NKT       0.4571933
+8 Perivascular       0.5811535
+9      Stromal       0.5170256
+[09:50:07] S4_03 DONE 

@@ -1,0 +1,18 @@
+S2 entry checks — 2026-09-12 12:17:01 
+
+== E1: tar member counts ==
+GSE51981_RAW.tar: 148 members (expect 148) -> PASS
+GSE179640_RAW.tar: 63 members (expect 59) -> CHECK
+GSE214411_RAW.tar: 39 members (expect 39) -> PASS
+
+== E2: GSE7305 vs GSE7307 overlap screen ==
+GSE7305 CELs: 1 
+GSE7307 subset CELs: 41 
+Identical file names in both: 0 
+NOTE: distinct GSM accessions do not exclude shared donors (same tissue bank,
+Neurocrine submissions 2007). Pre-registered action: in S4, any score-stage
+association relying on BOTH GSE7305 and GSE7307 is re-run without GSE7307
+as a sensitivity analysis. This is recorded, not assumed.
+
+== E3: GSE25628 metadata (22 samples, GEO official) ==
+GEOquery not installed — install before S2 (it is in S0_environment_lock.R).

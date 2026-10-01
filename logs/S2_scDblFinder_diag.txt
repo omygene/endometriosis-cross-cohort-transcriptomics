@@ -1,0 +1,32 @@
+scDblFinder diagnostic — 2026-09-13 00:55:33 
+
+scDblFinder version: 1.26.7 
+BiocParallel bpparam:  SnowParam 
+
+test sample dir: data/raw/GSE214411/GSM6605431_EMS1 
+
+SCE dims: 23237 genes x 12162 cells
+
+--- attempt 1: exactly as in S2_01 (samples = NULL, seed = 42) ---
+FAILED: unused argument (seed = 42) 
+
+--- full traceback of attempt 1 ---
+unused argument (seed = 42) 
+[[1]]
+tryCatch(scDblFinder(sce, samples = NULL, seed = 42), error = function(e) {
+    cat(conditionMessage(e), "\n")
+    print(sys.calls())
+})
+
+[[2]]
+tryCatchList(expr, classes, parentenv, handlers)
+
+[[3]]
+tryCatchOne(expr, names, parentenv, handlers[[1L]])
+
+[[4]]
+value[[3L]](cond)
+
+
+--- attempt 2: serial evaluation (BPPARAM = SerialParam) ---
+FAILED: unused argument (seed = 42) 
